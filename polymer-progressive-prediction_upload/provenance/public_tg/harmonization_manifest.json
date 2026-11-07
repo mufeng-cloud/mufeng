@@ -1,0 +1,63 @@
+{
+  "status": "verified_derived_dataset",
+  "dataset_version": "median_harmonized_le10K_v1",
+  "input_identity": "exact SMILES_clean string",
+  "source_root": "/Users/muchengfeng/Documents/ChatGPT/论文/run/mrs_tg_chemprop_5seed_2026-10-29/hpc_results/source/data/processed",
+  "original_source_sha256": {
+    "training_data.csv": "218b0cd0b26be2cc37a13718da7320a70e04d0c343a98d3e8d2727e873a48fae",
+    "test_data.csv": "113eef26e78a9622206e831661296c3218cf94eaae1291ea40123389b6921134"
+  },
+  "derived_sha256": {
+    "training_data.csv": "436b07efce832d1909df791a09e1d64cb9a780c30ec37158901f83d00d1820ef",
+    "test_data.csv": "a63d8fa6d2de9085d54ebd7bee7721e6bcb64ef950d46aab594249c64d989a8b"
+  },
+  "counts": {
+    "development": {
+      "original_and_derived_n": 683,
+      "restored_quarantined_rows": 30,
+      "restored_small_difference_rows": 17,
+      "large_group_rows": 13,
+      "labels_changed": 12
+    },
+    "test": {
+      "original_and_derived_n": 219,
+      "restored_quarantined_rows": 10,
+      "restored_small_difference_rows": 6,
+      "large_group_rows": 4,
+      "labels_changed": 3
+    }
+  },
+  "restored_rows": 40,
+  "groups_originally_quarantined": 19,
+  "unchanged_small_difference_groups": 11,
+  "unchanged_small_difference_rows": 23,
+  "harmonized_large_difference_groups": 8,
+  "large_group_rows": 17,
+  "actual_labels_changed": 15,
+  "source_labels_preserved_in_audit": true,
+  "source_files_unchanged": true,
+  "nonlabel_fields_unchanged": true,
+  "row_order_and_original_split_preserved": true,
+  "maximum_equal_input_group_spread_K": 9.973902206065588,
+  "rule": {
+    "small_group": "Original group Kelvin max-min<=10 K: preserve original logTg exactly",
+    "large_group": "Original group Kelvin max-min>10 K: median of all original row Kelvin labels within group; shared label applied to all group rows",
+    "storage": "log10(Kmedian) rounded half-up to4 decimal places, then dataset Kelvin target remains10**storedlogTg",
+    "no_random_or_arbitrary_jitter": true
+  },
+  "uses_development_and_test_labels_for_harmonization": true,
+  "test_labels_changed": 3,
+  "derived_test_rows_with_development_input_overlap": 18,
+  "is_original_paper_dataset": false,
+  "is_independent_test_benchmark": false,
+  "training_or_inference_performed": false,
+  "limitations": [
+    "Modified values are derived harmonized labels, not corrected experimental measurements verified from sources.",
+    "Both original splits influence group medians; modified test labels are not independent of development labels.",
+    "Same-input overlaps remain; equal row counts do not restore the original paper benchmark.",
+    "Only exact SMILES_clean identity was used, not a new molecular-graph equivalence audit."
+  ],
+  "user_authorized_for_training": true,
+  "authorization_note": "用户最新明确要求直接修改数值标签并立即用于训练；按组内K中位数一致化，保留原始来源。",
+  "literature_verified_corrections": false
+}

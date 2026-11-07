@@ -1,0 +1,30 @@
+{
+  "source_test_rows": 219,
+  "removed_rows": 18,
+  "retained_test_rows": 201,
+  "excluded_original_test_positions": [
+    19,
+    21,
+    22,
+    24,
+    25,
+    39,
+    46,
+    47,
+    75,
+    88,
+    89,
+    107,
+    116,
+    118,
+    121,
+    139,
+    159,
+    165
+  ],
+  "source_test_sha256": "a63d8fa6d2de9085d54ebd7bee7721e6bcb64ef950d46aab594249c64d989a8b",
+  "filtered_test_sha256": "4a2d0aab7c0132536c1b1e0a47a95c03a2682fc1beb13615badbc850d97e0d54",
+  "retained_fields_and_labels_unchanged": true,
+  "input_overlap_with_development_after_exclusion": 0,
+  "criterion": "exact SMILES_clean string membership in development"
+}

@@ -1,0 +1,4 @@
+-r requirements.txt
+chemprop>=2,<3
+lightning
+torchmetrics

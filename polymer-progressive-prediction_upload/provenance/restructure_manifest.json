@@ -1,0 +1,534 @@
+{
+  "definitions": [
+    {
+      "file": "utils/theory_cnn.py",
+      "name": "set_journal_style",
+      "original_ast_sha256": "095fdae64b503fc6ed6daa9dcc99880ba0dbaba4d5b429fd3473b479c9074553"
+    },
+    {
+      "file": "utils/theory_cnn.py",
+      "name": "set_seed",
+      "original_ast_sha256": "c99e99bf397e60ec2bb460fbb905d11dddbcb3cfd593c7df704a2f15fd29d2cb"
+    },
+    {
+      "file": "utils/theory_cnn.py",
+      "name": "init_weights",
+      "original_ast_sha256": "6a87f09bd3113938e13d4fac8c48f9b07ac5f7dea5427404612ed97c8eff9609"
+    },
+    {
+      "file": "data/theory_cnn.py",
+      "name": "CharTokenizer",
+      "original_ast_sha256": "a1a1563a3d015bc52dd2927171d453d5394f8dbffb22f4b4746a1bcc2f1ad1ef"
+    },
+    {
+      "file": "data/theory_cnn.py",
+      "name": "TargetScaler",
+      "original_ast_sha256": "b0e2f52c41e98a4f74e9f7cc324fc2902ee646f845405bd240c72634a4e24e84"
+    },
+    {
+      "file": "data/theory_cnn.py",
+      "name": "PolymerDataset",
+      "original_ast_sha256": "f72e68381fce8afbea6ee3ddd5f3a270bd06a4edce211227d957deda2e4bd9b1"
+    },
+    {
+      "file": "models/theory_cnn.py",
+      "name": "CNN_model",
+      "original_ast_sha256": "db9ace61a4be434d5474ec51da559fc38fdf1eeedb3d07f8ab9aac818eb4f32e"
+    },
+    {
+      "file": "utils/theory_cnn.py",
+      "name": "eval_and_plot",
+      "original_ast_sha256": "884b3372a1728db05c4d2dee571fee85eef5e424e0fd0af4d2eac35aca1aa0d8"
+    },
+    {
+      "file": "data/theory_cnn.py",
+      "name": "fit_target_scaler",
+      "original_ast_sha256": "d2b8298705ce906e81eb5a0446ba3d2838cce0fd7e41b750d32659254433a6cf"
+    },
+    {
+      "file": "train/theory_cnn.py",
+      "name": "run_pipeline",
+      "original_ast_sha256": "25a112333ae8cf05e568309f7375b419fec33d6c528815ef9ba5684e09b4bff1"
+    },
+    {
+      "file": "utils/theory_multilevel.py",
+      "name": "set_seed",
+      "original_ast_sha256": "c99e99bf397e60ec2bb460fbb905d11dddbcb3cfd593c7df704a2f15fd29d2cb"
+    },
+    {
+      "file": "utils/theory_multilevel.py",
+      "name": "init_weights",
+      "original_ast_sha256": "6a87f09bd3113938e13d4fac8c48f9b07ac5f7dea5427404612ed97c8eff9609"
+    },
+    {
+      "file": "utils/theory_multilevel.py",
+      "name": "set_journal_style",
+      "original_ast_sha256": "095fdae64b503fc6ed6daa9dcc99880ba0dbaba4d5b429fd3473b479c9074553"
+    },
+    {
+      "file": "data/theory_multilevel.py",
+      "name": "CharTokenizer",
+      "original_ast_sha256": "877e72c619c9b22ee32a228309f35214547cdabe8313669a8161a6c74fea6caf"
+    },
+    {
+      "file": "data/theory_multilevel.py",
+      "name": "build_channel23_sequences",
+      "original_ast_sha256": "51f5c1312ad956929d31da07eb1dd52c5ccf690cadfd2e03afb6142c6eed5cde"
+    },
+    {
+      "file": "data/theory_multilevel.py",
+      "name": "TargetScaler",
+      "original_ast_sha256": "8bcd634ef269a8b80ebb2ae61cc588d22cc4ab884a6e9341472918c0bfcd55c6"
+    },
+    {
+      "file": "data/theory_multilevel.py",
+      "name": "PolymerDataset",
+      "original_ast_sha256": "3b51a1b8fd7dad7a802fba9c55cac985238b47f03a558d039678cb786d404814"
+    },
+    {
+      "file": "models/theory_multilevel.py",
+      "name": "ResBlock",
+      "original_ast_sha256": "a91e80134433cc9e2155eaee38f35aae6cd81b5364d528d1f4401d530cbd7bb2"
+    },
+    {
+      "file": "models/theory_multilevel.py",
+      "name": "PolymerModel",
+      "original_ast_sha256": "775dc0602ad59e05ff4778206faf180423beb14acd9239c12e47b9d15ad24240"
+    },
+    {
+      "file": "utils/theory_multilevel.py",
+      "name": "eval_and_plot",
+      "original_ast_sha256": "884b3372a1728db05c4d2dee571fee85eef5e424e0fd0af4d2eac35aca1aa0d8"
+    },
+    {
+      "file": "train/theory_multilevel.py",
+      "name": "run_pipeline",
+      "original_ast_sha256": "819a0613cba69a1f40fa2550af23e48a071b4393f9324a32337b8a312249ed99"
+    },
+    {
+      "file": "utils/theory_progressive.py",
+      "name": "set_seed",
+      "original_ast_sha256": "c99e99bf397e60ec2bb460fbb905d11dddbcb3cfd593c7df704a2f15fd29d2cb"
+    },
+    {
+      "file": "utils/theory_progressive.py",
+      "name": "init_weights",
+      "original_ast_sha256": "6a87f09bd3113938e13d4fac8c48f9b07ac5f7dea5427404612ed97c8eff9609"
+    },
+    {
+      "file": "utils/theory_progressive.py",
+      "name": "set_journal_style",
+      "original_ast_sha256": "095fdae64b503fc6ed6daa9dcc99880ba0dbaba4d5b429fd3473b479c9074553"
+    },
+    {
+      "file": "models/theory_progressive.py",
+      "name": "HierarchicalDigitHeadIndependent",
+      "original_ast_sha256": "813e8934246674cad8037d78b75bf07d6cc486aabf7fa854e707db541adb93ef"
+    },
+    {
+      "file": "models/theory_progressive.py",
+      "name": "hierarchical_digit_loss_independent",
+      "original_ast_sha256": "1b0eed93dc560793b81d7b22fcbf2a7bcb033e2dd2645d3ad4379157c5ac5c6f"
+    },
+    {
+      "file": "data/theory_progressive.py",
+      "name": "CharTokenizer",
+      "original_ast_sha256": "877e72c619c9b22ee32a228309f35214547cdabe8313669a8161a6c74fea6caf"
+    },
+    {
+      "file": "data/theory_progressive.py",
+      "name": "build_channel23_sequences",
+      "original_ast_sha256": "b73cfae945f38c88d2c763cdc2f77ff2436bc6add8698789e7d4bf6b42695f9c"
+    },
+    {
+      "file": "data/theory_progressive.py",
+      "name": "PolymerDataset",
+      "original_ast_sha256": "ceab204f2a58bacb469bb18ef25b64857b4f269bc993934f0c96fa6598848b9b"
+    },
+    {
+      "file": "models/theory_progressive.py",
+      "name": "ResBlock",
+      "original_ast_sha256": "5e3da6045b9fae591000060d5e0fe1300f6e54e60290a3256c2f200ddcebc2dc"
+    },
+    {
+      "file": "models/theory_progressive.py",
+      "name": "PolymerModel",
+      "original_ast_sha256": "01236177ab050cec4998721f9d00c964721ff1e72a6f678b5dbc917dfba6634e"
+    },
+    {
+      "file": "utils/theory_progressive.py",
+      "name": "eval_and_plot",
+      "original_ast_sha256": "ded0ebd3eba46b8fa46b27cb76d3cf1abc1cf9f7f6261b81725a11b134fbe7c4"
+    },
+    {
+      "file": "train/theory_progressive.py",
+      "name": "run_pipeline",
+      "original_ast_sha256": "fc701e9514f2204dbac9e6569e2dab4f64b6b3ecad7d74170fff0467d9b0c225"
+    },
+    {
+      "file": "utils/theory_ablation.py",
+      "name": "set_seed",
+      "original_ast_sha256": "c99e99bf397e60ec2bb460fbb905d11dddbcb3cfd593c7df704a2f15fd29d2cb"
+    },
+    {
+      "file": "utils/theory_ablation.py",
+      "name": "init_weights",
+      "original_ast_sha256": "6a87f09bd3113938e13d4fac8c48f9b07ac5f7dea5427404612ed97c8eff9609"
+    },
+    {
+      "file": "utils/theory_ablation.py",
+      "name": "set_journal_style",
+      "original_ast_sha256": "095fdae64b503fc6ed6daa9dcc99880ba0dbaba4d5b429fd3473b479c9074553"
+    },
+    {
+      "file": "data/theory_ablation.py",
+      "name": "CharTokenizer",
+      "original_ast_sha256": "877e72c619c9b22ee32a228309f35214547cdabe8313669a8161a6c74fea6caf"
+    },
+    {
+      "file": "data/theory_ablation.py",
+      "name": "build_channel2",
+      "original_ast_sha256": "58c6f9db0d481dcef66c712287c49c07cc0603e54ac26486ef2afd8568c749ea"
+    },
+    {
+      "file": "data/theory_ablation.py",
+      "name": "TargetScaler",
+      "original_ast_sha256": "8bcd634ef269a8b80ebb2ae61cc588d22cc4ab884a6e9341472918c0bfcd55c6"
+    },
+    {
+      "file": "data/theory_ablation.py",
+      "name": "PolymerDataset_Ablation",
+      "original_ast_sha256": "7e829fef094e5e26c981efddc0cf7636191fa3570ccb666681004bddac689689"
+    },
+    {
+      "file": "models/theory_ablation.py",
+      "name": "ResBlock",
+      "original_ast_sha256": "ee4e477ffa0c6be27662507ef8c874a3f341a57d27e86fa7a5f3e9dd2ef2836a"
+    },
+    {
+      "file": "models/theory_ablation.py",
+      "name": "PolymerModel_NoCh3",
+      "original_ast_sha256": "f1e664903ec83905d3605cd2936237cc98b5118ac5251a3667d55f114e40dafe"
+    },
+    {
+      "file": "utils/theory_ablation.py",
+      "name": "eval_and_plot",
+      "original_ast_sha256": "a97f30957f81ce639c82fb46ecee8bc28bc745aa29c1ec0fefc929fd11b4715e"
+    },
+    {
+      "file": "train/theory_ablation.py",
+      "name": "run_pipeline",
+      "original_ast_sha256": "e5b1bddedf1f4fdd5c54250349a95f787cd516ebd628b9d13f9ece1a75ebc084"
+    },
+    {
+      "file": "utils/theory_progressive_ddp.py",
+      "name": "set_seed",
+      "original_ast_sha256": "d11ceea94510c6048005eb487700a62891fd00cb0a9769cac3f5d82f3610bd2a"
+    },
+    {
+      "file": "utils/theory_progressive_ddp.py",
+      "name": "init_weights",
+      "original_ast_sha256": "8e84e9b9fcdbb47a04244d817806f13a86b10a7f25fd65809b07d2653b3cb491"
+    },
+    {
+      "file": "utils/theory_progressive_ddp.py",
+      "name": "is_rank_zero",
+      "original_ast_sha256": "7886f19875c977967e69d3ce6f68f993710e5bf82dd96e6407714e4874d51861"
+    },
+    {
+      "file": "models/theory_progressive_ddp.py",
+      "name": "ResBlock",
+      "original_ast_sha256": "cdb08d00bdcab52955a3ce301c01eff6547cc4e8b9212fee4d783b5f208f429b"
+    },
+    {
+      "file": "models/theory_progressive_ddp.py",
+      "name": "HierarchicalDigitHeadIndependent",
+      "original_ast_sha256": "02e561d7730196c23cc114c047ca6395c2793c0f08fcc507daeab5f803597303"
+    },
+    {
+      "file": "models/theory_progressive_ddp.py",
+      "name": "PolymerModel",
+      "original_ast_sha256": "9350f65bcbb2577225c7a2728de7ce14a2f7a340aaadf63e1d94774a4a01168d"
+    },
+    {
+      "file": "models/theory_progressive_ddp.py",
+      "name": "hierarchical_digit_loss",
+      "original_ast_sha256": "52a09db09b24f7936bfafeac4693634072d121122346b5b9e30c6ec660420e12"
+    },
+    {
+      "file": "data/theory_progressive_ddp.py",
+      "name": "CharTokenizer",
+      "original_ast_sha256": "877e72c619c9b22ee32a228309f35214547cdabe8313669a8161a6c74fea6caf"
+    },
+    {
+      "file": "data/theory_progressive_ddp.py",
+      "name": "build_ch23_sequences",
+      "original_ast_sha256": "5d7c3fc4197e4900ce7c753b3ff053083bc3147ee123f42a2d486b73f0e2e866"
+    },
+    {
+      "file": "data/theory_progressive_ddp.py",
+      "name": "PolymerDataset",
+      "original_ast_sha256": "1f215c39e2cd14cc8a669e6fd67d531b34a391821202cac2b705358f7d8a08eb"
+    },
+    {
+      "file": "utils/theory_progressive_ddp.py",
+      "name": "eval_plot",
+      "original_ast_sha256": "6486e032db37338e0efa4ea19a53f061d6a20f3884fbc42dfbf3f1383f79d26e"
+    },
+    {
+      "file": "train/theory_progressive_ddp.py",
+      "name": "train_one",
+      "original_ast_sha256": "588b55319bfe5ce7a4abbb0c7a362ea0f1a6d5a3fa923c160dcc1ea2c7d99d11"
+    },
+    {
+      "file": "utils/experimental.py",
+      "name": "set_journal_style",
+      "original_ast_sha256": "095fdae64b503fc6ed6daa9dcc99880ba0dbaba4d5b429fd3473b479c9074553"
+    },
+    {
+      "file": "data/experimental.py",
+      "name": "CharTokenizer",
+      "original_ast_sha256": "a1a1563a3d015bc52dd2927171d453d5394f8dbffb22f4b4746a1bcc2f1ad1ef"
+    },
+    {
+      "file": "data/experimental.py",
+      "name": "build_channel23_sequences",
+      "original_ast_sha256": "5f7153c8f02ab36ffbb8d41cf77cd3f85c025a4d27ae08d2cdab29d51f305877"
+    },
+    {
+      "file": "data/experimental.py",
+      "name": "Scaler",
+      "original_ast_sha256": "01b71c24e6737a2683e5416da7f6a418a728fa895402203c2a76a5d234c8e451"
+    },
+    {
+      "file": "data/experimental.py",
+      "name": "PolymerDataset",
+      "original_ast_sha256": "ecd6ca091c9c3394bcb36b012d27e21118c268252109e4b4303904fba46892f7"
+    },
+    {
+      "file": "utils/experimental.py",
+      "name": "set_seed",
+      "original_ast_sha256": "6c0db2ab9089efac027c9d528dbed1d0ef3daa8d7819e7fe04d17d56b5858f8c"
+    },
+    {
+      "file": "utils/experimental.py",
+      "name": "init_weights",
+      "original_ast_sha256": "6a87f09bd3113938e13d4fac8c48f9b07ac5f7dea5427404612ed97c8eff9609"
+    },
+    {
+      "file": "models/experimental.py",
+      "name": "ResNetBlock",
+      "original_ast_sha256": "d74f79b4065db165b39d23b18f331ba5f859180ab56c5ecb69f402f1a0112da9"
+    },
+    {
+      "file": "models/experimental.py",
+      "name": "PolymerModel",
+      "original_ast_sha256": "8b5ea06698ecf3f5d5e9062e168a14d86a91672fd96482691bd62d31cb34b6a6"
+    },
+    {
+      "file": "utils/experimental.py",
+      "name": "eval_and_plot",
+      "original_ast_sha256": "d033657df83bf532a95e20c0b440e4d0d9f116977c461c200678d6f35ebb54c2"
+    },
+    {
+      "file": "utils/experimental.py",
+      "name": "plot_cv_summary",
+      "original_ast_sha256": "edfa469b27b1d3c95ecae1660d7bff29b88d942bb1161782b767fefbd14a3e58"
+    },
+    {
+      "file": "train/experimental.py",
+      "name": "run_pipeline",
+      "original_ast_sha256": "1bcabcd2bc40c89d3eb8ca88546459796cbb8ed2a052816c33445c6de149519a"
+    },
+    {
+      "file": "models/public_tg.py",
+      "name": "ProgressiveTgModel",
+      "original_ast_sha256": "5b16b8c0fdc565cd95b3ef22f86ec6f29b105fd94af1e383a7fc844386553f00"
+    },
+    {
+      "file": "models/public_tg_head.py",
+      "name": "encode_digits",
+      "original_ast_sha256": "42f54f5f4725641d4ebbe4a73746e54f788ea231b83f42b9bc50528db0c6ffba"
+    },
+    {
+      "file": "models/public_tg_head.py",
+      "name": "hard_digits",
+      "original_ast_sha256": "f8d1ae8b4bc14f28cff4a9ef90d2afcad06e64d75e0f45054f7530d4b6def50b"
+    },
+    {
+      "file": "models/public_tg_head.py",
+      "name": "reconstruct_log",
+      "original_ast_sha256": "a0fcbca2931af7611d0cc66c29a32e5c5982e2a4ba783fa25c4a681917e5ca6b"
+    },
+    {
+      "file": "models/public_tg_head.py",
+      "name": "ste_reconstruct_log",
+      "original_ast_sha256": "340361d7a3b0bdaf810a89f05411924cace0743a11346ae9361c78ed885af8fa"
+    },
+    {
+      "file": "models/public_tg_head.py",
+      "name": "weighted_digit_mse",
+      "original_ast_sha256": "c3a68eb627da737343e6a9e45eb202a685758e647fc220adf168655dd61b2a64"
+    },
+    {
+      "file": "models/public_tg_head.py",
+      "name": "NumericDigitEncoder",
+      "original_ast_sha256": "9419d2b9550f729e8090196d2d0d0eed894a99cec2b74010199197fee7423ec6"
+    },
+    {
+      "file": "models/public_tg_head.py",
+      "name": "ProgressiveTgHead",
+      "original_ast_sha256": "906faffab7126c81527b4edfdfae61139e8507342c1a3843d8ba0edd8879f4e3"
+    },
+    {
+      "file": "utils/public_tg_data.py",
+      "name": "save",
+      "original_ast_sha256": "b2897cf7cff6559ecee375881d22b84ba7822e897fe3d9db4983273d76517d59"
+    },
+    {
+      "file": "utils/public_tg_data.py",
+      "name": "load_development",
+      "original_ast_sha256": "0cffbf86bd13f7501e8d12b38b80b0e2f4795e58d84d9ace288dfdb8083be00c"
+    },
+    {
+      "file": "utils/public_tg_data.py",
+      "name": "load_test",
+      "original_ast_sha256": "c9e605e5782e828fd47a3147a0bb1e5f86496e294d85cc0d7d970456308daf75"
+    },
+    {
+      "file": "utils/public_tg_data.py",
+      "name": "make_loader",
+      "original_ast_sha256": "52f553d02257e961f810e78a04b60057583f450dc930e7428ff7b2e6df63430c"
+    },
+    {
+      "file": "utils/public_tg_data.py",
+      "name": "metrics",
+      "original_ast_sha256": "5302e49dbf6654a9319c889f33585bd5c5715d54b37589f28ac2585dd0e992e5"
+    },
+    {
+      "file": "utils/public_tg_data.py",
+      "name": "predict_validation",
+      "original_ast_sha256": "6ccaee9ba8bc6bd23c7b4db25589d6821c6d4bb8b0a1dc29b01ceeb4b1a347d8"
+    },
+    {
+      "file": "utils/public_tg_inspection.py",
+      "name": "EffectiveAudit",
+      "original_ast_sha256": "c22ce787951faa69f4edd1cf57259e366493cac96242734bb31314135b7545d3"
+    },
+    {
+      "file": "configs/public_tg.py",
+      "name": "identity",
+      "original_ast_sha256": "dc6c36390fea3dae4fdafcb8971c96fa50a0da00cb126703ee17da469ff2b5d9"
+    },
+    {
+      "file": "train/public_tg.py",
+      "name": "location",
+      "original_ast_sha256": "40195ed63bec4d873ee2f99f24fc3f94391f06721d06b3d13fbb1d7f8a97a703"
+    },
+    {
+      "file": "train/public_tg.py",
+      "name": "train",
+      "original_ast_sha256": "17598b690df6ef7fe8e2fa0ed9d98f54f7acaea38525ddc51b5a1f130776d3ba"
+    },
+    {
+      "file": "train/public_tg.py",
+      "name": "finalize",
+      "original_ast_sha256": "2b617196a97d12596b81474979f29de159941ba72c187df2f8981a8e30643ee0"
+    }
+  ],
+  "datasets": [
+    {
+      "file": "data/theory/train.csv",
+      "sha256": "f91556b81987eca4902d239b47a86753899a61085929cb49c7a7cd89d041690c"
+    },
+    {
+      "file": "data/theory/val.csv",
+      "sha256": "154bdd6e6f07fc0a085f65c1dc4d330b7bf63de05904ee46297a6471698ca9ad"
+    },
+    {
+      "file": "data/theory/test.csv",
+      "sha256": "436577de2c7af5034df9126ee1713c9aee36fbbf00391b95b35d4db376650143"
+    },
+    {
+      "file": "data/experimental/experimental_dataset.csv",
+      "sha256": "7e655a50a36192471ac8a2a2159423c7e55905ab38cf440f84979168c2e16af4"
+    },
+    {
+      "file": "data/public_tg/training_data.csv",
+      "sha256": "436b07efce832d1909df791a09e1d64cb9a780c30ec37158901f83d00d1820ef"
+    },
+    {
+      "file": "data/public_tg/test_data.csv",
+      "sha256": "4a2d0aab7c0132536c1b1e0a47a95c03a2682fc1beb13615badbc850d97e0d54"
+    }
+  ],
+  "cli_defaults": [
+    {
+      "file": "train/theory_cnn.py",
+      "defaults": {
+        "--max_len": "Constant(value=64)",
+        "--batch_size": "Constant(value=256)",
+        "--epochs": "Constant(value=200)",
+        "--lr": "Constant(value=0.0006)",
+        "--seed": "Constant(value=42)"
+      }
+    },
+    {
+      "file": "train/theory_multilevel.py",
+      "defaults": {
+        "--seed": "Constant(value=992603)",
+        "--epochs": "Constant(value=500)",
+        "--batch_size": "Constant(value=256)"
+      }
+    },
+    {
+      "file": "train/theory_progressive.py",
+      "defaults": {
+        "--seed": "Constant(value=992603)",
+        "--epochs": "Constant(value=900)",
+        "--batch_size": "Constant(value=128)",
+        "--weight_decay": "Constant(value=2e-05)",
+        "--eta_min": "Constant(value=8e-06)",
+        "--grid_search": "Constant(value=True)"
+      }
+    },
+    {
+      "file": "train/theory_ablation.py",
+      "defaults": {
+        "--seed": "Constant(value=992603)",
+        "--epochs": "Constant(value=600)",
+        "--batch_size": "Constant(value=256)"
+      }
+    },
+    {
+      "file": "train/theory_progressive_ddp.py",
+      "defaults": {
+        "--seed": "Constant(value=992603)",
+        "--epochs": "Constant(value=900)",
+        "--batch_size": "Constant(value=128)",
+        "--grid_search": "Constant(value=True)"
+      }
+    },
+    {
+      "file": "train/experimental.py",
+      "defaults": {
+        "--ch1_max_len": "Constant(value=256)",
+        "--ch2_max_len": "Constant(value=256)",
+        "--ch3_max_len": "Constant(value=256)",
+        "--ch3_group": "Constant(value=60)",
+        "--batch_size": "Constant(value=32)",
+        "--epochs": "Constant(value=100)",
+        "--lr": "Constant(value=0.001)",
+        "--seed": "Constant(value=992603)"
+      }
+    }
+  ],
+  "original_files": {
+    "theory/卷积神经网络理论性质.py": "dcc634e91e4e7ee75ab01f3ab4360e76e039651fefd8c895dbf269a8dc78da3c",
+    "theory/多通道神经网络预测理论性质.py": "a8758201637792fe77ce609af8e2ddfd650cf237c65a8f8621096697a1a8589a",
+    "theory/多通道神经网络+逐步预测理论性质.py": "3067d51d7c68789af88cf62a2850fe92bcc5fd761f5c8b979b5e051f0fb2ada2",
+    "theory/消融实验.py": "1a552b813ef321b16dff12f197c03ecf6b071f3658a04b66888af11fe5390cc2",
+    "theory/train_ddp.py": "10423e548ffbc170cfcd207d636c63532367985e268c906b2d7d0bac1ebdff1f",
+    "experimental/多通道神经网络预测实验性质.py": "c241d09dd21b60f3add4cdf52450b35b7668461e361c173728f2bf6da56fb7e9"
+  }
+}

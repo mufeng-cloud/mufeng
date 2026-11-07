@@ -1,0 +1,118 @@
+{
+  "architecture": "original A plus tens hidden16",
+  "head_shapes": {
+    "thousands": [
+      300,
+      1
+    ],
+    "hundreds": [
+      316,
+      64,
+      1
+    ],
+    "tens": [
+      316,
+      16,
+      1
+    ]
+  },
+  "head_parameters_including_condition_encoder": 26050,
+  "encoder": {
+    "type": "Chemprop BondMessagePassing",
+    "hidden_dim": 300,
+    "depth": 3,
+    "aggregation": "mean",
+    "batch_norm": true,
+    "dropout": 0,
+    "extra_descriptors": false
+  },
+  "head": {
+    "dropout": 0.3,
+    "activation": "PReLU in hidden layers",
+    "output": "9*sigmoid",
+    "previous_digit_only": true,
+    "numeric_encoder": [
+      1,
+      16,
+      16
+    ],
+    "numeric_encoder_input": "digit/9",
+    "numeric_encoder_parameters": 305
+  },
+  "target": {
+    "column": "logTg",
+    "unit": "log10(K)",
+    "scale": 1000,
+    "predicted_places": [
+      1000,
+      100,
+      10
+    ],
+    "resolution": 0.01,
+    "digit_label_encoding": "restore four-decimal grid then truncate",
+    "fixed_first_digit": false
+  },
+  "loss": {
+    "type": "weighted_digit_mse",
+    "weights": [
+      100,
+      80,
+      20
+    ],
+    "normalized": false,
+    "reconstruction_coefficient": 0
+  },
+  "training": {
+    "teacher_forcing": true,
+    "batch_size": 64,
+    "max_epochs": 300,
+    "patience": 50,
+    "checkpoint_metric": "val_rmse_log10",
+    "seeds": [
+      3003105693,
+      976400781,
+      3387213022,
+      1360466709,
+      876933081,
+      2786169488,
+      207578373,
+      379423095,
+      573735355,
+      1009661775
+    ],
+    "n_folds": 10,
+    "n_models": 100
+  },
+  "optimizer": {
+    "type": "AdamW",
+    "learning_rate": 0.002,
+    "weight_decay": 0,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-08
+  },
+  "scheduler": {
+    "type": "CosineAnnealingLR",
+    "interval": "epoch",
+    "T_max": 300,
+    "eta_min": 1e-07,
+    "warmup": 0,
+    "restarts": false
+  },
+  "ensemble": {
+    "rule": "equal arithmetic mean of decoded log predictions",
+    "n_models": 100,
+    "metrics_computed_after_averaging": true
+  },
+  "data": {
+    "development_rows": 683,
+    "test_rows": 201,
+    "excluded_test_rows": 18,
+    "test_input_overlap_rows": 0,
+    "dataset_version": "median_harmonized_le10K_v1_test_input_disjoint_v1"
+  },
+  "packaged_execution": "standalone 100 identities if explicitly run later; no checkpoint reuse or model execution during packaging",
+  "historical_final100": "The completed historical result reused an immutable old50 pool and added new50; this package does not relabel it as fresh100 or as a new201 result."
+}

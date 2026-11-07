@@ -1,0 +1,101 @@
+--- historical/config.py
++++ packaged/config.py
+@@ -1,12 +1,12 @@
+-"""Freeze the latest validation winner, changing only cross-validation to ten folds."""
++"""Final A+tens16 configuration: ten folds and all ten fixed training seeds."""
+ CONFIG={'dropout':.3,'weight_decay':0.0}
+-SEEDS=[2786169488, 207578373, 379423095, 573735355, 1009661775]
++SEEDS=[3003105693, 976400781, 3387213022, 1360466709, 876933081, 2786169488, 207578373, 379423095, 573735355, 1009661775]
+ N_FOLDS=10
+ SPLIT_SEED=42
+ 
+ 
+ def identity(task):
+     if not 0<=task<N_FOLDS*len(SEEDS):
+-        raise ValueError('Training task must be0..49')
++        raise ValueError('Training task must be0..99')
+     fold,si=divmod(task,len(SEEDS))
+     return fold,SEEDS[si]
+--- historical/common.py
++++ packaged/common.py
+@@ -40,7 +40,9 @@
+     path=BASE/'data/processed/test_data.csv'
+     assert hashlib.sha256(path.read_bytes()).hexdigest()==manifest['data_sha256']['test_data.csv']
+     frame=pd.read_csv(path)
+-    assert len(frame)==219
++    assert len(frame)==manifest['n_test']==201
++    development=pd.read_csv(BASE/'data/processed/training_data.csv',usecols=['SMILES_clean'])
++    assert set(frame.SMILES_clean).isdisjoint(development.SMILES_clean), 'Test input overlaps development'
+     encode_digits(torch.tensor(frame.logTg.to_numpy(),dtype=torch.float64))
+     return frame
+ 
+--- historical/run.py
++++ packaged/run.py
+@@ -1,4 +1,4 @@
+-"""Ten-fold/five-seed fresh training; test all validation-best checkpoints after training."""
++"""Ten-fold/ten-seed packaging of the final model; test all validation-best checkpoints after training."""
+ import argparse
+ import hashlib
+ import json
+@@ -50,7 +50,7 @@
+ 
+ def finalize():
+     frame,splits=load_development();records=[]
+-    submission=json.loads((ROOT/'provenance/submission.json').read_text())
++    submission=json.loads((ROOT/'provenance/package_manifest.json').read_text())
+     for name,h in submission['source_sha256'].items():assert hashlib.sha256((ROOT/name).read_bytes()).hexdigest()==h
+     for task in range(N_FOLDS*len(SEEDS)):
+         fold,seed=identity(task);path=location(fold,seed)/'completed.json'
+@@ -70,13 +70,13 @@
+         assert effective['digit_only_loss_verified'] and effective['auxiliary_reconstruction_removed'] and effective['log10_training_targets_verified']
+         assert effective['true_training_condition_verified'] and effective['predicted_inference_condition_verified'] and effective['reconstruction_loss_coefficient']==0.
+         records.append(r)
+-    assert len(records)==50 and len({r['checkpoint_sha256'] for r in records})==50
++    assert len(records)==100 and len({r['checkpoint_sha256'] for r in records})==100
+     baseline=json.loads((ROOT/'provenance/data_manifest.json').read_text())
+     tpath=BASE/'data/processed/test_data.csv'
+     tsha=hashlib.sha256(tpath.read_bytes()).hexdigest()
+     assert tsha==baseline['data_sha256']['test_data.csv']
+-    save(ROOT/'provenance/frozen_test_manifest.json',{'n_models':50,'n_folds':10,'seeds':SEEDS,
+-         'config':CONFIG,'selection':'best validation log10 RMSE per new fold and seed',
++    save(ROOT/'provenance/frozen_test_manifest.json',{'n_models':100,'n_folds':10,'seeds':SEEDS,
++         'config':CONFIG,'selection':'best validation log10 RMSE per fold and seed',
+          'test_sha256':tsha,'models':records,'source_sha256':submission['source_sha256'],'data_sha256':baseline['data_sha256'],'split_sha256':hashlib.sha256((ROOT/'provenance/folds.json').read_bytes()).hexdigest()})
+     test=load_test();predictions={};oof={seed:np.full(len(frame),np.nan) for seed in SEEDS};scores={seed:[] for seed in SEEDS}
+     trainer=pl.Trainer(accelerator='gpu',devices=1,logger=False,enable_checkpointing=False,enable_progress_bar=False)
+@@ -92,7 +92,7 @@
+         out=ROOT/'final_test'/f'seed_{seed}'/f'fold_{fold:02d}';out.mkdir(parents=True,exist_ok=True)
+         print(f'Testing tenfold model seed={seed} fold={fold}',flush=True)
+         score=predict_validation(model,test,trainer,out/'test_predictions.csv')
+-        save(out/'completed.json',{'status':'completed','seed':seed,'fold':fold,'n_test':219,
++        save(out/'completed.json',{'status':'completed','seed':seed,'fold':fold,'n_test':201,
+              'config':CONFIG,'checkpoint_sha256':record['checkpoint_sha256'],'test_log10':score})
+         predictions[seed,fold]=pd.read_csv(out/'test_predictions.csv').pred_logTg.values
+         del model
+@@ -116,7 +116,7 @@
+     validation={name:{'mean':float(np.mean([r['mean_'+name] for r in seed_validation])),
+                       'seed_population_sd':float(np.std([r['mean_'+name] for r in seed_validation],ddof=0)),
+                       'ensemble_fold_mean':float(np.mean([r[name] for r in ensemble_folds]))} for name in ['mae','rmse','r2']}
+-    summary={'n_models':50,'n_folds':10,'n_seeds':5,'n_test':219,'config':CONFIG,
++    summary={'n_models':100,'n_folds':10,'n_seeds':10,'n_test':201,'config':CONFIG,
+           'selection':'Log10 top-three-digit weighted digit MSE only; no reconstruction loss; checkpoint chosen by hard autoregressive validation log10 RMSE',
+           'architecture':{'thousands':[300,1],'hundreds':[316, 64, 1],'tens':[316,16,1],'prelu_counts':[0, 1, 1]},
+           'protocol':{'digit_weights':list(DIGIT_WEIGHTS),'max_epochs':MAX_EPOCHS,'patience':PATIENCE,
+@@ -125,7 +125,7 @@
+           'seed_statistics':{name:{'mean':float(np.mean([r['test_log10'][name] for r in per_seed])),
+                                     'population_sd':float(np.std([r['test_log10'][name] for r in per_seed],ddof=0))} for name in ['mae','rmse','r2']},
+           'validation':validation,'validation_oof_log10':metrics(frame.logTg,mean_oof),
+-          'training_records':records,'n_predicted_digits':3,'predicted_places':[1000,100,10],'log10_resolution':.01,'test_input_overlap_rows':18,'dataset_version':'median_harmonized_le10K_v1'}
++          'training_records':records,'n_predicted_digits':3,'predicted_places':[1000,100,10],'log10_resolution':.01,'test_input_overlap_rows':0,'dataset_version':'median_harmonized_le10K_v1_test_input_disjoint_v1'}
+     pd.DataFrame([{'seed':r['seed'],**r['test_log10']} for r in per_seed]).to_csv(dest/'per_seed_test_results.csv',index=False)
+     pd.DataFrame(seed_validation).to_csv(dest/'per_seed_validation_results.csv',index=False)
+     save(dest/'summary.json',summary)
+@@ -133,7 +133,7 @@
+ 
+ 
+ if __name__=='__main__':
+-    p=argparse.ArgumentParser(description=__doc__);p.add_argument('command',choices=['train','finalize']);p.add_argument('--task',type=int,choices=range(50));a=p.parse_args()
++    p=argparse.ArgumentParser(description=__doc__);p.add_argument('command',choices=['train','finalize']);p.add_argument('--task',type=int,choices=range(100));a=p.parse_args()
+     if a.command=='train':
+         if a.task is None:p.error('--task required')
+         train(a.task)

@@ -1,0 +1,34 @@
+{
+  "n_folds": 10,
+  "n_development": 683,
+  "split_seed": 42,
+  "shuffle": true,
+  "split_sha256": "4c66bb239e06161059d4fbe10ff6f66d6afa4258d31a302dbd5f4898774bd28e",
+  "train_sizes": [
+    614,
+    614,
+    614,
+    615,
+    615,
+    615,
+    615,
+    615,
+    615,
+    615
+  ],
+  "validation_sizes": [
+    69,
+    69,
+    69,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68
+  ],
+  "test_split_changed": true,
+  "n_test": 201,
+  "dataset_version": "median_harmonized_le10K_v1_test_input_disjoint_v1"
+}

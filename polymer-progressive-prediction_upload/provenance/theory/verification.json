@@ -1,0 +1,14 @@
+{
+  "scope": "only dataset path and split row-count guards",
+  "unit_test_command": "python verify_data_scope.py",
+  "unit_tests": 4,
+  "unit_tests_passed": true,
+  "original_five_scripts_unchanged": true,
+  "article_unchanged": true,
+  "data_hashes_match_existing_paper_data": true,
+  "network_and_loss_unchanged": true,
+  "all_other_code_ast_unchanged": true,
+  "training_executed": false,
+  "inference_executed": false,
+  "negative_before_edit": "10 expected subtest failures on original data path/absent guards; unchanged implementation and data tests already passed"
+}

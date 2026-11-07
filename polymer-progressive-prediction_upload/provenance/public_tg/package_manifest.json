@@ -1,0 +1,37 @@
+{
+  "purpose": "English modular release of the supplied implementation",
+  "status": "packaged_not_submitted",
+  "source_root": "repository root",
+  "historical_source_sha256": {
+    "model.py": "7e5d5f1061e3be83d273a0286fbb7f2ed443a0b876e7a6a7a7c1b6f831522557",
+    "progressive_head.py": "a73ecd1b1b710263c6072d3a8d94e727682e015836f34f1fd7daf5679bf1dc45",
+    "protocol.py": "673fa1d97803623f63259863446872e6107ceb4440eb5ad4a2b1716900cc72e9",
+    "inspection.py": "e473f9e5b6b0fb2016bf29f4ae769a0cc29411628af2b46ef96c96cba13d8677",
+    "common.py": "a013f2760f2bbabccf92034a01a8d2019995375ca5970d9893a509141cd947d3",
+    "config.py": "58df62d831cbad92a62df68253a9318d1ec7209d344b908fa28a39c3a5945a4b",
+    "run.py": "8240ba20080ee9cf9a3a19d3aaf203dd035d48db8735944ec70c444c1d442194"
+  },
+  "source_sha256": {
+    "models/public_tg.py": "720b12394014bcf614cd9f5fa2f31b4ade75934f2b2e2d5ffdf57a6c3f6f29be",
+    "models/public_tg_head.py": "77f9cde05c09d6eb59c07cbf379714d9455eb50be1b880b1003636ed582b0488",
+    "utils/public_tg_data.py": "53a8e2fcf1eac5a8cc95ec03769668ba80b86efefb1931280e1ad75edccca8dd",
+    "utils/public_tg_inspection.py": "3b3a923387168ed91361960c95e9237a2b6e98c9b34db7894e60b4b4901bdf87",
+    "configs/public_tg.py": "a34059dd0d3819b5a40814a03d0a7b49a6ffc4b9d426bb752a0ed598053d08d7",
+    "configs/public_tg_protocol.py": "673fa1d97803623f63259863446872e6107ceb4440eb5ad4a2b1716900cc72e9",
+    "train/public_tg.py": "7ac6b9840c63fdc68f213fbc9b524439dbdca4160f17190c5bb538db55bc0017"
+  },
+  "model_training_executed": false,
+  "model_validation_executed": false,
+  "model_testing_executed": false,
+  "scientific_model_files_byte_unchanged": [],
+  "historical_sources_unchanged": true,
+  "source_relocation_map": {
+    "model.py": "models/public_tg.py",
+    "progressive_head.py": "models/public_tg_head.py",
+    "common.py": "utils/public_tg_data.py",
+    "inspection.py": "utils/public_tg_inspection.py",
+    "config.py": "configs/public_tg.py",
+    "protocol.py": "configs/public_tg_protocol.py",
+    "run.py": "train/public_tg.py"
+  }
+}

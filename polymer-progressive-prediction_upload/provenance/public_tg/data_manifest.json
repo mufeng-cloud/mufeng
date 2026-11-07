@@ -1,0 +1,19 @@
+{
+  "dataset_version": "median_harmonized_le10K_v1_test_input_disjoint_v1",
+  "data_sha256": {
+    "training_data.csv": "436b07efce832d1909df791a09e1d64cb9a780c30ec37158901f83d00d1820ef",
+    "test_data.csv": "4a2d0aab7c0132536c1b1e0a47a95c03a2682fc1beb13615badbc850d97e0d54"
+  },
+  "n_development": 683,
+  "n_test": 201,
+  "harmonization_manifest_sha256": "9179ee4af9cc77799a8bcb0c9bbed86edb0081560ba756534046cc04bdf09598",
+  "source_dataset_root": "/Users/muchengfeng/Documents/ChatGPT/论文/run/mrs_tg_harmonized_median_le10K_2026-11-05",
+  "label_rule": "same exact SMILES_clean groups with original K spread>10 use shared group K median; other labels preserved",
+  "is_literature_verified": false,
+  "uses_development_and_test_labels_for_harmonization": true,
+  "is_independent_test_benchmark": false,
+  "test_input_overlap_rows": 0,
+  "source_test_rows": 219,
+  "excluded_test_rows": 18,
+  "input_exclusion_rule": "Remove test rows whose exact standardized SMILES_clean occurs in any of the 683 development records; all retained labels and fields unchanged."
+}

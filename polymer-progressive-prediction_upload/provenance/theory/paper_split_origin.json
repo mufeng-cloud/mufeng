@@ -1,0 +1,30 @@
+{
+  "selection_rule": "Exclude every original test record whose RDKit canonical molecular graph occurs in the training or validation set; prediction values are not used.",
+  "source_counts": {
+    "train": 1574,
+    "val": 190,
+    "test": 222
+  },
+  "graph_counts": {
+    "train": 66,
+    "val": 8,
+    "test_graph_disjoint": 8
+  },
+  "graph_disjoint_test_rows": 196,
+  "excluded_test_rows": 26,
+  "excluded_smiles": [
+    "CC(C=C)C",
+    "CC(F)F"
+  ],
+  "overlap_canonical_graphs": [
+    "C=CC(C)C",
+    "CC(F)F"
+  ],
+  "output_sha256": {
+    "train.csv": "f91556b81987eca4902d239b47a86753899a61085929cb49c7a7cd89d041690c",
+    "val.csv": "154bdd6e6f07fc0a085f65c1dc4d330b7bf63de05904ee46297a6471698ca9ad",
+    "test.csv": "436577de2c7af5034df9126ee1713c9aee36fbbf00391b95b35d4db376650143"
+  },
+  "source_audit": "/Users/muchengfeng/Documents/ChatGPT/论文/run/theory_graph_disjoint_eval_2026-10-19/output/audit_summary.json",
+  "source_audit_sha256": "124c6124da8ecd097b1d4409e516d86df78b2483f67e1dc54b9a179978f70ab4"
+}

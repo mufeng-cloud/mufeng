@@ -1,0 +1,54 @@
+{
+  "scope": "data_reading_only",
+  "original_code": {
+    "卷积神经网络理论性质.py": {
+      "source": "/Users/muchengfeng/Desktop/论文/模型代码/卷积神经网络理论性质.py",
+      "original_sha256": "6321006089393afc00fab4e225bf2abce08731a202a5d781f41daf605a4977e4",
+      "implementation_ast_sha256": "e4e1091e57cbdf0464b7d17ad3a41086ceb8ef6cc8cc2dbe5f02eb6951d93a11",
+      "modified_sha256": "dcc634e91e4e7ee75ab01f3ab4360e76e039651fefd8c895dbf269a8dc78da3c"
+    },
+    "多通道神经网络预测理论性质.py": {
+      "source": "/Users/muchengfeng/Desktop/论文/模型代码/多通道神经网络预测理论性质.py",
+      "original_sha256": "8e383012cab29075421c0b6488d9816e8e8c550ffe24e02097ecd1decc82d5cb",
+      "implementation_ast_sha256": "6dd47637816d71a1096787984e20c966eb1264717fa8632004609c64eaef7914",
+      "modified_sha256": "a8758201637792fe77ce609af8e2ddfd650cf237c65a8f8621096697a1a8589a"
+    },
+    "多通道神经网络+逐步预测理论性质.py": {
+      "source": "/Users/muchengfeng/Desktop/论文/模型代码/多通道神经网络+逐步预测理论性质.py",
+      "original_sha256": "a8ffc90f439cba0fb4ddc169566eb32e751e81600f80e96c25014ca72df84772",
+      "implementation_ast_sha256": "a7fb05c7dd5e75c66ce6e9e8216881328502e932499c87b11b3f3080dcb01967",
+      "modified_sha256": "3067d51d7c68789af88cf62a2850fe92bcc5fd761f5c8b979b5e051f0fb2ada2"
+    },
+    "消融实验.py": {
+      "source": "/Users/muchengfeng/Desktop/论文/模型代码/消融实验.py",
+      "original_sha256": "165631a57b3a44f46b23f1d12d728c2e089a16186b48e6baecb7ea8c14a27c6a",
+      "implementation_ast_sha256": "f068d540d56d187ff459d4d7f4067108359e5948acd2566e6e5cf7f5040ecc95",
+      "modified_sha256": "1a552b813ef321b16dff12f197c03ecf6b071f3658a04b66888af11fe5390cc2"
+    },
+    "train_ddp.py": {
+      "source": "/Users/muchengfeng/Desktop/论文/模型代码/train_ddp.py",
+      "original_sha256": "c98501a258e29d3db1371f6579d648916b8854e8becd4aa19388cc6fcf18b75f",
+      "implementation_ast_sha256": "ec4612977dab0b721da95c1020c03bf85ea29921e93f581a26a748013591c6e5",
+      "modified_sha256": "10423e548ffbc170cfcd207d636c63532367985e268c906b2d7d0bac1ebdff1f"
+    }
+  },
+  "data": {
+    "train": {
+      "source": "/Users/muchengfeng/Documents/ChatGPT/论文/run/theory_graph_disjoint_eval_2026-10-19/output/data/train.csv",
+      "sha256": "f91556b81987eca4902d239b47a86753899a61085929cb49c7a7cd89d041690c",
+      "rows": 1574
+    },
+    "val": {
+      "source": "/Users/muchengfeng/Documents/ChatGPT/论文/run/theory_graph_disjoint_eval_2026-10-19/output/data/val.csv",
+      "sha256": "154bdd6e6f07fc0a085f65c1dc4d330b7bf63de05904ee46297a6471698ca9ad",
+      "rows": 190
+    },
+    "test": {
+      "source": "/Users/muchengfeng/Documents/ChatGPT/论文/run/theory_graph_disjoint_eval_2026-10-19/output/data/test.csv",
+      "sha256": "436577de2c7af5034df9126ee1713c9aee36fbbf00391b95b35d4db376650143",
+      "rows": 196
+    }
+  },
+  "paper": "/Users/muchengfeng/Documents/ChatGPT/论文/deliverables/tg_final100_manuscript_revision_2026-11-06/aritcle.tex",
+  "paper_sha256": "3daac4d55f8dd84d452bbf19e3db56b666a581f0d71b6e88163cf21e400c5646"
+}

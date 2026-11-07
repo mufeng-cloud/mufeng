@@ -1,0 +1,312 @@
+Unnamed: 0,ID,logTg,Series,Ref,name_raw,SMILES_raw,SMI_generator,SMILES,name,SMILES_clean,Moleculer Weight,Proxy for Free Volume,Rotatable Bonds,Aromatic Rings,Topological Polar Surface Area,H-Bond Donors,H-Bond Acceptors
+3,PPD_013,2.7178,P,A,"2,2,3,3-tetrafluoropropyl acrylate",C=CC(=O)OCC(C(F)F)(F)F,PubChemPy,C=CC(=O)OCC(C(F)F)(F)F,"2,2,3,3-tetrafluoropropyl acrylate",C=CC(=O)OCC(F)(F)C(F)F,186.10399999999998,15.502532692666668,4,0,26.3,0,2
+8,PPD_043,2.7854,P,A,1-(tert-butyl)ethene,CC(C)(C)C=C,ChemAxon,CC(C)(C)C=C,1-(tert-butyl)ethene,C=CC(C)(C)C,84.16199999999999,14.015650063999999,0,0,0.0,0,0
+23,PPD_123,2.8103,P,A,dimethyl itaconate,COC(=O)CC(=C)C(=O)OC,PubChemPy,COC(=O)CC(=C)C(=O)OC,dimethyl itaconate,C=C(CC(=O)OC)C(=O)OC,158.15299999999996,14.3689008,3,0,52.60000000000001,0,4
+38,PPD_214,2.6868,P,A,vinyl ethyl ketone,CCC(=O)C=C,PubChemPy,CCC(=O)C=C,vinyl ethyl ketone,C=CC(=O)CC,84.118,14.009585812666666,2,0,17.07,0,1
+41,PPD_217,2.7317,P,A,ethyl vinyl thioether,CCSC=C,ChemAxon,CCSC=C,ethyl vinyl thioether,C=CSCC,88.175,17.6069342512,2,0,0.0,0,1
+47,SA_028,2.5577,P,B,tert-Butyl vinyl ether,CC(C)(C)OC=C,PubChemPy,CC(C)(C)OC=C,tert-Butyl vinyl ether,C=COC(C)(C)C,100.16099999999999,14.298402143428572,1,0,9.23,0,1
+53,SA_060,2.4364,P,B,Methyl cellulose,COCC1C(C(C(C(O1)OC2C(OC(C(C2OC)OC)OC)COC)OC)OC)OC,PubChemPy,COCC1C(C(C(C(O1)OC2C(OC(C(C2OC)OC)OC)COC)OC)OC)OC,Methyl cellulose,COCC1OC(OC2C(COC)OC(OC)C(OC)C2OC)C(OC)C(OC)C1OC,454.5130000000002,14.652948775354835,12,0,101.53000000000003,0,11
+56,SA_070,2.4999,P,B,tetramethylene adipamide,C1CCN(C1)C(=O)CCCCC(=O)N,PubChemPy,C1CCN(C1)C(=O)CCCCC(=O)N,tetramethylene adipamide,NC(=O)CCCCC(=O)N1CCCC1,198.26599999999996,14.152630558285713,5,0,63.400000000000006,1,2
+59,SA_078,2.5161,P,B,1-Octadecene,CCCCCCCCCCCCCCCCC=C,PubChemPy,CCCCCCCCCCCCCCCCC=C,1-Octadecene,C=CCCCCCCCCCCCCCCCC,252.4859999999999,14.015650063999999,15,0,0.0,0,0
+60,SA_079,2.2384,P,B,Octadecyl methacrylate,CCCCCCCCCCCCCCCCCCOC(=O)C(=C)C,PubChemPy,CCCCCCCCCCCCCCCCCCOC(=O)C(=C)C,Octadecyl methacrylate,C=C(C)C(=O)OCCCCCCCCCCCCCCCCCC,338.5760000000001,14.096603357666666,18,0,26.3,0,2
+65,SA_096,2.4136,P,B,Epibromohydrin,C1C(O1)CBr,PubChemPy,C1C(O1)CBr,Epibromohydrin,BrCC1CO1,136.976,27.190475376000002,1,0,12.53,0,1
+68,SA_099,2.3078,P,B,"1,2-Epoxydecane",CCCCCCCCC1CO1,PubChemPy,CCCCCCCCC1CO1,"1,2-Epoxydecane",CCCCCCCCC1CO1,156.26899999999998,14.195583205454545,7,0,12.53,0,1
+72,SA_109,2.3877,P,B,Ethylene malonate,C1COC(=O)CC(=O)O1,PubChemPy,C1COC(=O)CC(=O)O1,Ethylene malonate,O=C1CC(=O)OCCO1,130.099,14.447400963555557,0,0,52.60000000000001,0,4
+74,SA_111,2.3163,P,B,Ethylene oxide,C1CO1,PubChemPy,C1CO1,Ethylene oxide,C1CO1,44.053,14.675404916,0,0,12.53,0,1
+77,SA_129,2.5834,P,B,Isobornyl methacrylate,CC(=C)C(=O)OC1CC2CCC1(C2(C)C)C,PubChemPy,CC(=C)C(=O)OC1CC2CCC1(C2(C)C)C,Isobornyl methacrylate,C=C(C)C(=O)OC1CC2CCC1(C)C2(C)C,222.32799999999992,13.8851237465,2,0,26.3,0,2
+82,SA_151,2.2904,P,B,Trimethylene oxide,C1COC1,PubChemPy,C1COC1,Trimethylene oxide,C1COC1,58.07999999999999,14.510466203,0,0,9.23,0,1
+87,SA_169,2.5553,P,B,Vinyl pivalate,CC(C)(C)C(=O)OC=C,PubChemPy,CC(C)(C)C(=O)OC=C,Vinyl pivalate,C=COC(=O)C(C)(C)C,128.17099999999996,14.231525513777777,1,0,26.3,0,2
+101,JPS_14,2.2742,P,C,3-hexoxylpropylene oxide,OC(COCCCCCC)C,Reference,OC(COCCCCCC)C,3-hexoxylpropylene oxide,CCCCCCOCC(C)O,160.257,14.558757261818181,7,0,29.46,1,2
+105,JPS_18,2.5922,P,C,tert-butyl methacrylate,CC(=C)C(=O)OC(C)(C)C,PubChemPy,CC(=C)C(=O)OC(C)(C)C,tert-butyl methacrylate,C=C(C)C(=O)OC(C)(C)C,142.19799999999998,14.2099379688,1,0,26.3,0,2
+114,JPS_27,2.4031,P,C,Poly((2R)?2?ethoxybutane),CCO[C@H](C)CC,PubChem,CCO[C@H](C)CC,Poly((2R)?2?ethoxybutane),CCO[C@H](C)CC,102.177,14.586352152571427,3,0,9.23,0,1
+126,JPS_41,2.5403,P,C,sec-butyl a-chloroacrylate,CC(Cl)C(=O)OC(CC)C,Reference,CC(Cl)C(=O)OC(CC)C,sec-butyl a-chloroacrylate,CCC(C)OC(=O)C(C)Cl,164.63199999999998,16.4060407336,3,0,26.3,0,2
+130,JPS_45,2.4669,P,C,2-methylcyclohexyl methacrylate,C1C(C(CCC1)OC(=O)C(C)C)C,Reference,C1C(C(CCC1)OC(=O)C(C)C)C,2-methylcyclohexyl methacrylate,CC(C)C(=O)OC1CCCCC1C,184.27899999999994,14.165102298461537,2,0,26.3,0,2
+131,JPS_46,2.5763,P,C,cyclohexyl methacrylate,CC(=C)C(=O)OC1CCCCC1,PubChemPy,CC(=C)C(=O)OC1CCCCC1,cyclohexyl methacrylate,C=C(C)C(=O)OC1CCCCC1,168.23599999999993,14.009585812666666,2,0,26.3,0,2
+137,JPS_52,2.5786,P,C,acrylic acid,C=CC(=O)O,PubChemPy,C=CC(=O)O,acrylic acid,C=CC(=O)O,72.06299999999999,14.404225873600002,1,0,37.3,1,1
+143,JPS_58,2.5145,P,C,benzyl methacrylate,CC(=C)C(=O)OCC1=CC=CC=C1,PubChemPy,CC(=C)C(=O)OCC1=CC=CC=C1,benzyl methacrylate,C=C(C)C(=O)OCc1ccccc1,176.215,13.54490227876923,3,1,26.3,0,2
+145,JPS_62,2.5366,P,C,vinyl benzoate,C=COC(=O)C1=CC=CC=C1,PubChemPy,C=COC(=O)C1=CC=CC=C1,vinyl benzoate,C=COC(=O)c1ccccc1,148.16099999999997,13.459311772363636,2,1,26.3,0,2
+148,JPS_65,2.3541,P,C,propylene sulfide,CC1CS1,PubChemPy,CC1CS1,propylene sulfide,CC1CS1,74.148,18.504755298,0,0,0.0,0,1
+149,JPS_66,2.6946,P,C,N-benzyl-methacrylamide,c1ccccc1CNC(=O)C(C)C,Reference,c1ccccc1CNC(=O)C(C)C,N-benzyl-methacrylamide,CC(C)C(=O)NCc1ccccc1,177.247,13.624258776923076,3,1,29.1,1,1
+153,JPS_70,2.6435,P,C,"2,6-dichlorostyrene",C=CC1=C(C=CC=C1Cl)Cl,PubChemPy,C=CC1=C(C=CC=C1Cl)Cl,"2,6-dichlorostyrene",C=Cc1c(Cl)cccc1Cl,173.04199999999997,17.1984655552,1,1,0.0,0,0
+155,JPS_72,2.6928,P,C,"oxy-2,6-diphenyl 1,4-phenylene",c1(cccc(c1O)C)C,Reference,c1(cccc(c1O)C)C,"oxy-2,6-diphenyl 1,4-phenylene",Cc1cccc(C)c1O,122.16699999999999,13.563684993333332,0,1,20.23,1,1
+156,JPS_73,2.5224,P,C,p-xylylene,C=C1C=CC(=C)C=C1,PubChemPy,C=C1C=CC(=C)C=C1,p-xylylene,C=c1ccc(=C)cc1,104.15199999999999,13.007825032,0,1,0.0,0,0
+158,JPS_75,2.6263,P,C,N-vinyl carbazole,C=CN1C2=CC=CC=C2C3=CC=CC=C31,PubChemPy,C=CN1C2=CC=CC=C2C3=CC=CC=C31,N-vinyl carbazole,C=Cn1c2ccccc2c2ccccc21,193.24899999999997,12.8726099568,1,3,4.93,0,1
+159,JPS_76,2.5353,P,C,pentafluoropropyl acrylate,C(C)C(=O)OCC(F)(C(F)(F)F)F,Reference,C(C)C(=O)OCC(F)(C(F)(F)F)F,pentafluoropropyl acrylate,CCC(=O)OCC(F)(F)C(F)(F)F,206.10999999999996,15.848970812615384,3,0,26.3,0,2
+162,JPS_79,2.3483,P,C,2-ethoxyethyl acrylate,CCOCCOC(=O)C=C,PubChemPy,CCOCCOC(=O)C=C,2-ethoxyethyl acrylate,C=CC(=O)OCCOCC,144.17,14.4078644244,5,0,35.53,0,3
+167,AF_08,2.5933,P,D,2-chrolostyrene,C=CC1=CC=CC=C1Cl,PubChem,C=CC1=CC=CC=C1Cl,2-chrolostyrene,C=Cc1ccccc1Cl,138.59699999999998,15.335958655999999,1,1,0.0,0,0
+168,AF_09,2.5899,P,D,4-chrolostyrene,C=CC1=CC=C(C=C1)Cl,PubChem,C=CC1=CC=C(C=C1)Cl,4-chrolostyrene,C=Cc1ccc(Cl)cc1,138.597,15.335958655999999,1,1,0.0,0,0
+177,AF_27,2.3284,P,D,n-heptyl acrylate,CCCCCCCOC(=O)C=C,PubChemPy,CCCCCCCOC(=O)C=C,n-heptyl acrylate,C=CC(=O)OCCCCCCC,170.25199999999998,14.177556651333333,7,0,26.3,0,2
+181,AF_34,2.5185,P,D,n-butyl a-chloroacrylate,CCCCOC(=O)C(Cl)=C,ChemAxon,CCCCOC(=O)C(Cl)=C,n-butyl a-chloroacrylate,C=C(Cl)C(=O)OCCCC,162.61599999999996,16.2044757272,4,0,26.3,0,2
+182,AF_35,2.5198,P,D,heptafluoropropyl ethylene,FC(F)(F)C(F)(F)C(F)(F)C=C,ChemAxon,FC(F)(F)C(F)(F)C(F)(F)C=C,heptafluoropropyl ethylene,C=CC(F)(F)C(F)(F)C(F)(F)F,196.06499999999997,16.334358136333332,2,0,0.0,0,0
+184,AF_38,2.4456,P,D,[p-n-butylstyrene],CCCCC1=CC=C(C=C)C=C1,ChemAxon,CCCCC1=CC=C(C=C)C=C1,[p-n-butylstyrene],C=Cc1ccc(CCCC)cc1,160.26000000000002,13.343766709333332,4,1,0.0,0,0
+192,AF_59,2.5623,P,D,2-chloroethyl methyl acrylate,COC(=O)C(=C)CCCl,ChemAxon,COC(=O)C(=C)CCCl,2-chloroethyl methyl acrylate,C=C(CCCl)C(=O)OC,148.58899999999997,16.447678578666668,3,0,26.3,0,2
+199,AF_71,2.4983,P,D,"2,3,3,3-tetrafluoropropylene",FC(=C)C(F)(F)F,ChemAxon,FC(=C)C(F)(F)F,"2,3,3,3-tetrafluoropropylene",C=C(F)C(F)(F)F,114.04100000000001,16.287037563428573,0,0,0.0,0,0
+201,AF_73,2.5092,P,D,3-methyl-1-butene,CC(C)C=C,PubChemPy,CC(C)C=C,3-methyl-1-butene,C=CC(C)C,70.13499999999999,14.015650063999999,1,0,0.0,0,0
+202,AF_76,2.4232,P,D,"oxy-2,2-dichloromethyl trimethylene",CC(CO)(CCl)CCl,ChemAxon,CC(CO)(CCl)CCl,"oxy-2,2-dichloromethyl trimethylene",CC(CO)(CCl)CCl,157.04000000000002,19.5013587875,3,0,20.23,1,1
+203,AF_77,2.4314,P,D,vinyl isopropyl ether,CC(C)OC=C,PubChemPy,CC(C)OC=C,vinyl isopropyl ether,C=COC(C)C,86.134,14.34552749,2,0,9.23,0,1
+209,BT_003,2.433,P,E,isopropyl acrylate,CC(C)OC(=O)C=C,PubChemPy,CC(C)OC(=O)C=C,isopropyl acrylate,C=CC(=O)OC(C)C,114.14399999999998,14.258509945,2,0,26.3,0,2
+210,BT_069,2.6532,P,E,methyl chloroacrylate,COC(=O)C(=C)Cl,PubChemPy,COC(=O)C(=C)Cl,methyl chloroacrylate,C=C(Cl)C(=O)OC,120.53499999999998,17.14254386857143,1,0,26.3,0,2
+218,BR_06,2.5888,P,F,BMB-3T,"Cc1cc(C)c(B(c2ccc(s2)c2ccc(s2)c2ccc(s2)B(c2
+c(C)cc(C)cc2C)c2c(C)cc(C)cc2C)c2c(C)cc(C)c
+c2C)c(C)c1",Reference,Cc1cc(C)c(B(c2ccc(s2)c2ccc(s2)c2ccc(s2)B(c2c(C)cc(C)cc2C)c2c(C)cc(C)cc2C)c2c(C)cc(C)cc2C)c(C)c1,BMB-3T,Cc1cc(C)c(B(c2ccc(-c3ccc(-c4ccc(B(c5c(C)cc(C)cc5C)c5c(C)cc(C)cc5C)s4)s3)s2)c2c(C)cc(C)cc2C)c(C)c1,744.753,14.043888215094343,8,7,0.0,0,3
+219,BR_07,2.5798,P,F,BMB-2T,"Cc1cc(C)c(B(c2ccc(s2)c2ccc(s2)B(c2c(C)cc(C
+)cc2C)c2c(C)cc(C)cc2C)c2c(C)cc(C)cc2C)c(C)
+c1",Reference,Cc1cc(C)c(B(c2ccc(s2)c2ccc(s2)B(c2c(C)cc(C)cc2C)c2c(C)cc(C)cc2C)c2c(C)cc(C)cc2C)c(C)c1,BMB-2T,Cc1cc(C)c(B(c2ccc(-c3ccc(B(c4c(C)cc(C)cc4C)c4c(C)cc(C)cc4C)s3)s2)c2c(C)cc(C)cc2C)c(C)c1,662.626,13.798715715333335,7,6,0.0,0,2
+223,BR_11,2.5866,P,F,1-TNATA,c1ccc(cc1)N(c1ccc(cc1)N(c1ccc(cc1)N(c1ccccc1)c1cccc2ccccc12)c1ccc(cc1)N(c1ccccc1)c1cccc2ccccc12)c1cccc2ccccc12,Reference,c1ccc(cc1)N(c1ccc(cc1)N(c1ccc(cc1)N(c1ccccc1)c1cccc2ccccc12)c1ccc(cc1)N(c1ccccc1)c1cccc2ccccc12)c1cccc2ccccc12,1-TNATA,c1ccc(N(c2ccc(N(c3ccc(N(c4ccccc4)c4cccc5ccccc45)cc3)c3ccc(N(c4ccccc4)c4cccc5ccccc45)cc3)cc2)c2cccc3ccccc23)cc1,897.1380000000001,12.80554139337143,12,12,12.96,0,4
+224,BR_12,2.5599,P,F,(PHCZ,"c1ccc(cc1)n1c2ccccc2c2cc(ccc12)c1ccc2n(c3c
+cccc3)c3ccccc3c2c1",Reference,c1ccc(cc1)n1c2ccccc2c2cc(ccc12)c1ccc2n(c3ccccc3)c3ccccc3c2c1,(PHCZ,c1ccc(-n2c3ccccc3c3cc(-c4ccc5c(c4)c4ccccc4n5-c4ccccc4)ccc32)cc1,484.60200000000015,12.741946020210525,3,8,9.86,0,2
+227,BR_15,2.5611,P,F,m-PTDATA,"c1ccc(cc1)c1cccc(c1)N(c1ccccc1)c1ccc(cc1)N(
+c1ccc(cc1)N(c1ccccc1)c1cccc(c1)c1ccccc1)c1c
+cc(cc1)N(c1ccccc1)c1cccc(c1)c1ccccc1",Reference,c1ccc(cc1)c1cccc(c1)N(c1ccccc1)c1ccc(cc1)N(c1ccc(cc1)N(c1ccccc1)c1cccc(c1)c1ccccc1)c1ccc(cc1)N(c1ccccc1)c1cccc(c1)c1ccccc1,m-PTDATA,c1ccc(-c2cccc(N(c3ccccc3)c3ccc(N(c4ccc(N(c5ccccc5)c5cccc(-c6ccccc6)c5)cc4)c4ccc(N(c5ccccc5)c5cccc(-c6ccccc6)c5)cc4)cc3)c2)cc1,975.2520000000002,12.82151115431579,15,12,12.96,0,4
+242,BR_30,2.5038,P,F,TPTAB2,"c1cc(cs1)N(c1ccccc1)c1cc(cc(c1)N(c1ccsc1)c1
+ccccc1)N(c1ccsc1)c1ccccc1",Reference,c1cc(cs1)N(c1ccccc1)c1cc(cc(c1)N(c1ccsc1)c1ccccc1)N(c1ccsc1)c1ccccc1,TPTAB2,c1ccc(N(c2ccsc2)c2cc(N(c3ccccc3)c3ccsc3)cc(N(c3ccccc3)c3ccsc3)c2)cc1,597.8340000000002,14.217540734857142,9,7,9.72,0,6
+247,BR_35,2.5478,P,F,AODF2,"CCCCCCCCCC1(CCCCCCCC)c2cc(ccc2c2cc
+c(cc12)c1nnc(o1)c1ccc(cc1)N(C)C)c1nnc(o1)c
+1ccc(cc1)N(C)C",Reference,CCCCCCCCCC1(CCCCCCCC)c2cc(ccc2c2ccc(cc12)c1nnc(o1)c1ccc(cc1)N(C)C)c1nnc(o1)c1ccc(cc1)N(C)C,AODF2,CCCCCCCCCC1(CCCCCCCC)c2cc(-c3nnc(-c4ccc(N(C)C)cc4)o3)ccc2-c2ccc(-c3nnc(-c4ccc(N(C)C)cc4)o3)cc21,779.0859999999998,13.422300434896552,21,6,84.32,0,8
+248,BR_36,2.5944,P,F,ENPCA,"Cn1c2ccc(cc2c2cc(ccc12)N(c1ccccc1)c1cccc2
+ccccc12)N(c1ccccc1)c1cccc2ccccc12",Reference,Cn1c2ccc(cc2c2cc(ccc12)N(c1ccccc1)c1cccc2ccccc12)N(c1ccccc1)c1cccc2ccccc12,ENPCA,Cn1c2ccc(N(c3ccccc3)c3cccc4ccccc34)cc2c2cc(N(c3ccccc3)c3cccc4ccccc34)ccc21,615.7800000000002,12.818071834500001,6,9,11.41,0,3
+250,BR_38,2.6609,P,F,EFPPCA,"CC1(C)c2ccccc2c2ccc(cc12)n1c2ccc(cc2c2cc(
+ccc12)N(c1ccccc1)c1ccc2ccc3cccc4ccc1c2c34)
+N(c1ccccc1)c1ccc2ccc3cccc4ccc1c2c34",Reference,CC1(C)c2ccccc2c2ccc(cc12)n1c2ccc(cc2c2cc(ccc12)N(c1ccccc1)c1ccc2ccc3cccc4ccc1c2c34)N(c1ccccc1)c1ccc2ccc3cccc4ccc1c2c34,EFPPCA,CC1(C)c2ccccc2-c2ccc(-n3c4ccc(N(c5ccccc5)c5ccc6ccc7cccc8ccc5c6c78)cc4c4cc(N(c5ccccc5)c5ccc6ccc7cccc8ccc5c6c78)ccc43)cc21,942.1779999999998,12.721310790594593,7,15,11.41,0,3
+259,BR_47,2.6191,P,F,PATB4e,"CCN1Cc2ccccc2c2cc(ccc12)c1ccc(s1)c1cc(cc(
+c1)c1ccc(s1)c1ccc2N(C)Cc3ccccc3c2c1)c1ccc(
+s1)c1ccc2N(C)Cc3ccccc3c2c1",Reference,CCN1Cc2ccccc2c2cc(ccc12)c1ccc(s1)c1cc(cc(c1)c1ccc(s1)c1ccc2N(C)Cc3ccccc3c2c1)c1ccc(s1)c1ccc2N(C)Cc3ccccc3c2c1,PATB4e,CCN1Cc2ccccc2-c2cc(-c3ccc(-c4cc(-c5ccc(-c6ccc7c(c6)-c6ccccc6CN7C)s5)cc(-c5ccc(-c6ccc7c(c6)-c6ccccc6CN7C)s5)c4)s3)ccc21,918.2689999999999,13.69094345528358,7,10,9.72,0,6
+261,BR_49,2.5658,P,F,NPB,"c1ccc(cc1)N(c1ccc(cc1)c1ccc(cc1)N(c1ccccc1)
+c1cccc2ccccc12)c1cccc2ccccc12",Reference,c1ccc(cc1)N(c1ccc(cc1)c1ccc(cc1)N(c1ccccc1)c1cccc2ccccc12)c1cccc2ccccc12,NPB,c1ccc(N(c2ccc(-c3ccc(N(c4ccccc4)c4cccc5ccccc45)cc3)cc2)c2cccc3ccccc23)cc1,588.7540000000002,12.788185848347824,7,8,6.48,0,2
+268,BR_56,2.5428,P,F,o-MTDATA,Cc1ccccc1N(c1ccccc1)c1ccc(cc1)N(c1ccc(cc1)N(c1ccccc1)c1ccccc1C)c1ccc(cc1)N(c1ccccc1)c1ccccc1C,Reference,Cc1ccccc1N(c1ccccc1)c1ccc(cc1)N(c1ccc(cc1)N(c1ccccc1)c1ccccc1C)c1ccc(cc1)N(c1ccccc1)c1ccccc1C,o-MTDATA,Cc1ccccc1N(c1ccccc1)c1ccc(N(c2ccc(N(c3ccccc3)c3ccccc3C)cc2)c2ccc(N(c3ccccc3)c3ccccc3C)cc2)cc1,789.0390000000001,12.924391762885245,12,9,12.96,0,4
+271,BR_59,2.5775,P,F,m-MTDAPB,"Cc1cccc(c1)N(c1ccccc1)c1ccc(cc1)c1cc(cc(c1)
+c1ccc(cc1)N(c1ccccc1)c1cccc(C)c1)c1ccc(cc1)
+N(c1ccccc1)c1cccc(C)c1",Reference,Cc1cccc(c1)N(c1ccccc1)c1ccc(cc1)c1cc(cc(c1)c1ccc(cc1)N(c1ccccc1)c1cccc(C)c1)c1ccc(cc1)N(c1ccccc1)c1cccc(C)c1,m-MTDAPB,Cc1cccc(N(c2ccccc2)c2ccc(-c3cc(-c4ccc(N(c5ccccc5)c5cccc(C)c5)cc4)cc(-c4ccc(N(c5ccccc5)c5cccc(C)c5)cc4)c3)cc2)c1,850.1220000000001,12.869822706545452,12,10,9.72,0,3
+272,BR_60,2.5821,P,F,o-MTDAPB,"Cc1ccccc1N(c1ccccc1)c1ccc(cc1)c1cc(cc(c1)c
+1ccc(cc1)N(c1ccccc1)c1ccccc1C)c1ccc(cc1)N(
+c1ccccc1)c1ccccc1C",Reference,Cc1ccccc1N(c1ccccc1)c1ccc(cc1)c1cc(cc(c1)c1ccc(cc1)N(c1ccccc1)c1ccccc1C)c1ccc(cc1)N(c1ccccc1)c1ccccc1C,o-MTDAPB,Cc1ccccc1N(c1ccccc1)c1ccc(-c2cc(-c3ccc(N(c4ccccc4)c4ccccc4C)cc3)cc(-c3ccc(N(c4ccccc4)c4ccccc4C)cc3)c2)cc1,850.1220000000001,12.869822706545452,12,10,9.72,0,3
+274,BR_62,2.5955,P,F,TDAPB,"c1ccc(cc1)N(c1ccccc1)c1ccc(cc1)c1cc(cc(c1)c
+1ccc(cc1)N(c1ccccc1)c1ccccc1)c1ccc(cc1)N(c
+1ccccc1)c1ccccc1",Reference,c1ccc(cc1)N(c1ccccc1)c1ccc(cc1)c1cc(cc(c1)c1ccc(cc1)N(c1ccccc1)c1ccccc1)c1ccc(cc1)N(c1ccccc1)c1ccccc1,TDAPB,c1ccc(N(c2ccccc2)c2ccc(-c3cc(-c4ccc(N(c5ccccc5)c5ccccc5)cc4)cc(-c4ccc(N(c5ccccc5)c5ccccc5)cc4)c3)cc2)cc1,808.0410000000002,12.815259499047619,12,10,9.72,0,3
+275,BR_63,2.6702,P,F,TBPSF,"CC(C)(C)c1ccc(cc1)c1ccc(cc1)c1ccc2c3ccc(cc
+3C3(c4ccccc4c4ccccc34)c2c1)c1ccc(cc1)c1ccc
+(cc1)C(C)(C)C",Reference,CC(C)(C)c1ccc(cc1)c1ccc(cc1)c1ccc2c3ccc(cc3C3(c4ccccc4c4ccccc34)c2c1)c1ccc(cc1)c1ccc(cc1)C(C)(C)C,TBPSF,CC(C)(C)c1ccc(-c2ccc(-c3ccc4c(c3)C3(c5ccccc5-c5ccccc53)c3cc(-c5ccc(-c6ccc(C(C)(C)C)cc6)cc5)ccc3-4)cc2)cc1,733.0110000000002,12.848694763789473,4,8,0.0,0,0
+284,BWN_104,2.3711,P,H,2-heptyl acrylate,CCCCCCCC(=C)C([O-])=O,ChemAxon,CCCCCCCC(=C)C([O-])=O,2-heptyl acrylate,C=C(CCCCCCC)C(=O)[O-],169.244,14.0936169469925,7,0,40.129999999999995,0,2
+285,BWN_105,2.3784,P,H,6-methyl-1-heptene,CC(C)CCCC=C,PubChemPy,CC(C)CCCC=C,6-methyl-1-heptene,C=CCCCC(C)C,112.21599999999998,14.015650063999999,4,0,0.0,0,0
+288,BWN_109,2.6355,P,H,alpha-vinyl napthalene,C=CC1=CC=CC2=CC=CC=C21,PubChem,C=CC1=CC=CC2=CC=CC=C21,alpha-vinyl napthalene,C=Cc1cccc2ccccc12,154.212,12.839854193333332,1,2,0.0,0,0
+289,BWN_110,2.6274,P,H,beta-vinyl napthalene,C=CC1=CC2=CC=CC=C2C=C1,PubChem,C=CC1=CC2=CC=CC=C2C=C1,beta-vinyl napthalene,C=Cc1ccc2ccccc2c1,154.212,12.839854193333332,1,2,0.0,0,0
+300,BWN_122,2.4698,P,H,p-n-propoxymethyl styrene,CCCOCC1=CC=C(C=C)C=C1,ChemAxon,CCCOCC1=CC=C(C=C)C=C1,p-n-propoxymethyl styrene,C=Cc1ccc(COCCC)cc1,176.259,13.547701164,5,1,9.23,0,1
+304,BWN_127,2.4983,P,H,11-aminoundecanoic acid,C(CCCCCN)CCCCC(=O)O,PubChemPy,C(CCCCCN)CCCCC(=O)O,11-aminoundecanoic acid,NCCCCCCCCCCC(=O)O,201.30999999999997,14.36949135542857,10,0,63.32000000000001,2,2
+307,BWN_131,2.5105,P,H,9-aminononanoic acid,C(CCCCN)CCCC(=O)O,PubChemPy,C(CCCCN)CCCC(=O)O,9-aminononanoic acid,NCCCCCCCCC(=O)O,173.256,14.428464904,8,0,63.32000000000001,2,2
+315,BWN_141,2.5441,P,H,p-methoxymethyl styrene,COCC1=CC=C(C=C)C=C1,ChemAxon,COCC1=CC=C(C=C)C=C1,p-methoxymethyl styrene,C=Cc1ccc(COC)cc1,148.205,13.462619545818182,3,1,9.23,0,1
+316,BWN_143,2.5551,P,H,p-sec-butyl styrene,CCC(C)C1=CC=C(C=C)C=C1,ChemAxon,CCC(C)C1=CC=C(C=C)C=C1,p-sec-butyl styrene,C=Cc1ccc(C(C)CC)cc1,160.26,13.343766709333332,3,1,0.0,0,0
+321,BWN_153,2.5682,P,H,m-methyl styrene,CC1=CC(=CC=C1)C=C,PubChemPy,CC1=CC(=CC=C1)C=C,m-methyl styrene,C=Cc1cccc(C)c1,118.17899999999997,13.11980559111111,1,1,0.0,0,0
+333,BWN_166,2.5877,P,H,3-methyl-4-chloro styrene,CC1=C(Cl)C=CC(C=C)=C1,ChemAxon,CC1=C(Cl)C=CC(C=C)=C1,3-methyl-4-chloro styrene,C=Cc1ccc(Cl)c(C)c1,152.624,15.203927796799999,1,1,0.0,0,0
+337,BWN_173,2.5966,P,H,3-fluoro-4-chloro styrene,FC1=C(Cl)C=CC(C=C)=C1,ChemAxon,FC1=C(Cl)C=CC(C=C)=C1,3-fluoro-4-chloro styrene,C=Cc1ccc(Cl)c(F)c1,156.587,15.6014206092,1,1,0.0,0,0
+339,BWN_175,2.6031,P,H,"3,4-dichlorostyrene",C=CC1=CC(=C(C=C1)Cl)Cl,PubChemPy,C=CC1=CC(=C(C=C1)Cl)Cl,"3,4-dichlorostyrene",C=Cc1ccc(Cl)c(Cl)c1,173.042,17.1984655552,1,1,0.0,0,0
+340,BWN_176,2.6042,P,H,p-tert-butyl styrene,CC(C)(C)C1=CC=C(C=C)C=C1,ChemAxon,CC(C)(C)C1=CC=C(C=C)C=C1,p-tert-butyl styrene,C=Cc1ccc(C(C)(C)C)cc1,160.26,13.343766709333332,1,1,0.0,0,0
+341,BWN_177,2.6085,P,H,"2,4-dichloro styrene",ClC1=CC(Cl)=C(C=C)C=C1,ChemAxon,ClC1=CC(Cl)=C(C=C)C=C1,"2,4-dichloro styrene",C=Cc1ccc(Cl)cc1Cl,173.042,17.1984655552,1,1,0.0,0,0
+342,BWN_179,2.6138,P,H,p-phenyl styrene,C=CC1=CC=C(C=C1)C1=CC=CC=C1,ChemAxon,C=CC1=CC=C(C=C1)C1=CC=CC=C1,p-phenyl styrene,C=Cc1ccc(-c2ccccc2)cc1,180.25,12.86385002742857,2,2,0.0,0,0
+348,BWN_184,2.6212,P,H,2-methyl-4-chloro styrene,CC1=C(C=C)C=CC(Cl)=C1,ChemAxon,CC1=C(C=C)C=CC(Cl)=C1,2-methyl-4-chloro styrene,C=Cc1ccc(Cl)cc1C,152.624,15.203927796799999,1,1,0.0,0,0
+355,BWN_191,2.4065,P,H,Perfluoropolymer 2,"FC(F)C(F)(F)C(F)(F)C(F)(F)c1ncnc(n1)C(F)(F
+)C(F)(F)OC(F)(F)F",PubChem,FC(F)C(F)(F)C(F)(F)C(F)(F)c1ncnc(n1)C(F)(F)C(F)(F)OC(F)(F)F,Perfluoropolymer 2,FC(F)C(F)(F)C(F)(F)C(F)(F)c1ncnc(C(F)(F)C(F)(F)OC(F)(F)F)n1,465.11600000000004,16.03433913737931,7,1,47.900000000000006,0,4
+363,BWN_200,2.5185,P,H,hexamethylene adipamide,C1CCCN(CC1)C(=O)CCCCC(=O)N,PubChemPy,C1CCCN(CC1)C(=O)CCCCC(=O)N,hexamethylene adipamide,NC(=O)CCCCC(=O)N1CCCCCC1,226.31999999999994,14.1355079965,5,0,63.400000000000006,1,2
+365,BWN_204,2.5599,P,H,cyano-p-xylylene,Cc1cc(C#N)c(C)cc1,PubChem,Cc1cc(C#N)c(C)cc1,cyano-p-xylylene,Cc1ccc(C)c(C#N)c1,131.17800000000003,13.1073499288,0,1,23.79,0,1
+367,BWN_206,2.5717,P,H,"2,5-dimethyl-p-xylylene",Cc1cc(C)c(C)cc1C,ChemAxon,Cc1cc(C)c(C)cc1C,"2,5-dimethyl-p-xylylene",Cc1cc(C)c(C)cc1C,134.22199999999998,13.4109550448,0,1,0.0,0,0
+375,BWN_214,2.6232,P,H,methane bis[4-phenyl] carbonate,Oc1ccc(Cc2ccc(OC=O)cc2)cc1,Reference,Oc1ccc(Cc2ccc(OC=O)cc2)cc1,methane bis[4-phenyl] carbonate,O=COc1ccc(Cc2ccc(O)cc2)cc1,228.247,13.416390837882354,4,2,46.53,1,3
+387,BWN_227,2.683,P,H,Polyetherimide,"Oc1ccc(Sc2ccc(Oc3cc4c(cc3)C(=O)N(C4=O)c
+3cccc(c3)N3C(=O)c4ccccc4C3=O)cc2)cc1",Reference,Oc1ccc(Sc2ccc(Oc3cc4c(cc3)C(=O)N(C4=O)c3cccc(c3)N3C(=O)c4ccccc4C3=O)cc2)cc1,Polyetherimide,O=C1c2ccccc2C(=O)N1c1cccc(N2C(=O)c3ccc(Oc4ccc(Sc5ccc(O)cc5)cc4)cc3C2=O)c1,584.6090000000002,13.58381877581395,6,5,104.22,1,7
+390,BWN_231,2.7093,P,H,Polyetherimide,"Oc1ccc(cc1)C(=O)c1ccc(Oc2cc3c(cc2)C(=O)N
+(C3=O)c2cccc(c2)N2C(=O)c3ccccc3C2=O)cc1",Reference,Oc1ccc(cc1)C(=O)c1ccc(Oc2cc3c(cc2)C(=O)N(C3=O)c2cccc(c2)N2C(=O)c3ccccc3C2=O)cc1,Polyetherimide,O=C(c1ccc(O)cc1)c1ccc(Oc2ccc3c(c2)C(=O)N(c2cccc(N4C(=O)c5ccccc5C4=O)c2)C3=O)cc1,580.5520000000002,13.184705704090907,6,5,121.28999999999999,1,7
+395,BWN_236,2.7582,P,H,Polyquinoline,C1Cc2c1cccccnc1c2cc(cc1)Oc1ccc2c(c1)c(c1ccccc1)cc(n2)c1ccccc1,Reference,C1Cc2c1cccccnc1c2cc(cc1)Oc1ccc2c(c1)c(c1ccccc1)cc(n2)c1ccccc1,Polyquinoline,c1ccc(-c2cc(-c3ccccc3)c3cc(Oc4ccc5ncccccc6c(c5c4)CC6)ccc3n2)cc1,502.61700000000025,12.877038806461538,4,6,35.010000000000005,0,3
+396,BWN_237,2.7634,P,H,Polyphenolphthalein,C(=O)c1ccc(cc1)C(CCCCCC1C(=O)O1)c1ccc(cc1)C(=O)Oc1ccc(cc1)c1ccc(cc1)O,Reference,C(=O)c1ccc(cc1)C(CCCCCC1C(=O)O1)c1ccc(cc1)C(=O)Oc1ccc(cc1)c1ccc(cc1)O,Polyphenolphthalein,O=Cc1ccc(C(CCCCCC2OC2=O)c2ccc(C(=O)Oc3ccc(-c4ccc(O)cc4)cc3)cc2)cc1,534.6080000000002,13.355105966999997,12,4,93.2,1,6
+402,BWN_243,2.8182,P,H,Polyphenolphthalein,"C(=O)c1ccc(cc1)C(CCCCCC1C(=O)O1)c1ccc
+(cc1)C(=O)Nc1ccc(cc1)C(CCCCCC1C(=O)O1
+)c1ccc(cc1)N",Reference,C(=O)c1ccc(cc1)C(CCCCCC1C(=O)O1)c1ccc(cc1)C(=O)Nc1ccc(cc1)C(CCCCCC1C(=O)O1)c1ccc(cc1)N,Polyphenolphthalein,Nc1ccc(C(CCCCCC2OC2=O)c2ccc(NC(=O)c3ccc(C(CCCCCC4OC4=O)c4ccc(C=O)cc4)cc3)cc2)cc1,672.8220000000005,13.44639874256,19,4,131.39,2,7
+403,BWN_244,2.8248,P,H,Polytricyclic,"c1c2c1ccccc[nH]c1c([nH]2)cc2c(c1)nc(c(n2)c1
+ccccc1)c1ccccc1",Reference,c1c2c1ccccc[nH]c1c([nH]2)cc2c(c1)nc(c(n2)c1ccccc1)c1ccccc1,Polytricyclic,c1cc[nH]c2cc3nc(-c4ccccc4)c(-c4ccccc4)nc3cc2[nH]c2cc-2cc1,412.49600000000015,12.880274895000001,2,4,57.36,2,2
+406,BWN_249,2.3424,P,H,oxycarbonyl-3-methylpentamethylene,C(=O)CCC(C)CCO,SpectraBase,C(=O)CCC(C)CCO,oxycarbonyl-3-methylpentamethylene,CC(CCO)CCC=O,130.18699999999998,14.455486632,5,0,37.3,1,2
+408,BWN_251,2.5276,P,H,"ethylene-1,4-naphthalenedicarboxylate",C(=O)c1c2c(cccc2)c(cc1)C(=O)OCCO,Reference,C(=O)c1c2c(cccc2)c(cc1)C(=O)OCCO,"ethylene-1,4-naphthalenedicarboxylate",O=Cc1ccc(C(=O)OCCO)c2ccccc12,244.24599999999998,13.559642159111112,4,2,63.60000000000001,1,4
+410,BWN_253,2.5502,P,H,ethylene oxybenzoate,"C1COC2=C(C=CC1=C2)C(=O)OOC(=O)C3=
+CC=CC=C3",PubChemPy,C1COC2=C(C=CC1=C2)C(=O)OOC(=O)C3=CC=CC=C3,ethylene oxybenzoate,O=C(OOC(=O)c1ccc2cc1OCC2)c1ccccc1,284.26699999999994,13.527070165904764,2,2,61.83,0,5
+411,BWN_254,2.5563,P,H,thio [p-phenylene],c1ccc(cc1)S,PubChem,c1ccc(cc1)S,thio [p-phenylene],Sc1ccccc1,110.18099999999997,15.717003027428571,0,1,0.0,1,1
+412,BWN_255,2.5988,P,H,"ethylene-2,6-naphthalenedicarboxylate",C(=O)c1ccc2cc(ccc2c1)C(=O)OCCO,Reference,C(=O)c1ccc2cc(ccc2c1)C(=O)OCCO,"ethylene-2,6-naphthalenedicarboxylate",O=Cc1ccc2cc(C(=O)OCCO)ccc2c1,244.24599999999995,13.559642159111112,4,2,63.60000000000001,1,4
+421,BWN_43,2.2788,P,H,oxytetramethylene,[H]OCCCC,ChemAxon,[H]OCCCC,oxytetramethylene,CCCCO,74.12299999999999,14.814632988,2,0,20.23,1,1
+433,CAO_008,2.3997,P,I,ethylacrylate,CCC(=C)C([O-])=O,ChemAxon,CCC(=C)C([O-])=O,ethylacrylate,C=C(CC)C(=O)[O-],99.10899999999998,14.14930757770143,2,0,40.129999999999995,0,2
+434,CAO_009,2.4031,P,I,sec-butylacrylate,CCC1=CC(=CC(=C1)C)C,PubChemPy,CCC1=CC(=CC(=C1)C)C,sec-butylacrylate,CCc1cc(C)cc(C)c1,134.22199999999998,13.4109550448,1,1,0.0,0,0
+440,CAO_035,2.5635,P,I,ethylchloroacrylate,CCC(=C)C(Cl)=O,ChemAxon,CCC(=C)C(Cl)=O,ethylchloroacrylate,C=C(CC)C(=O)Cl,118.56299999999999,16.859791789142857,2,0,17.07,0,1
+443,CAO_038,2.5944,P,I,phenylmethylacrylate,[O-]C(=O)C(=C)CC1=CC=CC=C1,ChemAxon,[O-]C(=O)C(=C)CC1=CC=CC=C1,phenylmethylacrylate,C=C(Cc1ccccc1)C(=O)[O-],161.17999999999995,13.421733592325834,3,1,40.129999999999995,0,2
+444,CAO_044,2.5378,P,I,ethyleneterephthalate,C=C1OC(=O)C2=CC=C(C=C2)C(=O)O1,PubChemPy,C=C1OC(=O)C2=CC=C(C=C2)C(=O)O1,ethyleneterephthalate,C=C1OC(=O)c2ccc(cc2)C(=O)O1,190.15399999999997,13.573329190857143,0,1,52.60000000000001,0,4
+446,CAO_054,2.3345,P,I,n-nonylacrylate,CCCCCCCCCC(=C)C([O-])=O,ChemAxon,CCCCCCCCCC(=C)C([O-])=O,n-nonylacrylate,C=C(CCCCCCCCC)C(=O)[O-],197.29799999999997,14.082478820850714,9,0,40.129999999999995,0,2
+449,CAO_063,2.5024,P,I,"3,3-dimethylbutylmethacrylate",CC(=CCCC(C)(C)C)C([O-])=O,ChemAxon,CC(=CCCC(C)(C)C)C([O-])=O,"3,3-dimethylbutylmethacrylate",CC(=CCCC(C)(C)C)C(=O)[O-],169.244,14.0936169469925,3,0,40.129999999999995,0,2
+454,CAO_080,2.4829,P,I,vinylchloroacetate,C=CC(C(=O)[O-])Cl,PubChemPy,C=CC(C(=O)[O-])Cl,vinylchloroacetate,C=CC(Cl)C(=O)[O-],119.52699999999999,16.99864723255857,2,0,40.129999999999995,0,2
+461,FL_15,2.3841,P,K,tridecyl methacrylate,CCCCCCCCCCCCCOC(=O)C(=C)C,PubChemPy,CCCCCCCCCCCCCOC(=O)C(=C)C,tridecyl methacrylate,C=C(C)C(=O)OCCCCCCCCCCCCC,268.44099999999986,14.117906856,13,0,26.3,0,2
+466,FL_20,2.4268,P,K,dimethylaminopropyl methacrylate,CN(C)CCCOC(=O)C(C)=C,ChemAxon,CN(C)CCCOC(=O)C(C)=C,dimethylaminopropyl methacrylate,C=C(C)C(=O)OCCCN(C)C,171.23999999999998,14.260494065333333,5,0,29.54,0,3
+475,FL_35,2.3142,P,K,2-propylheptyl acrylate,CCCCCC(CCC)COC(=O)C=C,PubChemPy,CCCCCC(CCC)COC(=O)C=C,2-propylheptyl acrylate,C=CC(=O)OCC(CCC)CCCCC,212.33299999999994,14.145175333866666,9,0,26.3,0,2
+476,FL_36,2.3121,P,K,isononyl acrylate,CC(C)CCCCCCOC(=O)C=C,PubChemPy,CC(C)CCCCCCOC(=O)C=C,isononyl acrylate,C=CC(=O)OCCCCCCC(C)C,198.30599999999998,14.154427138857143,8,0,26.3,0,2
+477,FL_38,2.3205,P,K,heptadecyl acrylate,CCCCCCCCCCCCCCCCCOC(=O)C=C,PubChemPy,CCCCCCCCCCCCCCCCCOC(=O)C=C,heptadecyl acrylate,C=CC(=O)OCCCCCCCCCCCCCCCCC,310.52200000000005,14.103962747999999,17,0,26.3,0,2
+483,KE_09,2.4564,P,L,"1H,1H,7H-dodecafluoroheptyl
+methacrylate","CC(=C)C(=O)OCC(C(C(C(C(C(F)F)(F)F)(F)F
+)(F)F)(F)F)(F)F",PubChemPy,CC(=C)C(=O)OCC(C(C(C(C(C(F)F)(F)F)(F)F)(F)F)(F)F)(F)F,"1H,1H,7H-dodecafluoroheptylmethacrylate",C=C(C)C(=O)OCC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)F,400.1589999999999,16.00133072544,8,0,26.3,0,2
+489,WL07_08,2.4955,P,M,N-isodecylacrylamide,CC(C)CCCCCCCNC(=O)C=C,ChemAxon,CC(C)CCCCCCCNC(=O)C=C,N-isodecylacrylamide,C=CC(=O)NCCCCCCCC(C)C,211.34899999999996,14.079574294666665,9,0,29.1,1,1
+493,WL07_12,2.6053,P,M,N-isopropylacrylamide,CC(C)NC(=O)C=C,PubChemPy,CC(C)NC(=O)C=C,N-isopropylacrylamide,C=CC(=O)NC(C)C,113.15999999999998,14.1355079965,2,0,29.1,1,1
+495,WL07_14,2.6561,P,M,N-methyl-N-phenylacrylamide,CN(C1=CC=CC=C1)C(=O)C=C,PubChemPy,CN(C1=CC=CC=C1)C(=O)C=C,N-methyl-N-phenylacrylamide,C=CC(=O)N(C)c1ccccc1,161.204,13.423671997666666,2,1,20.310000000000002,0,1
+497,WL07_17,2.5809,P,M,N-piperidylacrylamide,C=CC(=O)NN1CCCCC1,ChemAxon,C=CC(=O)NN1CCCCC1,N-piperidylacrylamide,C=CC(=O)NN1CCCCC1,154.213,14.010055733454545,2,0,32.34,1,2
+499,WL07_19,2.6444,P,M,"4-
+ethoxycarbonylphenylmethacrylamide",CCOC(=O)C1=CC=C(NC(=O)C(C)=C)C=C1,ChemAxon,CCOC(=O)C1=CC=C(NC(=O)C(C)=C)C=C1,4-ethoxycarbonylphenylmethacrylamide,C=C(C)C(=O)Nc1ccc(C(=O)OCC)cc1,233.26699999999994,13.712070196470588,4,1,55.400000000000006,1,3
+505,WL09_006,2.5366,P,N,4-tertbutylphenyl acrylate,CC(C)(C)C1=CC=C(OC(=O)C=C)C=C1,ChemAxon,CC(C)(C)C1=CC=C(OC(=O)C=C)C=C1,4-tertbutylphenyl acrylate,C=CC(=O)Oc1ccc(C(C)(C)C)cc1,204.26899999999998,13.607668650133332,2,1,26.3,0,2
+506,WL09_007,2.5132,P,N,2-chlorophenyl acrylate,ClC1=C(OC(=O)C=C)C=CC=C1,ChemAxon,ClC1=C(OC(=O)C=C)C=CC=C1,2-chlorophenyl acrylate,C=CC(=O)Oc1ccccc1Cl,182.60599999999997,15.167788095333334,2,1,26.3,0,2
+508,WL09_010,2.5105,P,N,2-cyanoisobutyl acrylate,CC(C)(COC(=O)C=C)C#N,ChemAxon,CC(C)(COC(=O)C=C)C#N,2-cyanoisobutyl acrylate,C=CC(=O)OCC(C)(C)C#N,153.18099999999998,13.916270781090908,3,0,50.09,0,3
+509,WL09_011,2.4425,P,N,2-cyanoethyl acrylate,C=CC(=O)OCCC#N,PubChemPy,C=CC(=O)OCCC#N,2-cyanoethyl acrylate,C=CC(=O)OCCC#N,125.127,13.894186496,3,0,50.09,0,3
+513,WL09_015,2.4116,P,N,"1,3-dimethylbutyl acrylate",CC(C)CC(C)OC(=O)C=C,PubChemPy,CC(C)CC(C)OC(=O)C=C,"1,3-dimethylbutyl acrylate",C=CC(=O)OC(C)CC(C)C,156.22499999999997,14.192275432,4,0,26.3,0,2
+515,WL09_017,2.4814,P,N,2-ethoxyl-carbonyl-phenyl acrylate,CCOC(=O)C1=C(OC(=O)C=C)C=CC=C1,ChemAxon,CCOC(=O)C1=C(OC(=O)C=C)C=CC=C1,2-ethoxyl-carbonyl-phenyl acrylate,C=CC(=O)Oc1ccccc1C(=O)OCC,220.22399999999993,13.754597429,4,1,52.60000000000001,0,4
+517,WL09_019,2.3385,P,N,3-ethoxypropyl acrylate,CCOCCCOC(=O)C=C,ChemAxon,CCOCCCOC(=O)C=C,3-ethoxypropyl acrylate,C=CC(=O)OCCCOCC,158.19699999999997,14.372208573454545,6,0,35.53,0,3
+524,WL09_030,2.3365,P,N,3-methoxybutyl acrylate,CC(CCOC(=O)C=C)OC,PubChemPy,CC(CCOC(=O)C=C)OC,3-methoxybutyl acrylate,C=CC(=O)OCCC(C)OC,158.19699999999997,14.372208573454545,5,0,35.53,0,3
+539,WL09_046,2.4728,P,N,tetradecyl acrylate,CCCCCCCCCCCCCCOC(=O)C=C,PubChemPy,CCCCCCCCCCCCCCOC(=O)C=C,tetradecyl acrylate,C=CC(=O)OCCCCCCCCCCCCCC,268.4409999999999,14.117906856,14,0,26.3,0,2
+542,WL09_049,2.3075,P,N,5-thiahexyl acrylate,CSCCCCOC(=O)C=C,ChemAxon,CSCCCCOC(=O)C=C,5-thiahexyl acrylate,C=CC(=O)OCCCCSC,174.265,15.824677335272726,6,0,26.3,0,3
+545,WL09_052,2.5119,P,N,o-tolyl acrylate,CC1=C(OC(=O)C=C)C=CC=C1,ChemAxon,CC1=C(OC(=O)C=C)C=CC=C1,o-tolyl acrylate,C=CC(=O)Oc1ccccc1C,162.18799999999996,13.505673296666666,2,1,26.3,0,2
+550,WL09_059,2.5224,P,N,"2,4-dichlorophenyl acrylate",C=CC(=O)OC1=C(C=C(C=C1)Cl)Cl,PubChemPy,C=CC(=O)OC1=C(C=C(C=C1)Cl)Cl,"2,4-dichlorophenyl acrylate",C=CC(=O)Oc1ccc(Cl)cc1Cl,217.051,16.613421907076923,2,1,26.3,0,2
+552,WL09_061,2.3979,P,N,5-cyano-3-oxapentyl acrylate,C=CC(=O)OCCOCCC#N,ChemAxon,C=CC(=O)OCCOCCC#N,5-cyano-3-oxapentyl acrylate,C=CC(=O)OCCOCCC#N,169.17999999999998,14.089491101,6,0,59.32,0,4
+554,WL09_063,2.4914,P,N,4-ethoxyl-carbonyl-phenyl acrylate,CCOC(=O)C1=CC=C(OC(=O)C=C)C=C1,ChemAxon,CCOC(=O)C1=CC=C(OC(=O)C=C)C=C1,4-ethoxyl-carbonyl-phenyl acrylate,C=CC(=O)Oc1ccc(C(=O)OCC)cc1,220.22399999999996,13.754597429,4,1,52.60000000000001,0,4
+556,WL09_066,2.3579,P,N,"5,5,6,6,7,7,7-heptafluoro-3-oxaheptyl
+acrylate",FC(F)(F)C(F)(F)C(F)(F)COCCOC(=O)C=C,ChemAxon,FC(F)(F)C(F)(F)C(F)(F)COCCOC(=O)C=C,"5,5,6,6,7,7,7-heptafluoro-3-oxaheptylacrylate",C=CC(=O)OCCOCC(F)(F)C(F)(F)C(F)(F)F,298.15399999999994,15.68652587831579,7,0,35.53,0,3
+561,WL09_076,2.3674,P,N,"7,7,8,8-tetrafluoro-3,6-dioxaoctylacrylate",FC(F)C(F)(F)OCCOCCOC(=O)C=C,ChemAxon,FC(F)C(F)(F)OCCOCCOC(=O)C=C,"7,7,8,8-tetrafluoro-3,6-dioxaoctylacrylate",C=CC(=O)OCCOCCOC(F)(F)C(F)F,260.18299999999994,15.298068926117647,9,0,44.760000000000005,0,4
+562,WL09_077,2.2945,P,N,4-thiahexyl acrylate,CCSCCCOC(=O)C=C,ChemAxon,CCSCCCOC(=O)C=C,4-thiahexyl acrylate,C=CC(=O)OCCCSCC,174.265,15.824677335272726,6,0,26.3,0,3
+567,WL09_082,2.5694,P,N,4-benzoylstyrene,C=CC1=CC=C(C=C1)C(=O)C1=CC=CC=C1,ChemAxon,C=CC1=CC=C(C=C1)C(=O)C1=CC=CC=C1,4-benzoylstyrene,C=Cc1ccc(C(=O)c2ccccc2)cc1,208.26000000000002,13.00555093775,3,2,17.07,0,1
+568,WL09_083,2.5302,P,N,2-butoxycarbonylstyrene,CCCCOC(=O)C1=C(C=C)C=CC=C1,ChemAxon,CCCCOC(=O)C1=C(C=C)C=CC=C1,2-butoxycarbonylstyrene,C=Cc1ccccc1C(=O)OCCCC,204.26899999999992,13.607668650133332,5,1,26.3,0,2
+571,WL09_088,2.574,P,N,4-diethylcarbamoylstyrene,CCN(CC)C(=O)C1=CC=C(C=C)C=C1,ChemAxon,CCN(CC)C(=O)C1=CC=C(C=C)C=C1,4-diethylcarbamoylstyrene,C=Cc1ccc(C(=O)N(CC)CC)cc1,203.28499999999997,13.542067610933334,4,1,20.310000000000002,0,1
+601,WL06_26,2.4518,P,O,pentyl methacrylate,CCCCCOC(=O)C(=C)C,PubChemPy,CCCCCOC(=O)C(=C)C,pentyl methacrylate,C=C(C)C(=O)OCCCCC,156.22499999999997,14.192275432,5,0,26.3,0,2
+605,JAM_02,2.5541,P,P,aniline,C1=CC=C(C=C1)N,PubChemPy,C1=CC=C(C=C1)N,aniline,Nc1ccccc1,93.12899999999999,13.293978460571427,0,1,26.02,1,1
+610,JAM_07,2.6458,P,P,meta-phenylene diamine,C1=CC(=CC(=C1)N)N,PubChemPy,C1=CC(=CC(=C1)N)N,meta-phenylene diamine,Nc1cccc(N)c1,108.144,13.508593531999999,0,1,52.04,2,2
+611,JAM_08,2.6485,P,P,"4,4'-methylenebis(3-chloro-2,6-
+diethylaniline","CCC1=CC(=C(C(=C1N)CC)Cl)CC2=C(C(=C(
+C(=C2)CC)N)CC)Cl",PubChemPy,CCC1=CC(=C(C(=C1N)CC)Cl)CC2=C(C(=C(C(=C2)CC)N)CC)Cl,"4,4'-methylenebis(3-chloro-2,6-diethylaniline",CCc1cc(Cc2cc(CC)c(N)c(CC)c2Cl)c(Cl)c(CC)c1N,379.37500000000017,15.126518170239999,6,2,52.04,2,2
+614,JAM_11,2.6591,P,P,"bis(4-(4-aminophenoxyl)phenyl)
+sulfone","Nc1ccc(Oc2ccc(cc2)S(=O)(=O)c2ccc(Oc3ccc(
+N)cc3)cc2)cc1",Reference,Nc1ccc(Oc2ccc(cc2)S(=O)(=O)c2ccc(Oc3ccc(N)cc3)cc2)cc1,bis(4-(4-aminophenoxyl)phenyl)sulfone,Nc1ccc(Oc2ccc(S(=O)(=O)c3ccc(Oc4ccc(N)cc4)cc3)cc2)cc1,432.50100000000015,13.939173487741936,6,4,104.64,2,6
+618,JFP_49,2.4757,P,Q,1-phenylethyl methacrylate,CC(OC(=O)C(C)=C)C1=CC=CC=C1,ChemAxon,CC(OC(=O)C(C)=C)C1=CC=CC=C1,1-phenylethyl methacrylate,C=C(C)C(=O)OC(C)c1ccccc1,190.242,13.578527120571428,3,1,26.3,0,2
+620,JFP_54,2.5999,P,Q,"2,3-xylenyl methacrylate",CC(=C)C(=O)OC1=C(C)C(C)=CC=C1,ChemAxon,CC(=C)C(=O)OC1=C(C)C(C)=CC=C1,"2,3-xylenyl methacrylate",C=C(C)C(=O)Oc1cccc(C)c1C,190.24199999999996,13.578527120571428,2,1,26.3,0,2
+644,XLY08_118,2.6314,P,R,5-cyanophenyl methacrylate,CC(=C)C(=O)OC1=CC=CC(=C1)C#N,ChemAxon,CC(=C)C(=O)OC1=CC=CC(=C1)C#N,5-cyanophenyl methacrylate,C=C(C)C(=O)Oc1cccc(C#N)c1,187.19799999999998,13.36166632342857,2,1,50.09,0,3
+646,XLY08_126,2.5051,P,R,5-bromo-2-butoxystyrene,CCCCOC1=C(C=C)C=C(Br)C=C1,ChemAxon,CCCCOC1=C(C=C)C=C(Br)C=C1,5-bromo-2-butoxystyrene,C=Cc1cc(Br)ccc1OCCCC,255.15499999999994,18.1450448,5,1,9.23,0,1
+649,XLY08_130,2.5315,P,R,2-butoxymethylstyrene,CCCCOCC1=C(C=C)C=CC=C1,ChemAxon,CCCCOCC1=C(C=C)C=CC=C1,2-butoxymethylstyrene,C=Cc1ccccc1COCCCC,190.28599999999994,13.58112608542857,6,1,9.23,0,1
+654,XLY08_140,2.5587,P,R,2-methoxymethylstyrene,COCC1=CC=CC=C1C=C,PubChemPy,COCC1=CC=CC=C1C=C,2-methoxymethylstyrene,C=Cc1ccccc1COC,148.20499999999998,13.462619545818182,3,1,9.23,0,1
+661,XLY08_154,2.6415,P,R,4-(1-hydroxy-1-methylethyl) styrene,CC(C)(O)C1=CC=C(C=C)C=C1,ChemAxon,CC(C)(O)C1=CC=C(C=C)C=C1,4-(1-hydroxy-1-methylethyl) styrene,C=Cc1ccc(C(C)(C)O)cc1,162.232,13.508705422333334,2,1,20.23,1,1
+677,NS_044,2.3483,P,S,1-pentene,CCCC=C,PubChemPy,CCCC=C,1-pentene,C=CCCC,70.13499999999999,14.015650063999999,2,0,0.0,0,0
+685,NS_135,2.525,P,S,a-caprolactam,C(=O)CCCCCN,Reference,C(=O)CCCCCN,a-caprolactam,NCCCCCC=O,115.17599999999999,14.3874642545,5,0,43.09,1,2
+688,NS_142,2.5403,P,S,sec-butyl 2-chloropropanoate,CCC(C)OC(=O)C(C)Cl,PubChemPy,CCC(C)OC(=O)C(C)Cl,sec-butyl 2-chloropropanoate,CCC(C)OC(=O)C(C)Cl,164.63199999999998,16.4060407336,3,0,26.3,0,2
+689,NS_161,2.5599,P,S,isopropyl 2-chloropropionate,CC(C)OC(=O)C(C)Cl,PubChemPy,CC(C)OC(=O)C(C)Cl,isopropyl 2-chloropropionate,CC(C)OC(=O)C(C)Cl,150.605,16.67163969688889,2,0,26.3,0,2
+705,NS_233,2.6222,P,S,"2,2-propane bis{4-(2-chlorophenyl)}carbonate",C(=O)Oc1cc(Cl)c(cc1)C(C)(C)c1c(Cl)cc(cc1)O,Reference,C(=O)Oc1cc(Cl)c(cc1)C(C)(C)c1c(Cl)cc(cc1)O,"2,2-propane bis{4-(2-chlorophenyl)}carbonate",CC(C)(c1ccc(O)cc1Cl)c1ccc(OC=O)cc1Cl,325.19100000000003,15.430095222285715,4,2,46.53,1,3
+709,NS_246,2.6365,P,S,methyl a-cyanoacrylate,C(C#N)(C(=O)OC)C,Reference,C(C#N)(C(=O)OC)C,methyl a-cyanoacrylate,COC(=O)C(C)C#N,113.116,14.130959808,1,0,50.09,0,3
+716,NS_264,2.6937,P,S,etherimide 9,"N1C(=O)c2c(C1(=O))cc(cc2)Oc1ccc(cc1)Sc1c
+cc(cc1)Oc1cc2c(cc1)C(=O)N(C2(=O))c1ccc(cc
+1)C(=O)c1ccc(cc1)",Reference,N1C(=O)c2c(C1(=O))cc(cc2)Oc1ccc(cc1)Sc1ccc(cc1)Oc1cc2c(cc1)C(=O)N(C2(=O))c1ccc(cc1)C(=O)c1ccc(cc1),etherimide 9,O=C(c1ccccc1)c1ccc(N2C(=O)c3ccc(Oc4ccc(Sc5ccc(Oc6ccc7c(c6)C(=O)NC7=O)cc5)cc4)cc3C2=O)cc1,688.7170000000002,13.492753374666666,9,6,119.07999999999998,1,8
+723,NS_281,2.7497,P,S,Polyimide 2F,N1C(=O)c2c(C1(=O))ccc(c2)C(C(F)(F)(F))(C(F)(F)(F))c1ccc2c(c1)C(=O)N(C2(=O))c1ccccc1C(=O)c1ccc(cc1),Reference,N1C(=O)c2c(C1(=O))ccc(c2)C(C(F)(F)(F))(C(F)(F)(F))c1ccc2c(c1)C(=O)N(C2(=O))c1ccccc1C(=O)c1ccc(cc1),Polyimide 2F,O=C1NC(=O)c2cc(C(c3ccc4c(c3)C(=O)N(c3ccccc3C(=O)c3ccccc3)C4=O)(C(F)(F)F)C(F)(F)F)ccc21,622.4770000000003,13.824363131822222,5,4,100.62,1,5
+724,NS_283,2.7619,P,S,Polyquinoline 6,c1c(c1ccccc1)c(c1ccccc1)c2c(n1)ccc(c2)Oc1ccc2c(c1)c(c1ccccc1)c(c1ccccc1)c(n2)c1ccc(cc1)Oc1ccc(cc1),Reference,c1c(c1ccccc1)c(c1ccccc1)c2c(n1)ccc(c2)Oc1ccc2c(c1)c(c1ccccc1)c(c1ccccc1)c(n2)c1ccc(cc1)Oc1ccc(cc1),Polyquinoline 6,c1ccc(Oc2ccc(-c3nc4ccc(Oc5ccc6ncccccc7cccccc8cc-8c7c6c5)cc4c(-c4ccccc4)c3-c3ccccc3)cc2)cc1,744.8940000000001,12.83237376537931,7,8,44.24,0,4
+737,XLY06_30,2.5944,P,T,4-cyanostyrene,C=CC1=CC=C(C=C1)C#N,PubChemPy,C=CC1=CC=C(C=C1)C#N,4-cyanostyrene,C=Cc1ccc(C#N)cc1,129.162,12.905784922399999,1,1,23.79,0,1
+738,XLY06_31,2.3181,P,T,4-decylstyrene,CCCCCCCCCCC1=CC=C(C=C1)C=C,PubChemPy,CCCCCCCCCCC1=CC=C(C=C1)C=C,4-decylstyrene,C=Cc1ccc(CCCCCCCCCC)cc1,244.42199999999994,13.567727827555554,10,1,0.0,0,0
+741,XLY06_45,2.3444,P,T,4-dodecylstyrene,CCCCCCCCCCCCC1=CC=C(C=C1)C=C,PubChemPy,CCCCCCCCCCCCC1=CC=C(C=C1)C=C,4-dodecylstyrene,C=Cc1ccc(CCCCCCCCCCCC)cc1,272.4759999999999,13.612520051199999,12,1,0.0,0,0
+747,XLY06_63,2.5843,P,T,"4-[(1-hydroxyimino)-2-
+phenethyl]styrene","O\N=C1\CC(CCC2=CC=CC=C2)=C(C=C)C=
+C1",ChemAxon,O\N=C1\CC(CCC2=CC=CC=C2)=C(C=C)C=C1,4-[(1-hydroxyimino)-2-phenethyl]styrene,C=CC1=C(CCc2ccccc2)C/C(=N/O)C=C1,239.318,13.285056342444443,4,1,32.59,1,2
+749,XLY06_68,2.5145,P,T,"4-(1-hydroxy-3-
+piperidinopropyl)styrene",OC(CCN1CCCCC1)C1=CC=C(C=C)C=C1,ChemAxon,OC(CCN1CCCCC1)C1=CC=C(C=C)C=C1,4-(1-hydroxy-3-piperidinopropyl)styrene,C=Cc1ccc(C(O)CCN2CCCCC2)cc1,245.36599999999993,13.620998019777778,5,1,23.47,1,2
+756,XLY06_94,2.3636,P,T,4-(octyloxymethyl)styrene,CCCCCCCCOCC1=CC=C(C=C)C=C1,ChemAxon,CCCCCCCCOCC1=CC=C(C=C)C=C1,4-(octyloxymethyl)styrene,C=Cc1ccc(COCCCCCCCC)cc1,246.39399999999992,13.677686969555555,10,1,9.23,0,1
+761,XLY09_18,2.4594,P,U,"3,3,5-trimethylcyclohexyl acrylate",CC1CC(CC(C1)(C)C)OC(=O)C=C,PubChemPy,CC1CC(CC(C1)(C)C)OC(=O)C=C,"3,3,5-trimethylcyclohexyl acrylate",C=CC(=O)OC1CC(C)CC(C)(C)C1,196.28999999999994,14.010452134285714,2,0,26.3,0,2
+762,XLY09_27,2.5038,P,U,"3-chloro-2,2-bis(chloromethyl) propyl
+acrylate",ClCC(CCl)(CCl)COC(=O)C=C,ChemAxon,ClCC(CCl)(CCl)COC(=O)C=C,"3-chloro-2,2-bis(chloromethyl) propylacrylate",C=CC(=O)OCC(CCl)(CCl)CCl,245.53299999999996,18.767881740923077,6,0,26.3,0,2
+772,HA_10,2.6562,P,V,"4-({4-[4-
+(benzenesulfonyl)phenoxy]phenyl}met
+hyl)phenol","Oc1ccc(Cc2ccc(Oc3ccc(cc3)S(=O)(=O)c3cccc
+c3)cc2)cc1",Reference,Oc1ccc(Cc2ccc(Oc3ccc(cc3)S(=O)(=O)c3ccccc3)cc2)cc1,4-({4-[4-(benzenesulfonyl)phenoxy]phenyl}methyl)phenol,O=S(=O)(c1ccccc1)c1ccc(Oc2ccc(Cc3ccc(O)cc3)cc2)cc1,416.4980000000001,13.870274337333333,6,4,63.60000000000001,1,4
+775,HA_13,2.6638,P,V,"4-[4-
+(benzenesulfonyl)phenoxy]benzene-1-
+thiol",Sc1ccc(Oc2ccc(cc2)S(=O)(=O)c2ccccc2)cc1,Reference,Sc1ccc(Oc2ccc(cc2)S(=O)(=O)c2ccccc2)cc1,4-[4-(benzenesulfonyl)phenoxy]benzene-1-thiol,O=S(=O)(c1ccccc1)c1ccc(Oc2ccc(S)cc2)cc1,342.441,14.871236361217393,4,3,43.370000000000005,1,4
+779,HA_17,2.6722,P,V,4-(1-{4-[4-(benzenesulfonyl)phenoxy]-3-methylphenyl}cyclohexyl)-2-methylphenol,Cc1cc(ccc1O)C1(CCCCC1)c1ccc(Oc2ccc(cc2)S(=O)(=O)c2ccccc2)c(C)c1,Reference,Cc1cc(ccc1O)C1(CCCCC1)c1ccc(Oc2ccc(cc2)S(=O)(=O)c2ccccc2)c(C)c1,4-(1-{4-[4-(benzenesulfonyl)phenoxy]-3-methylphenyl}cyclohexyl)-2-methylphenol,Cc1cc(C2(c3ccc(Oc4ccc(S(=O)(=O)c5ccccc5)cc4)c(C)c3)CCCCC2)ccc1O,512.6710000000004,13.843300824432433,6,4,63.60000000000001,1,4
+780,HA_18,2.675,P,V,4-(1-{4-[4-(benzenesulfonyl)phenoxy]-3-methylphenyl}-2-methylpropyl)-2-methylphenol,CC(C)C(c1ccc(O)c(C)c1)c1ccc(Oc2ccc(cc2)S(=O)(=O)c2ccccc2)c(C)c1,Reference,CC(C)C(c1ccc(O)c(C)c1)c1ccc(Oc2ccc(cc2)S(=O)(=O)c2ccccc2)c(C)c1,4-(1-{4-[4-(benzenesulfonyl)phenoxy]-3-methylphenyl}-2-methylpropyl)-2-methylphenol,Cc1cc(C(c2ccc(Oc3ccc(S(=O)(=O)c4ccccc4)cc3)c(C)c2)C(C)C)ccc1O,486.63300000000015,13.891042298285713,7,4,63.60000000000001,1,4
+793,HA_31,2.6974,P,V,"4-[4-(benzenesulfonyl)phenoxy]-2,5-
+bis(propan-2-yl)phenol","CC(C)c1cc(Oc2ccc(cc2)S(=O)(=O)c2ccccc2)c(
+cc1O)C(C)C",Reference,CC(C)c1cc(Oc2ccc(cc2)S(=O)(=O)c2ccccc2)c(cc1O)C(C)C,"4-[4-(benzenesulfonyl)phenoxy]-2,5-bis(propan-2-yl)phenol",CC(C)c1cc(Oc2ccc(S(=O)(=O)c3ccccc3)cc2)c(C(C)C)cc1O,410.5350000000001,14.143282079724138,6,3,63.60000000000001,1,4
+795,HA_33,2.6991,P,V,"6-[4-(benzenesulfonyl)phenoxy]-5-phenyl-[1,1'-biphenyl]-3-ol",Oc1cc(c(Oc2ccc(cc2)S(=O)(=O)c2ccccc2)c(c1)c1ccccc1)c1ccccc1,Reference,Oc1cc(c(Oc2ccc(cc2)S(=O)(=O)c2ccccc2)c(c1)c1ccccc1)c1ccccc1,"6-[4-(benzenesulfonyl)phenoxy]-5-phenyl-[1,1'-biphenyl]-3-ol",O=S(=O)(c1ccccc1)c1ccc(Oc2c(-c3ccccc3)cc(O)cc2-c2ccccc2)cc1,478.5690000000001,13.660682290971428,6,5,63.60000000000001,1,4
+798,HA_36,2.7,P,V,"3-[4-
+(benzenesulfonyl)benzoyl]benzaldehyd
+e","O=Cc1cccc(c1)C(=O)c1ccc(cc1)S(=O)(=O)c1c
+cccc1",Reference,O=Cc1cccc(c1)C(=O)c1ccc(cc1)S(=O)(=O)c1ccccc1,3-[4-(benzenesulfonyl)benzoyl]benzaldehyde,O=Cc1cccc(C(=O)c2ccc(S(=O)(=O)c3ccccc3)cc2)c1,350.395,14.002451197120001,5,3,68.28,0,4
+809,HA_47,2.7186,P,V,"4-(2-{4-[4-
+(benzenesulfonyl)phenoxy]phenyl}bicy
+clo[2.2.1]heptan-2-yl)phenol","Oc1ccc(cc1)C1(CC2CCC1C2)c1ccc(Oc2ccc(c
+c2)S(=O)(=O)c2ccccc2)cc1",Reference,Oc1ccc(cc1)C1(CC2CCC1C2)c1ccc(Oc2ccc(cc2)S(=O)(=O)c2ccccc2)cc1,4-(2-{4-[4-(benzenesulfonyl)phenoxy]phenyl}bicyclo[2.2.1]heptan-2-yl)phenol,O=S(=O)(c1ccccc1)c1ccc(Oc2ccc(C3(c4ccc(O)cc4)CC4CCC3C4)cc2)cc1,496.62800000000027,13.782523066,6,4,63.60000000000001,1,4
+810,HA_48,2.7285,P,V,"4'-[4-(benzenesulfonyl)phenoxy]-
+3,3',5,5'-tetramethyl-[1,1'-biphenyl]-4-
+ol","Cc1cc(cc(C)c1O)c1cc(C)c(Oc2ccc(cc2)S(=O)(
+=O)c2ccccc2)c(C)c1",Reference,Cc1cc(cc(C)c1O)c1cc(C)c(Oc2ccc(cc2)S(=O)(=O)c2ccccc2)c(C)c1,"4'-[4-(benzenesulfonyl)phenoxy]-3,3',5,5'-tetramethyl-[1,1'-biphenyl]-4-ol",Cc1cc(-c2cc(C)c(Oc3ccc(S(=O)(=O)c4ccccc4)cc3)c(C)c2)cc(C)c1O,458.5790000000002,13.883490312484847,5,4,63.60000000000001,1,4
+813,HA_51,2.7309,P,V,"6-[4-(benzenesulfonyl)phenoxy]-2,4,5-triphenyl-[1,1'-biphenyl]-3-ol",Oc1c(c2ccccc2)c(c(Oc2ccc(cc2)S(=O)(=O)c2ccccc2)c(c2ccccc2)c1c1ccccc1)c1ccccc1,Reference,Oc1c(c2ccccc2)c(c(Oc2ccc(cc2)S(=O)(=O)c2ccccc2)c(c2ccccc2)c1c1ccccc1)c1ccccc1,"6-[4-(benzenesulfonyl)phenoxy]-2,4,5-triphenyl-[1,1'-biphenyl]-3-ol",O=S(=O)(c1ccccc1)c1ccc(Oc2c(-c3ccccc3)c(-c3ccccc3)c(O)c(-c3ccccc3)c2-c2ccccc2)cc1,630.7650000000001,13.408222988085107,8,7,63.60000000000001,1,4
+814,HA_52,2.7349,P,V,"2-[4-(benzenesulfonyl)phenoxy]-3-
+phenyl-5-{5-phenyl-[1,1'-biphenyl]-3-
+yl}-1,1'-biphenyl","O=S(=O)(c1ccccc1)c1ccc(Oc2c(cc(cc2c2ccccc
+2)c2cc(cc(c2)c2ccccc2)c2ccccc2)c2ccccc2)cc1",Reference,O=S(=O)(c1ccccc1)c1ccc(Oc2c(cc(cc2c2ccccc2)c2cc(cc(c2)c2ccccc2)c2ccccc2)c2ccccc2)cc1,"2-[4-(benzenesulfonyl)phenoxy]-3-phenyl-5-{5-phenyl-[1,1'-biphenyl]-3-yl}-1,1'-biphenyl",O=S(=O)(c1ccccc1)c1ccc(Oc2c(-c3ccccc3)cc(-c3cc(-c4ccccc4)cc(-c4ccccc4)c3)cc2-c2ccccc2)cc1,690.8640000000001,13.273516652846155,9,8,43.370000000000005,0,3
+817,HA_55,2.7436,P,V,"4'-[4-(benzenesulfonyl)phenoxy]-[1,1'-
+binaphthalene]-4-ol","Oc1ccc(c2ccc(Oc3ccc(cc3)S(=O)(=O)c3ccccc3
+)c3ccccc23)c2ccccc12",Reference,Oc1ccc(c2ccc(Oc3ccc(cc3)S(=O)(=O)c3ccccc3)c3ccccc23)c2ccccc12,"4'-[4-(benzenesulfonyl)phenoxy]-[1,1'-binaphthalene]-4-ol",O=S(=O)(c1ccccc1)c1ccc(Oc2ccc(-c3ccc(O)c4ccccc34)c3ccccc23)cc1,502.5910000000002,13.570915680648648,5,6,63.60000000000001,1,4
+820,HA_A,2.6514,P,V,"4-(2-{4-[4-(benzenesulfonyl)phenoxy]-
+3,5-bis(propan-2-yl)phenyl}propan-2-
+yl)-2,6-bis(propan-2-yl)phenol","CC(C)c1cc(cc(C(C)C)c1O)C(C)(C)c1cc(C(C)
+C)c(Oc2ccc(cc2)S(=O)(=O)c2ccccc2)c(c1)C(C
+)C",Reference,CC(C)c1cc(cc(C(C)C)c1O)C(C)(C)c1cc(C(C)C)c(Oc2ccc(cc2)S(=O)(=O)c2ccccc2)c(c1)C(C)C,"4-(2-{4-[4-(benzenesulfonyl)phenoxy]-3,5-bis(propan-2-yl)phenyl}propan-2-yl)-2,6-bis(propan-2-yl)phenol",CC(C)c1cc(C(C)(C)c2cc(C(C)C)c(Oc3ccc(S(=O)(=O)c4ccccc4)cc3)c(C(C)C)c2)cc(C(C)C)c1O,612.8760000000002,13.916530250363634,10,4,63.60000000000001,1,4
+821,HA_B,2.6667,P,V,"5-(2-{6-[4-(benzenesulfonyl)phenoxy]-
+[1,1'-biphenyl]-3-yl}propan-2-yl)-[1,1'-
+biphenyl]-2-ol","CC(C)(c1ccc(O)c(c1)c1ccccc1)c1ccc(Oc2ccc(c
+c2)S(=O)(=O)c2ccccc2)c(c1)c1ccccc1",Reference,CC(C)(c1ccc(O)c(c1)c1ccccc1)c1ccc(Oc2ccc(cc2)S(=O)(=O)c2ccccc2)c(c1)c1ccccc1,"5-(2-{6-[4-(benzenesulfonyl)phenoxy]-[1,1'-biphenyl]-3-yl}propan-2-yl)-[1,1'-biphenyl]-2-ol",CC(C)(c1ccc(O)c(-c2ccccc2)c1)c1ccc(Oc2ccc(S(=O)(=O)c3ccccc3)cc2)c(-c2ccccc2)c1,596.7480000000003,13.550048420545453,8,6,63.6,1,4
+823,HA_D,2.6796,P,V,"4-(2-{4-[4-(benzenesulfonyl)phenoxy]-
+3-chlorophenyl}propan-2-yl)-2-
+chlorophenol","CC(C)(c1ccc(O)c(Cl)c1)c1ccc(Oc2ccc(cc2)S(=
+O)(=O)c2ccccc2)c(Cl)c1",Reference,CC(C)(c1ccc(O)c(Cl)c1)c1ccc(Oc2ccc(cc2)S(=O)(=O)c2ccccc2)c(Cl)c1,4-(2-{4-[4-(benzenesulfonyl)phenoxy]-3-chlorophenyl}propan-2-yl)-2-chlorophenol,CC(C)(c1ccc(O)c(Cl)c1)c1ccc(Oc2ccc(S(=O)(=O)c3ccccc3)cc2)c(Cl)c1,513.4420000000001,15.060634868941175,6,4,63.6,1,4
+825,HA_F,2.706,P,V,"4-(2-{4-[4-(benzenesulfonyl)phenoxy]-3,5-dimethylphenyl}propan-2-yl)-2,6-dimethylphenol",Cc1cc(cc(C)c1O)C(C)(C)c1cc(C)c(Oc2ccc(cc2)S(=O)(=O)c2ccccc2)c(C)c1,Reference,Cc1cc(cc(C)c1O)C(C)(C)c1cc(C)c(Oc2ccc(cc2)S(=O)(=O)c2ccccc2)c(C)c1,"4-(2-{4-[4-(benzenesulfonyl)phenoxy]-3,5-dimethylphenyl}propan-2-yl)-2,6-dimethylphenol",Cc1cc(C(C)(C)c2cc(C)c(Oc3ccc(S(=O)(=O)c4ccccc4)cc3)c(C)c2)cc(C)c1O,500.6600000000002,13.89450362511111,6,4,63.60000000000001,1,4
+832,YL_04,2.791,P,W,"2-{[1,1'-biphenyl]-4-yl}-3-phenyl-4-
+{4-[4-(3-phenylquinolin-4-
+yl)phenoxy]phenyl}quinoline","O(c1ccc(cc1)c1c(c(nc2ccccc12)c1ccc(cc1)c1cc
+ccc1)c1ccccc1)c1ccc(cc1)c1c(cnc2ccccc12)c1c
+cccc1",Reference,O(c1ccc(cc1)c1c(c(nc2ccccc12)c1ccc(cc1)c1ccccc1)c1ccccc1)c1ccc(cc1)c1c(cnc2ccccc12)c1ccccc1,"2-{[1,1'-biphenyl]-4-yl}-3-phenyl-4-{4-[4-(3-phenylquinolin-4-yl)phenoxy]phenyl}quinoline",c1ccc(-c2ccc(-c3nc4ccccc4c(-c4ccc(Oc5ccc(-c6c(-c7ccccc7)cnc7ccccc67)cc5)cc4)c3-c3ccccc3)cc2)cc1,728.8950000000002,12.77689059249123,8,10,35.010000000000005,0,3
+840,YL_13,2.7657,P,W,"4-phenyl-2-[4-(9-phenyl-9H-fluoren-9-
+yl)phenyl]-6-[(4-phenylquinolin-6-
+yl)oxy]quinoline","O(c1ccc2nccc(c3ccccc3)c2c1)c1ccc2nc(cc(c3c
+cccc3)c2c1)c1ccc(cc1)C1(c2ccccc2c2ccccc12)
+c1ccccc1",Reference,O(c1ccc2nccc(c3ccccc3)c2c1)c1ccc2nc(cc(c3ccccc3)c2c1)c1ccc(cc1)C1(c2ccccc2c2ccccc12)c1ccccc1,4-phenyl-2-[4-(9-phenyl-9H-fluoren-9-yl)phenyl]-6-[(4-phenylquinolin-6-yl)oxy]quinoline,c1ccc(-c2ccnc3ccc(Oc4ccc5nc(-c6ccc(C7(c8ccccc8)c8ccccc8-c8ccccc87)cc6)cc(-c6ccccc6)c5c4)cc23)cc1,740.9060000000002,12.763495927103447,7,10,35.010000000000005,0,3
+841,YL_14,2.8388,P,W,"10-(4-{4,4'-diphenyl-[6,6'-biquinoline]-
+2-yl}phenyl)-10-phenyl-9,10-
+dihydroanthracen-9-one","O=C1c2ccccc2C(c2ccccc2)(c2ccc(cc2)c2cc(c3
+ccccc3)c3cc(ccc3n2)c2ccc3nccc(c3c2)c2ccccc
+2)c2ccccc12",Reference,O=C1c2ccccc2C(c2ccccc2)(c2ccc(cc2)c2cc(c3ccccc3)c3cc(ccc3n2)c2ccc3nccc(c3c2)c2ccccc2)c2ccccc12,"10-(4-{4,4'-diphenyl-[6,6'-biquinoline]-2-yl}phenyl)-10-phenyl-9,10-dihydroanthracen-9-one",O=C1c2ccccc2C(c2ccccc2)(c2ccc(-c3cc(-c4ccccc4)c4cc(-c5ccc6nccc(-c7ccccc7)c6c5)ccc4n3)cc2)c2ccccc21,752.9170000000001,12.750555318169493,6,10,42.85,0,3
+847,YL_20,2.7945,P,W,"2,4,4'-triphenyl-6,6'-biquinoline","c1ccc(cc1)c1ccnc2ccc(cc12)c1ccc2nc(cc(c3ccc
+cc3)c2c1)c1ccccc1",Reference,c1ccc(cc1)c1ccnc2ccc(cc12)c1ccc2nc(cc(c3ccccc3)c2c1)c1ccccc1,"2,4,4'-triphenyl-6,6'-biquinoline",c1ccc(-c2cc(-c3ccccc3)c3cc(-c4ccc5nccc(-c6ccccc6)c5c4)ccc3n2)cc1,484.60200000000015,12.741946020210525,4,7,25.78,0,2
+850,YL_23,2.8014,P,W,"2-{[1,1'-biphenyl]-4-yl}-3,3',4,4'-
+tetraphenyl-6,6'-biquinoline","c1ccc(cc1)c1c(cnc2ccc(cc12)c1ccc2nc(c3ccc(c
+c3)c3ccccc3)c(c3ccccc3)c(c3ccccc3)c2c1)c1cc
+ccc1",Reference,c1ccc(cc1)c1c(cnc2ccc(cc12)c1ccc2nc(c3ccc(cc3)c3ccccc3)c(c3ccccc3)c(c3ccccc3)c2c1)c1ccccc1,"2-{[1,1'-biphenyl]-4-yl}-3,3',4,4'-tetraphenyl-6,6'-biquinoline",c1ccc(-c2ccc(-c3nc4ccc(-c5ccc6ncc(-c7ccccc7)c(-c7ccccc7)c6c5)cc4c(-c4ccccc4)c3-c3ccccc3)cc2)cc1,712.8960000000003,12.719425877714285,7,10,25.78,0,2
+855,YL_28,2.7889,P,W,"2-phenyl-7-(quinoxaline-6-
+sulfonyl)quinoxaline","O=S(=O)(c1cc2nc(cnc2cc1)c1ccccc1)c1ccc2nc
+cnc2c1",Reference,O=S(=O)(c1cc2nc(cnc2cc1)c1ccccc1)c1ccc2nccnc2c1,2-phenyl-7-(quinoxaline-6-sulfonyl)quinoxaline,O=S(=O)(c1ccc2nccnc2c1)c1ccc2ncc(-c3ccccc3)nc2c1,398.4470000000001,13.72702574786207,3,5,85.7,0,6
+864,YL_37,2.7952,P,W,"2,3,3'-triphenyl-6,6'-biquinoxaline","c1ccc(cc1)c1nc2cc(ccc2nc1)c1cc2nc(c3ccccc3)
+c(nc2cc1)c1ccccc1",Reference,c1ccc(cc1)c1nc2cc(ccc2nc1)c1cc2nc(c3ccccc3)c(nc2cc1)c1ccccc1,"2,3,3'-triphenyl-6,6'-biquinoxaline",c1ccc(-c2cnc3ccc(-c4ccc5nc(-c6ccccc6)c(-c6ccccc6)nc5c4)cc3n2)cc1,486.57800000000015,12.794327544842107,4,7,51.56,0,4
+866,YL_39,2.7782,P,W,"3,3'-bis({[1,1'-biphenyl]-4-yl})-2-
+phenyl-6,6'-biquinoxaline","c1ccc(cc1)c1ccc(cc1)c1c(nc2ccc(cc2n1)c1ccc2
+ncc(nc2c1)c1ccc(cc1)c1ccccc1)c1ccccc1",Reference,c1ccc(cc1)c1ccc(cc1)c1c(nc2ccc(cc2n1)c1ccc2ncc(nc2c1)c1ccc(cc1)c1ccccc1)c1ccccc1,"3,3'-bis({[1,1'-biphenyl]-4-yl})-2-phenyl-6,6'-biquinoxaline",c1ccc(-c2ccc(-c3cnc4ccc(-c5ccc6nc(-c7ccccc7)c(-c7ccc(-c8ccccc8)cc7)nc6c5)cc4n3)cc2)cc1,638.7740000000001,12.7649409392,6,9,51.56,0,4
+868,YL_41,2.7679,P,W,"3,3'-bis(4-bromophenyl)-2-(4-
+phenoxyphenyl)-6,6'-biquinoxaline","Brc1ccc(cc1)c1nc2cc(ccc2nc1)c1cc2c(cc1)nc(c
+1ccc(Oc3ccccc3)cc1)c(n2)c1ccc(Br)cc1",Reference,Brc1ccc(cc1)c1nc2cc(ccc2nc1)c1cc2c(cc1)nc(c1ccc(Oc3ccccc3)cc1)c(n2)c1ccc(Br)cc1,"3,3'-bis(4-bromophenyl)-2-(4-phenoxyphenyl)-6,6'-biquinoxaline",Brc1ccc(-c2cnc3ccc(-c4ccc5nc(-c6ccc(Oc7ccccc7)cc6)c(-c6ccc(Br)cc6)nc5c4)cc3n2)cc1,736.4670000000001,15.617695438042553,6,8,60.790000000000006,0,5
+870,YL_43,2.7619,P,W,"3-{4'-phenyl-[1,1'-biphenyl]-4-yl}-6,6'-
+biquinoxaline","c1ccc(cc1)c1ccc(cc1)c1ccc(cc1)c1cnc2ccc(cc2
+n1)c1ccc2nccnc2c1",Reference,c1ccc(cc1)c1ccc(cc1)c1ccc(cc1)c1cnc2ccc(cc2n1)c1ccc2nccnc2c1,"3-{4'-phenyl-[1,1'-biphenyl]-4-yl}-6,6'-biquinoxaline",c1ccc(-c2ccc(-c3ccc(-c4cnc5ccc(-c6ccc7nccnc7c6)cc5n4)cc3)cc2)cc1,486.5780000000001,12.794327544842107,4,7,51.56,0,4
+871,YL_44,2.7404,P,W,"2,3-diphenyl-6-[(2-phenylquinoxalin-6-yl)oxy]quinoxaline",O(c1cc2c(cc1)nc(cn2)c1ccccc1)c1cc2nc(c3ccccc3)c(nc2cc1)c1ccccc1,Reference,O(c1cc2c(cc1)nc(cn2)c1ccccc1)c1cc2nc(c3ccccc3)c(nc2cc1)c1ccccc1,"2,3-diphenyl-6-[(2-phenylquinoxalin-6-yl)oxy]quinoxaline",c1ccc(-c2cnc3cc(Oc4ccc5nc(-c6ccccc6)c(-c6ccccc6)nc5c4)ccc3n2)cc1,502.57700000000017,12.876393880102565,5,7,60.790000000000006,0,5
+876,YL_49,2.8215,P,W,"4-phenyl-2-[4-(9-phenyl-9H-fluoren-9-
+yl)phenyl]-6-[9-(4-phenylquinolin-6-
+yl)-9H-fluoren-9-yl]quinoline","c1ccc(cc1)c1c2cc(ccc2nc(c1)c1ccc(cc1)C1(c2c
+cccc2c2ccccc12)c1ccccc1)C1(c2ccccc2c2c1ccc
+c2)c1ccc2nccc(c3ccccc3)c2c1",Reference,c1ccc(cc1)c1c2cc(ccc2nc(c1)c1ccc(cc1)C1(c2ccccc2c2ccccc12)c1ccccc1)C1(c2ccccc2c2c1cccc2)c1ccc2nccc(c3ccccc3)c2c1,4-phenyl-2-[4-(9-phenyl-9H-fluoren-9-yl)phenyl]-6-[9-(4-phenylquinolin-6-yl)-9H-fluoren-9-yl]quinoline,c1ccc(-c2ccnc3ccc(C4(c5ccc6nc(-c7ccc(C8(c9ccccc9)c9ccccc9-c9ccccc98)cc7)cc(-c7ccccc7)c6c5)c5ccccc5-c5ccccc54)cc23)cc1,889.114,12.69072070582857,7,12,25.78,0,2
+881,YL_54,2.8082,P,W,"2,3,3',4,4'-pentaphenyl-6,6'-biquinoline","c1ccc(cc1)c1c(c2ccccc2)c(c2cc(ccc2n1)c1ccc2
+ncc(c3ccccc3)c(c3ccccc3)c2c1)c1ccccc1",Reference,c1ccc(cc1)c1c(c2ccccc2)c(c2cc(ccc2n1)c1ccc2ncc(c3ccccc3)c(c3ccccc3)c2c1)c1ccccc1,"2,3,3',4,4'-pentaphenyl-6,6'-biquinoline",c1ccc(-c2cnc3ccc(-c4ccc5nc(-c6ccccc6)c(-c6ccccc6)c(-c6ccccc6)c5c4)cc3c2-c2ccccc2)cc1,636.7980000000001,12.725130980479998,6,9,25.78,0,2
+884,YL_57,2.7767,P,W,"2,3-diphenyl-6-(2-phenylquinoxaline-
+6-carbonyl)quinoxaline","O=C(c1cc2nc(c(nc2cc1)c1ccccc1)c1ccccc1)c1
+ccc2nc(cnc2c1)c1ccccc1",Reference,O=C(c1cc2nc(c(nc2cc1)c1ccccc1)c1ccccc1)c1ccc2nc(cnc2c1)c1ccccc1,"2,3-diphenyl-6-(2-phenylquinoxaline-6-carbonyl)quinoxaline",O=C(c1ccc2nc(-c3ccccc3)cnc2c1)c1ccc2nc(-c3ccccc3)c(-c3ccccc3)nc2c1,514.5880000000003,12.854484033100002,5,7,68.63,0,5
+885,YL_61,2.7143,P,W,"3,3'-bis(4-phenoxyphenyl)-2-phenyl-
+6,6'-biquinoxaline","O(c1ccccc1)c1ccc(cc1)c1nc2c(ccc(c2)c2ccc3n
+cc(nc3c2)c2ccc(Oc3ccccc3)cc2)nc1c1ccccc1",Reference,O(c1ccccc1)c1ccc(cc1)c1nc2c(ccc(c2)c2ccc3ncc(nc3c2)c2ccc(Oc3ccccc3)cc2)nc1c1ccccc1,"3,3'-bis(4-phenoxyphenyl)-2-phenyl-6,6'-biquinoxaline",c1ccc(Oc2ccc(-c3cnc4ccc(-c5ccc6nc(-c7ccccc7)c(-c7ccc(Oc8ccccc8)cc7)nc6c5)cc4n3)cc2)cc1,670.7720000000002,12.889170696153846,8,9,70.02000000000001,0,6
+889,SFT_I2,2.5455,P,X,methyl phenyl 4-(2-phenylpropan-2-yl)phenyl phosphate,COP(=O)(Oc1ccccc1)Oc1ccc(cc1)C(C)(C)c1ccccc1,Reference,COP(=O)(Oc1ccccc1)Oc1ccc(cc1)C(C)(C)c1ccccc1,methyl phenyl 4-(2-phenylpropan-2-yl)phenyl phosphate,COP(=O)(Oc1ccccc1)Oc1ccc(C(C)(C)c2ccccc2)cc1,382.3960000000001,14.153088735037038,7,3,44.760000000000005,0,4
+891,SFT_I4,2.548,P,X,phenyl 4-(2-phenylpropan-2-yl)phenyl butylphosphonate,CCCCP(=O)(Oc1ccccc1)Oc1ccc(cc1)C(C)(C)c1ccccc1,Reference,CCCCP(=O)(Oc1ccccc1)Oc1ccc(cc1)C(C)(C)c1ccccc1,phenyl 4-(2-phenylpropan-2-yl)phenyl butylphosphonate,CCCCP(=O)(Oc1ccccc1)Oc1ccc(C(C)(C)c2ccccc2)cc1,408.4780000000002,14.075359704068966,9,3,35.53,0,3
+893,SFT_I6,2.5707,P,X,phenyl 4-(2-phenylpropan-2-yl)phenyl phenylphosphonate,CC(C)(c1ccccc1)c1ccc(OP(=O)(Oc2ccccc2)c2ccccc2)cc1,Reference,CC(C)(c1ccccc1)c1ccc(OP(=O)(Oc2ccccc2)c2ccccc2)cc1,phenyl 4-(2-phenylpropan-2-yl)phenyl phenylphosphonate,CC(C)(c1ccccc1)c1ccc(OP(=O)(Oc2ccccc2)c2ccccc2)cc1,428.468,13.81142359,7,4,35.53,0,3
+897,SFT_II14,2.5901,P,X,"[1,1'-biphenyl]-4-yl cyclohexyl phenyl phosphate",O=P(OC1CCCCC1)(Oc1ccccc1)Oc1ccc(cc1)c1ccccc1,Reference,O=P(OC1CCCCC1)(Oc1ccccc1)Oc1ccc(cc1)c1ccccc1,"[1,1'-biphenyl]-4-yl cyclohexyl phenyl phosphate",O=P(Oc1ccccc1)(Oc1ccc(-c2ccccc2)cc1)OC1CCCCC1,408.43400000000025,14.07410503137931,7,3,44.760000000000005,0,4
+898,SFT_III16,2.6,P,X,diphenyl cyclohexylphosphonate,O=P(Oc1ccccc1)(Oc1ccccc1)C1CCCCC1,Reference,O=P(Oc1ccccc1)(Oc1ccccc1)C1CCCCC1,diphenyl cyclohexylphosphonate,O=P(Oc1ccccc1)(Oc1ccccc1)C1CCCCC1,316.3370000000002,14.369219598272728,5,2,35.53,0,3

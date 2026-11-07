@@ -1,0 +1,67 @@
+--- paper_k60_original.py
++++ 多通道神经网络预测实验性质.py
+@@ -11,7 +11,7 @@
+ import torch.nn as nn
+ import torch.nn.functional as F
+ from sklearn.metrics import r2_score, mean_absolute_error, mean_squared_error
+-from sklearn.model_selection import KFold
++from group_split import build_group_split_plan, save_group_split_plan
+ from torch.optim import lr_scheduler
+ from torch.utils.data import DataLoader, Dataset
+ import matplotlib.pyplot as plt
+@@ -469,30 +469,26 @@
+     for i in range(min(5, len(df))):
+         print(f"样本 {i}: num_unit={df.iloc[i]['num_unit']}, 通道2='{df.iloc[i]['seq_ch2']}', 通道3='{df.iloc[i]['seq_ch3']}', use_ch3={df.iloc[i]['use_ch3']}")
+ 
+-    tok = CharTokenizer()
+-    tok.build_from_texts(df["input_seq"].fillna("").tolist())
+-    tok.build_from_texts(df["seq_ch2"].fillna("").tolist())
+-    tok.build_from_texts([s for s in df["seq_ch3"].tolist() if isinstance(s, str)])
+-    tok.add_char(':')
+-    tok.add_char('P')
+-    indices = np.arange(len(df))
+-    rng = np.random.RandomState(seed)
+-    rng.shuffle(indices)
+-    n_test = int(len(df) * 0.2)
+-    test_idx = indices[:n_test]
+-    remain_idx = indices[n_test:]
+-    test_df = df.iloc[test_idx].reset_index(drop=True)
+-    remain_df = df.iloc[remain_idx].reset_index(drop=True)
+-    kf = KFold(n_splits=5, shuffle=True, random_state=seed)
++    split_plan = build_group_split_plan(df["polymer"].tolist(), seed=seed)
++    save_group_split_plan(split_plan, data_csv, out_dir)
++    test_df = df.iloc[split_plan["test_indices"]].reset_index(drop=True)
+     def worker_init_fn(worker_id):
+         worker_seed = torch.initial_seed() % 2**32
+         np.random.seed(worker_seed)
+         random.seed(worker_seed)
+ 
+     fold_summaries = []
+-    for fold, (tr_idx, va_idx) in enumerate(kf.split(remain_df)):
+-        tr_df = remain_df.iloc[tr_idx].reset_index(drop=True)
+-        va_df = remain_df.iloc[va_idx].reset_index(drop=True)
++    for fold, fold_split in enumerate(split_plan["folds"]):
++        tr_df = df.iloc[fold_split["train_indices"]].reset_index(drop=True)
++        va_df = df.iloc[fold_split["validation_indices"]].reset_index(drop=True)
++
++        # Fit the character vocabulary on this training fold only.
++        tok = CharTokenizer()
++        tok.build_from_texts(tr_df["input_seq"].fillna("").tolist())
++        tok.build_from_texts(tr_df["seq_ch2"].fillna("").tolist())
++        tok.build_from_texts([s for s in tr_df["seq_ch3"].tolist() if isinstance(s, str)])
++        tok.add_char(':')
++        tok.add_char('P')
+         fold_dir = os.path.join(out_dir, f"fold_{fold}")
+         os.makedirs(fold_dir, exist_ok=True)
+ 
+@@ -646,8 +642,8 @@
+ 
+ def main():
+     parser = argparse.ArgumentParser()
+-    parser.add_argument("--data_csv", type=str, default="/data/home/wuzl/polyinfo.csv")
+-    parser.add_argument("--out_dir", type=str, default="/data/home/wuzl/outputs")
++    parser.add_argument("--data_csv", type=str, default=os.path.join(os.path.dirname(os.path.abspath(__file__)), "实验数据集.csv"))
++    parser.add_argument("--out_dir", type=str, default=os.path.join(os.path.dirname(os.path.abspath(__file__)), "results_group_holdout"))
+     parser.add_argument("--ch1_max_len", type=int, default=256)
+     parser.add_argument("--ch2_max_len", type=int, default=256)
+     parser.add_argument("--ch3_max_len", type=int, default=256)

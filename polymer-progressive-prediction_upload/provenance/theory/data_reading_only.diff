@@ -1,0 +1,105 @@
+--- original/卷积神经网络理论性质.py
++++ data196/卷积神经网络理论性质.py
+@@ -71,7 +71,7 @@
+ 
+ 
+ # ============================== 原有数据与类定义 ==============================
+-DATASET_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "fixed_dataset")
++DATASET_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "paper_dataset")
+ 
+ 
+ class CharTokenizer:
+@@ -268,6 +268,9 @@
+     val_df = pd.read_csv(os.path.join(DATASET_DIR, "val.csv"))
+     test_df = pd.read_csv(os.path.join(DATASET_DIR, "test.csv"))
+ 
++    if (len(train_df), len(val_df), len(test_df)) != (1574, 190, 196):
++        raise ValueError("Paper dataset requires train=1574, val=190, test=196; refusing another split.")
++
+     print(f"Loaded fixed dataset:")
+     print(f"Train: {len(train_df)}, Val: {len(val_df)}, Test: {len(test_df)}")
+ 
+--- original/多通道神经网络预测理论性质.py
++++ data196/多通道神经网络预测理论性质.py
+@@ -280,7 +280,7 @@
+ 
+     return {"MAE": float(mae), "RMSE": float(rmse), "R2": float(r2)}
+   
+-DATASET_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "fixed_dataset")
++DATASET_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "paper_dataset")
+ 
+ 
+ 
+@@ -300,6 +300,9 @@
+     val_df = pd.read_csv(os.path.join(DATASET_DIR, "val.csv"))
+     test_df = pd.read_csv(os.path.join(DATASET_DIR, "test.csv"))
+ 
++    if (len(train_df), len(val_df), len(test_df)) != (1574, 190, 196):
++        raise ValueError("Paper dataset requires train=1574, val=190, test=196; refusing another split.")
++
+     for df in [train_df, val_df, test_df]:
+         df["seq_ch2"], df["seq_ch3"], df["use_ch3"] = build_channel23_sequences(df)
+ 
+--- original/多通道神经网络+逐步预测理论性质.py
++++ data196/多通道神经网络+逐步预测理论性质.py
+@@ -209,7 +209,7 @@
+     return ch2_list, ch3_list, use_ch3_flags
+ 
+ 
+-DATASET_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "fixed_dataset")
++DATASET_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "paper_dataset")
+ 
+ 
+ class PolymerDataset(Dataset):
+@@ -398,6 +398,9 @@
+     train_df = pd.read_csv(os.path.join(DATASET_DIR, "train.csv"))
+     val_df = pd.read_csv(os.path.join(DATASET_DIR, "val.csv"))
+     test_df = pd.read_csv(os.path.join(DATASET_DIR, "test.csv"))
++
++    if (len(train_df), len(val_df), len(test_df)) != (1574, 190, 196):
++        raise ValueError("Paper dataset requires train=1574, val=190, test=196; refusing another split.")
+ 
+     for df_ in [train_df, val_df, test_df]:
+         df_["seq_ch2"], df_["seq_ch3"], df_["use_ch3"] = build_channel23_sequences(df_)
+--- original/消融实验.py
++++ data196/消融实验.py
+@@ -261,7 +261,7 @@
+     return {"Re": {"MAE": float(mae_re), "RMSE": float(rmse_re), "R2": float(r2_re)}}
+ 
+ 
+-DATASET_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "fixed_dataset")
++DATASET_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "paper_dataset")
+ 
+ 
+ def run_pipeline(
+@@ -279,6 +279,9 @@
+     train_df = pd.read_csv(os.path.join(DATASET_DIR, "train.csv"))
+     val_df = pd.read_csv(os.path.join(DATASET_DIR, "val.csv"))
+     test_df = pd.read_csv(os.path.join(DATASET_DIR, "test.csv"))
++
++    if (len(train_df), len(val_df), len(test_df)) != (1574, 190, 196):
++        raise ValueError("Paper dataset requires train=1574, val=190, test=196; refusing another split.")
+ 
+     for df_ in [train_df, val_df, test_df]:
+         df_["seq_ch2"] = build_channel2(df_)
+--- original/train_ddp.py
++++ data196/train_ddp.py
+@@ -42,7 +42,7 @@
+ CH2_MAX_LEN = 128
+ CH3_MAX_LEN = 128
+ 
+-DATASET_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "fixed_dataset")
++DATASET_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "paper_dataset")
+ 
+ 
+ # ---------------------------------------------------------------------------
+@@ -346,6 +346,9 @@
+     train_df = pd.read_csv(os.path.join(DATASET_DIR, "train.csv"))
+     val_df = pd.read_csv(os.path.join(DATASET_DIR, "val.csv"))
+     test_df = pd.read_csv(os.path.join(DATASET_DIR, "test.csv"))
++
++    if (len(train_df), len(val_df), len(test_df)) != (1574, 190, 196):
++        raise ValueError("Paper dataset requires train=1574, val=190, test=196; refusing another split.")
+     for df_ in (train_df, val_df, test_df):
+         df_["seq_ch2"], df_["seq_ch3"], df_["use_ch3"] = build_ch23_sequences(df_)
+ 
