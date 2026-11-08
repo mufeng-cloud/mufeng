@@ -1,0 +1,28 @@
+{
+  "previous_test209_sha256": "d1b854ef7b9673efe18ec69c48f5b2ac195000bf9c7718cca3c037bcaabe70df",
+  "restored_original_test209_sha256": "ceccf3f54d901d32fedc0c8c8260d774192fa21eba49e509637a625f5c85170b",
+  "original_test219_sha256": "113eef26e78a9622206e831661296c3218cf94eaae1291ea40123389b6921134",
+  "upstream_commit": "4811d4c9e306b429ca83b024729170f593340d21",
+  "upstream_source_path": "data/processed/test_data.csv",
+  "upstream_source_blob_sha": "0015c6b1dc7f9a0e5e36b67550ce70a0a5820cb9",
+  "records_restored_to_original_logTg": [
+    {
+      "ID": "JPS_31",
+      "previous_logTg": "2.2343",
+      "original_logTg": "2.1703"
+    },
+    {
+      "ID": "JPS_43",
+      "previous_logTg": "2.4503",
+      "original_logTg": "2.5539"
+    },
+    {
+      "ID": "JPS_44",
+      "previous_logTg": "2.4479",
+      "original_logTg": "2.29"
+    }
+  ],
+  "development_csv_changed": false,
+  "model_training_executed": false,
+  "model_inference_executed": false
+}

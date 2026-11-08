@@ -5,8 +5,7 @@
   "upstream_prediction_sha256": "55b81ac0a6ed9d3d29ddade7fe83cc814e36ec97265fdf93dabf838b1aa0d292",
   "method": "Re-evaluate released final ensemble mean predictions; no model weights or neural-network execution.",
   "identity_matching": "Exact unique ID plus exact SMILES_clean; original row positions preserved.",
-  "shared_evaluation_targets": "The same processed logTg labels used by the completed progressive experiment.",
-  "n_original_labels_different_from_shared_processed_labels": 3,
+  "shared_evaluation_targets": "Original unmodified logTg values from the author-released test_data.csv for the retained209 IDs.",
   "n_excluded_original_input_label_matches": 10,
   "scores": {
     "published_reference_original219": {
@@ -15,19 +14,22 @@
       "rmse": 0.0673290411605497,
       "r2": 0.7650105312846057
     },
-    "reference_same209_processed_targets": {
+    "reference_same209_original_targets": {
       "n": 209,
-      "mae": 0.04387964497607655,
-      "rmse": 0.06417059535463815,
-      "r2": 0.7824691282882139
+      "mae": 0.04543706124401913,
+      "rmse": 0.06857209519799835,
+      "r2": 0.7573152494791838
     },
-    "progressive_same209_processed_targets": {
+    "progressive_same209_original_targets": {
       "n": 209,
-      "mae": 0.038605746291613466,
-      "rmse": 0.06144177545659413,
-      "r2": 0.8005765263461078
+      "mae": 0.039893305817717,
+      "rmse": 0.06337053138911002,
+      "r2": 0.792736729598145
     }
   },
   "training_executed": false,
-  "new_inference_executed": false
+  "new_inference_executed": false,
+  "test_labels_identical_to_original_source": true,
+  "test_source_sha256": "113eef26e78a9622206e831661296c3218cf94eaae1291ea40123389b6921134",
+  "n_test_labels_different_from_original": 0
 }

@@ -51,7 +51,7 @@ python -m train.public_tg finalize
 
 - `data/theory`: 1574 training, 190 validation and 196 test records.
 - `data/experimental/experimental_dataset.csv`: all 872 experimental records; group splits are generated at runtime.
-- `data/public_tg`: 683 development and 209 test records. Ten original test records matching both the input and original label of development records are excluded; the frozen exclusion record defines the retained identities. Existing data-processing records are in `provenance/public_tg`.
+- `data/public_tg`: 683 development and 209 test records. Ten original test records matching both the input and original label of development records are excluded; all retained test labels are the original published values. The frozen exclusion record defines the retained identities. Existing data-processing records are in `provenance/public_tg`.
 
 ## Check files without running a model
 

@@ -96,9 +96,9 @@ Splitting uses the exact `polymer` input string as the group identity. Twenty pe
 
 ### Public Tg data
 
-The public pipeline reads molecular inputs from `SMILES_clean` and continuous targets from `logTg`, expressed as `log10(Tg/K)`. Ten original test records whose `SMILES_clean` inputs and numeric `logTg` labels both matched development records were excluded, leaving 209 test records. The exclusion mask is defined from the original labels, before harmonization. Retained fields and evaluation labels are unchanged from the completed processed dataset. The loader checks the frozen test identities, order, exclusion manifest, and dataset hashes.
+The public pipeline reads molecular inputs from `SMILES_clean` and continuous targets from `logTg`, expressed as `log10(Tg/K)`. Ten original test records whose `SMILES_clean` inputs and numeric `logTg` labels both matched development records were excluded, leaving 209 test records. The exclusion mask is defined from the original published input-label pairs. All209 retained test records, including their `logTg` labels, are unchanged from the original author-released test CSV. The loader checks the frozen test identities, order, exclusion manifest, and dataset hashes.
 
-The packaged dataset is a derived version: before exclusion of matching original input--target pairs, same-input groups with a Kelvin label spread above 10 K were assigned their group median and stored again as four-decimal log labels. The procedure used both original partitions. Its processing history is retained in `provenance/public_tg/harmonization_manifest.json` and `test_input_exclusion.json`; the supplied version should be identified when reporting new evaluations.
+Development-data provenance is retained in `provenance/public_tg/harmonization_manifest.json`: its same-input label harmonization used the two original partitions. The current test CSV uses the original published test labels. Its source, exclusion mask, and restoration from the previous release are documented in `test_input_exclusion.json` and `test_original_labels_restoration.json`. The two model ensembles are evaluated against these same original test labels.
 
 ## Training and evaluation
 
@@ -208,7 +208,7 @@ The frozen development folds use split seed 42. Ten fixed training seeds, listed
 ensemble_log_prediction = mean(decoded_log_prediction from all 100 models)
 ```
 
-MAE, RMSE, and R² are calculated after averaging predictions. Digits are not averaged and rounded again, and predictions are not converted to Kelvin before ensemble averaging. The outputs also report each seed's ten-model ensemble separately. New runs use the supplied 209-row test set. The saved 100-model ensemble predictions, filtered by the same ten-record exclusion mask, give log MAE 0.0386057463, log RMSE 0.0614417755, and R² 0.8005765263. These are a subset re-evaluation of existing predictions, with no additional training or inference. Historical results from a different test version must be identified separately.
+MAE, RMSE, and R² are calculated after averaging predictions. Digits are not averaged and rounded again, and predictions are not converted to Kelvin before ensemble averaging. The outputs also report each seed's ten-model ensemble separately. New runs use the supplied 209-row test set. The saved 100-model ensemble predictions, filtered by the same ten-record exclusion mask, give log MAE 0.0398933058, log RMSE 0.0633705314, and R² 0.7927367296. These metrics use the original unmodified test labels. On the same209 records and labels, the author-released direct-model predictions give log RMSE 0.0685720952 and R² 0.7573152495. This is a re-evaluation of saved predictions, with no additional training or inference. Historical results from a different test version must be identified separately.
 
 ## Outputs and reproducibility
 

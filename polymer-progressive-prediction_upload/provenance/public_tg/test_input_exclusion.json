@@ -237,13 +237,14 @@
     "SFT_II14",
     "SFT_III16"
   ],
-  "criterion": "Exclude a test record iff its original SMILES_clean and original numeric logTg both match at least one original development record. Membership is determined before label harmonization; retained fields and evaluation labels are copied unchanged from the completed harmonized experiment.",
+  "criterion": "Exclude a test record iff its original SMILES_clean and original numeric logTg both match at least one original development record. All retained fields and labels are unchanged from the original published test CSV.",
   "equality_reference_sha256": {
     "training_data.csv": "218b0cd0b26be2cc37a13718da7320a70e04d0c343a98d3e8d2727e873a48fae",
     "test_data.csv": "113eef26e78a9622206e831661296c3218cf94eaae1291ea40123389b6921134"
   },
-  "source_test_sha256": "a63d8fa6d2de9085d54ebd7bee7721e6bcb64ef950d46aab594249c64d989a8b",
-  "filtered_test_sha256": "d1b854ef7b9673efe18ec69c48f5b2ac195000bf9c7718cca3c037bcaabe70df",
+  "source_test_sha256": "113eef26e78a9622206e831661296c3218cf94eaae1291ea40123389b6921134",
+  "filtered_test_sha256": "ceccf3f54d901d32fedc0c8c8260d774192fa21eba49e509637a625f5c85170b",
   "retained_fields_and_labels_unchanged": true,
-  "input_only_exclusion": false
+  "input_only_exclusion": false,
+  "retained_test_labels_original": true
 }

@@ -19,10 +19,10 @@ Unnamed: 0,ID,logTg,Series,Ref,name_raw,SMILES_raw,SMI_generator,SMILES,name,SMI
 101,JPS_14,2.2742,P,C,3-hexoxylpropylene oxide,OC(COCCCCCC)C,Reference,OC(COCCCCCC)C,3-hexoxylpropylene oxide,CCCCCCOCC(C)O,160.257,14.558757261818181,7,0,29.46,1,2
 105,JPS_18,2.5922,P,C,tert-butyl methacrylate,CC(=C)C(=O)OC(C)(C)C,PubChemPy,CC(=C)C(=O)OC(C)(C)C,tert-butyl methacrylate,C=C(C)C(=O)OC(C)(C)C,142.19799999999998,14.2099379688,1,0,26.3,0,2
 114,JPS_27,2.4031,P,C,Poly((2R)?2?ethoxybutane),CCO[C@H](C)CC,PubChem,CCO[C@H](C)CC,Poly((2R)?2?ethoxybutane),CCO[C@H](C)CC,102.177,14.586352152571427,3,0,9.23,0,1
-118,JPS_31,2.2343,P,C,ethylene,C=C,PubChemPy,C=C,ethylene,C=C,28.053999999999995,14.015650063999999,0,0,0.0,0,0
+118,JPS_31,2.1703,P,C,ethylene,C=C,PubChemPy,C=C,ethylene,C=C,28.053999999999995,14.015650063999999,0,0,0.0,0,0
 126,JPS_41,2.5403,P,C,sec-butyl a-chloroacrylate,CC(Cl)C(=O)OC(CC)C,Reference,CC(Cl)C(=O)OC(CC)C,sec-butyl a-chloroacrylate,CCC(C)OC(=O)C(C)Cl,164.63199999999998,16.4060407336,3,0,26.3,0,2
-128,JPS_43,2.4503,P,C,ethanol,CCO,PubChemPy,CCO,ethanol,CCO,46.069,15.347288270666667,0,0,20.23,1,1
-129,JPS_44,2.4479,P,C,ethyl a-chloroacrylate,CC(Cl)C(=O)OCC,Reference,CC(Cl)C(=O)OCC,ethyl a-chloroacrylate,CCOC(=O)C(C)Cl,136.57799999999997,17.003638401,2,0,26.3,0,2
+128,JPS_43,2.5539,P,C,ethanol,CCO,PubChemPy,CCO,ethanol,CCO,46.069,15.347288270666667,0,0,20.23,1,1
+129,JPS_44,2.29,P,C,ethyl a-chloroacrylate,CC(Cl)C(=O)OCC,Reference,CC(Cl)C(=O)OCC,ethyl a-chloroacrylate,CCOC(=O)C(C)Cl,136.57799999999997,17.003638401,2,0,26.3,0,2
 130,JPS_45,2.4669,P,C,2-methylcyclohexyl methacrylate,C1C(C(CCC1)OC(=O)C(C)C)C,Reference,C1C(C(CCC1)OC(=O)C(C)C)C,2-methylcyclohexyl methacrylate,CC(C)C(=O)OC1CCCCC1C,184.27899999999994,14.165102298461537,2,0,26.3,0,2
 131,JPS_46,2.5763,P,C,cyclohexyl methacrylate,CC(=C)C(=O)OC1CCCCC1,PubChemPy,CC(=C)C(=O)OC1CCCCC1,cyclohexyl methacrylate,C=C(C)C(=O)OC1CCCCC1,168.23599999999993,14.009585812666666,2,0,26.3,0,2
 137,JPS_52,2.5786,P,C,acrylic acid,C=CC(=O)O,PubChemPy,C=CC(=O)O,acrylic acid,C=CC(=O)O,72.06299999999999,14.404225873600002,1,0,37.3,1,1

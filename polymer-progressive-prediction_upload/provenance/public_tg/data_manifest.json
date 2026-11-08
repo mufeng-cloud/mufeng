@@ -1,21 +1,23 @@
 {
-  "dataset_version": "median_harmonized_le10K_v1_test_exact_input_label_excluded_v1",
+  "dataset_version": "public_tg_original_test209_v1",
   "data_sha256": {
     "training_data.csv": "436b07efce832d1909df791a09e1d64cb9a780c30ec37158901f83d00d1820ef",
-    "test_data.csv": "d1b854ef7b9673efe18ec69c48f5b2ac195000bf9c7718cca3c037bcaabe70df"
+    "test_data.csv": "ceccf3f54d901d32fedc0c8c8260d774192fa21eba49e509637a625f5c85170b"
   },
   "n_development": 683,
   "n_test": 209,
-  "harmonization_manifest_sha256": "9179ee4af9cc77799a8bcb0c9bbed86edb0081560ba756534046cc04bdf09598",
-  "source_dataset_root": "/Users/muchengfeng/Documents/ChatGPT/论文/run/mrs_tg_harmonized_median_le10K_2026-11-05",
-  "label_rule": "same exact SMILES_clean groups with original K spread>10 use shared group K median; other labels preserved",
   "is_literature_verified": false,
-  "uses_development_and_test_labels_for_harmonization": true,
   "is_independent_test_benchmark": false,
   "test_input_overlap_rows": 8,
   "source_test_rows": 219,
   "excluded_test_rows": 10,
-  "input_exclusion_rule": "Exclude a test record iff its original SMILES_clean and original numeric logTg both match at least one original development record. Membership is determined before label harmonization; retained fields and evaluation labels are copied unchanged from the completed harmonized experiment.",
+  "input_exclusion_rule": "Exclude a test record iff its original SMILES_clean and original numeric logTg both match at least one original development record. All retained fields and labels are unchanged from the original published test CSV.",
   "test_exclusion_rule": "original_input_and_original_label_exact_match",
-  "test_exclusion_manifest_sha256": "27c6d7e3fe30828daa47cc9ce1cfcace4665fc281493656a4a2a2b6069568e58"
+  "test_exclusion_manifest_sha256": "3615af8b82cf4e0b4323aa0aff70ccd89bbd274ffce6a93851f5ad86efee03fb",
+  "development_label_provenance_sha256": "9179ee4af9cc77799a8bcb0c9bbed86edb0081560ba756534046cc04bdf09598",
+  "development_label_rule": "same exact SMILES_clean groups with original K spread>10 use shared group K median; other labels preserved",
+  "development_uses_joint_source_label_harmonization": true,
+  "test_label_source": "Original author-released data/processed/test_data.csv; logTg preserved exactly.",
+  "test_labels_modified": false,
+  "test_original_labels_manifest_sha256": "ae96effd6887d546af6158b2c8cb8f705690477bc4757f305d0c3554c10adca1"
 }

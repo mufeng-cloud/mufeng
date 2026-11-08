@@ -125,7 +125,7 @@ def finalize():
           'seed_statistics':{name:{'mean':float(np.mean([r['test_log10'][name] for r in per_seed])),
                                     'population_sd':float(np.std([r['test_log10'][name] for r in per_seed],ddof=0))} for name in ['mae','rmse','r2']},
           'validation':validation,'validation_oof_log10':metrics(frame.logTg,mean_oof),
-          'training_records':records,'n_predicted_digits':3,'predicted_places':[1000,100,10],'log10_resolution':.01,'test_input_overlap_rows':8,'dataset_version':'median_harmonized_le10K_v1_test_exact_input_label_excluded_v1'}
+          'training_records':records,'n_predicted_digits':3,'predicted_places':[1000,100,10],'log10_resolution':.01,'test_input_overlap_rows':8,'dataset_version':baseline['dataset_version'],'test_target_source':baseline['test_label_source']}
     pd.DataFrame([{'seed':r['seed'],**r['test_log10']} for r in per_seed]).to_csv(dest/'per_seed_test_results.csv',index=False)
     pd.DataFrame(seed_validation).to_csv(dest/'per_seed_validation_results.csv',index=False)
     save(dest/'summary.json',summary)

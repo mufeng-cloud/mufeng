@@ -111,9 +111,11 @@
     "test_rows": 209,
     "excluded_test_rows": 10,
     "test_input_overlap_rows": 8,
-    "dataset_version": "median_harmonized_le10K_v1_test_exact_input_label_excluded_v1",
-    "test_exclusion_rule": "original_input_and_original_label_exact_match"
+    "dataset_version": "public_tg_original_test209_v1",
+    "test_exclusion_rule": "original_input_and_original_label_exact_match",
+    "test_target_source": "original_published_csv_logTg",
+    "test_labels_modified": false
   },
   "packaged_execution": "standalone 100 identities if explicitly run later; no checkpoint reuse or model execution during packaging",
-  "historical_final100": "The completed historical result combined an immutable old50 pool and new50. The reported209 evaluation filters saved100-model mean predictions by the frozen original-input-and-original-label exclusion mask; no retraining or new inference was performed for that subset."
+  "historical_final100": "The historical100-model predictions are retained. The current209-row evaluation uses original unmodified test labels after excluding10 exact original input-label duplicates; no new training or inference was performed."
 }
