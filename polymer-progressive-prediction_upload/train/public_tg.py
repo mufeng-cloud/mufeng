@@ -92,7 +92,7 @@ def finalize():
         out=ROOT/'final_test'/f'seed_{seed}'/f'fold_{fold:02d}';out.mkdir(parents=True,exist_ok=True)
         print(f'Testing tenfold model seed={seed} fold={fold}',flush=True)
         score=predict_validation(model,test,trainer,out/'test_predictions.csv')
-        save(out/'completed.json',{'status':'completed','seed':seed,'fold':fold,'n_test':201,
+        save(out/'completed.json',{'status':'completed','seed':seed,'fold':fold,'n_test':209,
              'config':CONFIG,'checkpoint_sha256':record['checkpoint_sha256'],'test_log10':score})
         predictions[seed,fold]=pd.read_csv(out/'test_predictions.csv').pred_logTg.values
         del model
@@ -116,7 +116,7 @@ def finalize():
     validation={name:{'mean':float(np.mean([r['mean_'+name] for r in seed_validation])),
                       'seed_population_sd':float(np.std([r['mean_'+name] for r in seed_validation],ddof=0)),
                       'ensemble_fold_mean':float(np.mean([r[name] for r in ensemble_folds]))} for name in ['mae','rmse','r2']}
-    summary={'n_models':100,'n_folds':10,'n_seeds':10,'n_test':201,'config':CONFIG,
+    summary={'n_models':100,'n_folds':10,'n_seeds':10,'n_test':209,'config':CONFIG,
           'selection':'Log10 top-three-digit weighted digit MSE only; no reconstruction loss; checkpoint chosen by hard autoregressive validation log10 RMSE',
           'architecture':{'thousands':[300,1],'hundreds':[316, 64, 1],'tens':[316,16,1],'prelu_counts':[0, 1, 1]},
           'protocol':{'digit_weights':list(DIGIT_WEIGHTS),'max_epochs':MAX_EPOCHS,'patience':PATIENCE,
@@ -125,7 +125,7 @@ def finalize():
           'seed_statistics':{name:{'mean':float(np.mean([r['test_log10'][name] for r in per_seed])),
                                     'population_sd':float(np.std([r['test_log10'][name] for r in per_seed],ddof=0))} for name in ['mae','rmse','r2']},
           'validation':validation,'validation_oof_log10':metrics(frame.logTg,mean_oof),
-          'training_records':records,'n_predicted_digits':3,'predicted_places':[1000,100,10],'log10_resolution':.01,'test_input_overlap_rows':0,'dataset_version':'median_harmonized_le10K_v1_test_input_disjoint_v1'}
+          'training_records':records,'n_predicted_digits':3,'predicted_places':[1000,100,10],'log10_resolution':.01,'test_input_overlap_rows':8,'dataset_version':'median_harmonized_le10K_v1_test_exact_input_label_excluded_v1'}
     pd.DataFrame([{'seed':r['seed'],**r['test_log10']} for r in per_seed]).to_csv(dest/'per_seed_test_results.csv',index=False)
     pd.DataFrame(seed_validation).to_csv(dest/'per_seed_validation_results.csv',index=False)
     save(dest/'summary.json',summary)

@@ -108,11 +108,12 @@
   },
   "data": {
     "development_rows": 683,
-    "test_rows": 201,
-    "excluded_test_rows": 18,
-    "test_input_overlap_rows": 0,
-    "dataset_version": "median_harmonized_le10K_v1_test_input_disjoint_v1"
+    "test_rows": 209,
+    "excluded_test_rows": 10,
+    "test_input_overlap_rows": 8,
+    "dataset_version": "median_harmonized_le10K_v1_test_exact_input_label_excluded_v1",
+    "test_exclusion_rule": "original_input_and_original_label_exact_match"
   },
   "packaged_execution": "standalone 100 identities if explicitly run later; no checkpoint reuse or model execution during packaging",
-  "historical_final100": "The completed historical result reused an immutable old50 pool and added new50; this package does not relabel it as fresh100 or as a new201 result."
+  "historical_final100": "The completed historical result combined an immutable old50 pool and new50. The reported209 evaluation filters saved100-model mean predictions by the frozen original-input-and-original-label exclusion mask; no retraining or new inference was performed for that subset."
 }

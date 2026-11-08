@@ -14,11 +14,11 @@
   "source_sha256": {
     "models/public_tg.py": "720b12394014bcf614cd9f5fa2f31b4ade75934f2b2e2d5ffdf57a6c3f6f29be",
     "models/public_tg_head.py": "77f9cde05c09d6eb59c07cbf379714d9455eb50be1b880b1003636ed582b0488",
-    "utils/public_tg_data.py": "53a8e2fcf1eac5a8cc95ec03769668ba80b86efefb1931280e1ad75edccca8dd",
+    "utils/public_tg_data.py": "d136b038c0b173b489800cef65fc74ee5ec0ec95d201843219651efb107ea3c1",
     "utils/public_tg_inspection.py": "3b3a923387168ed91361960c95e9237a2b6e98c9b34db7894e60b4b4901bdf87",
     "configs/public_tg.py": "a34059dd0d3819b5a40814a03d0a7b49a6ffc4b9d426bb752a0ed598053d08d7",
     "configs/public_tg_protocol.py": "673fa1d97803623f63259863446872e6107ceb4440eb5ad4a2b1716900cc72e9",
-    "train/public_tg.py": "7ac6b9840c63fdc68f213fbc9b524439dbdca4160f17190c5bb538db55bc0017"
+    "train/public_tg.py": "ecdf459b48905db3b173dd9c7d1cd7e5b148d9e4a482d18eb3283a6204b79258"
   },
   "model_training_executed": false,
   "model_validation_executed": false,
@@ -33,5 +33,10 @@
     "config.py": "configs/public_tg.py",
     "protocol.py": "configs/public_tg_protocol.py",
     "run.py": "train/public_tg.py"
+  },
+  "test_subset_update": {
+    "n_test": 209,
+    "excluded_original_exact_input_label_matches": 10,
+    "dataset_version": "median_harmonized_le10K_v1_test_exact_input_label_excluded_v1"
   }
 }

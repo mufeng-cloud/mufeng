@@ -19,7 +19,10 @@ Unnamed: 0,ID,logTg,Series,Ref,name_raw,SMILES_raw,SMI_generator,SMILES,name,SMI
 101,JPS_14,2.2742,P,C,3-hexoxylpropylene oxide,OC(COCCCCCC)C,Reference,OC(COCCCCCC)C,3-hexoxylpropylene oxide,CCCCCCOCC(C)O,160.257,14.558757261818181,7,0,29.46,1,2
 105,JPS_18,2.5922,P,C,tert-butyl methacrylate,CC(=C)C(=O)OC(C)(C)C,PubChemPy,CC(=C)C(=O)OC(C)(C)C,tert-butyl methacrylate,C=C(C)C(=O)OC(C)(C)C,142.19799999999998,14.2099379688,1,0,26.3,0,2
 114,JPS_27,2.4031,P,C,Poly((2R)?2?ethoxybutane),CCO[C@H](C)CC,PubChem,CCO[C@H](C)CC,Poly((2R)?2?ethoxybutane),CCO[C@H](C)CC,102.177,14.586352152571427,3,0,9.23,0,1
+118,JPS_31,2.2343,P,C,ethylene,C=C,PubChemPy,C=C,ethylene,C=C,28.053999999999995,14.015650063999999,0,0,0.0,0,0
 126,JPS_41,2.5403,P,C,sec-butyl a-chloroacrylate,CC(Cl)C(=O)OC(CC)C,Reference,CC(Cl)C(=O)OC(CC)C,sec-butyl a-chloroacrylate,CCC(C)OC(=O)C(C)Cl,164.63199999999998,16.4060407336,3,0,26.3,0,2
+128,JPS_43,2.4503,P,C,ethanol,CCO,PubChemPy,CCO,ethanol,CCO,46.069,15.347288270666667,0,0,20.23,1,1
+129,JPS_44,2.4479,P,C,ethyl a-chloroacrylate,CC(Cl)C(=O)OCC,Reference,CC(Cl)C(=O)OCC,ethyl a-chloroacrylate,CCOC(=O)C(C)Cl,136.57799999999997,17.003638401,2,0,26.3,0,2
 130,JPS_45,2.4669,P,C,2-methylcyclohexyl methacrylate,C1C(C(CCC1)OC(=O)C(C)C)C,Reference,C1C(C(CCC1)OC(=O)C(C)C)C,2-methylcyclohexyl methacrylate,CC(C)C(=O)OC1CCCCC1C,184.27899999999994,14.165102298461537,2,0,26.3,0,2
 131,JPS_46,2.5763,P,C,cyclohexyl methacrylate,CC(=C)C(=O)OC1CCCCC1,PubChemPy,CC(=C)C(=O)OC1CCCCC1,cyclohexyl methacrylate,C=C(C)C(=O)OC1CCCCC1,168.23599999999993,14.009585812666666,2,0,26.3,0,2
 137,JPS_52,2.5786,P,C,acrylic acid,C=CC(=O)O,PubChemPy,C=CC(=O)O,acrylic acid,C=CC(=O)O,72.06299999999999,14.404225873600002,1,0,37.3,1,1
@@ -102,6 +105,7 @@ c1ccccc1)c1ccccc1C",Reference,Cc1ccccc1N(c1ccccc1)c1ccc(cc1)c1cc(cc(c1)c1ccc(cc1
 340,BWN_176,2.6042,P,H,p-tert-butyl styrene,CC(C)(C)C1=CC=C(C=C)C=C1,ChemAxon,CC(C)(C)C1=CC=C(C=C)C=C1,p-tert-butyl styrene,C=Cc1ccc(C(C)(C)C)cc1,160.26,13.343766709333332,1,1,0.0,0,0
 341,BWN_177,2.6085,P,H,"2,4-dichloro styrene",ClC1=CC(Cl)=C(C=C)C=C1,ChemAxon,ClC1=CC(Cl)=C(C=C)C=C1,"2,4-dichloro styrene",C=Cc1ccc(Cl)cc1Cl,173.042,17.1984655552,1,1,0.0,0,0
 342,BWN_179,2.6138,P,H,p-phenyl styrene,C=CC1=CC=C(C=C1)C1=CC=CC=C1,ChemAxon,C=CC1=CC=C(C=C1)C1=CC=CC=C1,p-phenyl styrene,C=Cc1ccc(-c2ccccc2)cc1,180.25,12.86385002742857,2,2,0.0,0,0
+345,BWN_181,2.618,P,H,p-vinyl pyridine,C=CC1=CC=NC=C1,ChemAxon,C=CC1=CC=NC=C1,p-vinyl pyridine,C=Cc1ccncc1,105.13999999999999,13.132231153,1,1,12.89,0,1
 348,BWN_184,2.6212,P,H,2-methyl-4-chloro styrene,CC1=C(C=C)C=CC(Cl)=C1,ChemAxon,CC1=C(C=C)C=CC(Cl)=C1,2-methyl-4-chloro styrene,C=Cc1ccc(Cl)cc1C,152.624,15.203927796799999,1,1,0.0,0,0
 355,BWN_191,2.4065,P,H,Perfluoropolymer 2,"FC(F)C(F)(F)C(F)(F)C(F)(F)c1ncnc(n1)C(F)(F
 )C(F)(F)OC(F)(F)F",PubChem,FC(F)C(F)(F)C(F)(F)C(F)(F)c1ncnc(n1)C(F)(F)C(F)(F)OC(F)(F)F,Perfluoropolymer 2,FC(F)C(F)(F)C(F)(F)C(F)(F)c1ncnc(C(F)(F)C(F)(F)OC(F)(F)F)n1,465.11600000000004,16.03433913737931,7,1,47.900000000000006,0,4
@@ -134,9 +138,12 @@ CC=CC=C3",PubChemPy,C1COC2=C(C=CC1=C2)C(=O)OOC(=O)C3=CC=CC=C3,ethylene oxybenzoa
 444,CAO_044,2.5378,P,I,ethyleneterephthalate,C=C1OC(=O)C2=CC=C(C=C2)C(=O)O1,PubChemPy,C=C1OC(=O)C2=CC=C(C=C2)C(=O)O1,ethyleneterephthalate,C=C1OC(=O)c2ccc(cc2)C(=O)O1,190.15399999999997,13.573329190857143,0,1,52.60000000000001,0,4
 446,CAO_054,2.3345,P,I,n-nonylacrylate,CCCCCCCCCC(=C)C([O-])=O,ChemAxon,CCCCCCCCCC(=C)C([O-])=O,n-nonylacrylate,C=C(CCCCCCCCC)C(=O)[O-],197.29799999999997,14.082478820850714,9,0,40.129999999999995,0,2
 449,CAO_063,2.5024,P,I,"3,3-dimethylbutylmethacrylate",CC(=CCCC(C)(C)C)C([O-])=O,ChemAxon,CC(=CCCC(C)(C)C)C([O-])=O,"3,3-dimethylbutylmethacrylate",CC(=CCCC(C)(C)C)C(=O)[O-],169.244,14.0936169469925,3,0,40.129999999999995,0,2
+453,CAO_077,2.4669,P,I,2-methoxyethylmethacrylate,CC(=C)C(=O)OCCOC,PubChemPy,CC(=C)C(=O)OCCOC,2-methoxyethylmethacrylate,C=C(C)C(=O)OCCOC,144.17,14.4078644244,4,0,35.53,0,3
 454,CAO_080,2.4829,P,I,vinylchloroacetate,C=CC(C(=O)[O-])Cl,PubChemPy,C=CC(C(=O)[O-])Cl,vinylchloroacetate,C=CC(Cl)C(=O)[O-],119.52699999999999,16.99864723255857,2,0,40.129999999999995,0,2
+455,CAO_081,2.4857,P,I,n-propylmethacrylate,CCCOC(=O)C(=C)C,PubChemPy,CCCOC(=O)C(=C)C,n-propylmethacrylate,C=C(C)C(=O)OCCC,128.17099999999996,14.231525513777777,3,0,26.3,0,2
 461,FL_15,2.3841,P,K,tridecyl methacrylate,CCCCCCCCCCCCCOC(=O)C(=C)C,PubChemPy,CCCCCCCCCCCCCOC(=O)C(=C)C,tridecyl methacrylate,C=C(C)C(=O)OCCCCCCCCCCCCC,268.44099999999986,14.117906856,13,0,26.3,0,2
 466,FL_20,2.4268,P,K,dimethylaminopropyl methacrylate,CN(C)CCCOC(=O)C(C)=C,ChemAxon,CN(C)CCCOC(=O)C(C)=C,dimethylaminopropyl methacrylate,C=C(C)C(=O)OCCCN(C)C,171.23999999999998,14.260494065333333,5,0,29.54,0,3
+470,FL_26,2.3287,P,K,hexyl acrylate,CCCCCCOC(=O)C=C,PubChemPy,CCCCCCOC(=O)C=C,hexyl acrylate,C=CC(=O)OCCCCCC,156.225,14.192275432,6,0,26.3,0,2
 475,FL_35,2.3142,P,K,2-propylheptyl acrylate,CCCCCC(CCC)COC(=O)C=C,PubChemPy,CCCCCC(CCC)COC(=O)C=C,2-propylheptyl acrylate,C=CC(=O)OCC(CCC)CCCCC,212.33299999999994,14.145175333866666,9,0,26.3,0,2
 476,FL_36,2.3121,P,K,isononyl acrylate,CC(C)CCCCCCOC(=O)C=C,PubChemPy,CC(C)CCCCCCOC(=O)C=C,isononyl acrylate,C=CC(=O)OCCCCCCC(C)C,198.30599999999998,14.154427138857143,8,0,26.3,0,2
 477,FL_38,2.3205,P,K,heptadecyl acrylate,CCCCCCCCCCCCCCCCCOC(=O)C=C,PubChemPy,CCCCCCCCCCCCCCCCCOC(=O)C=C,heptadecyl acrylate,C=CC(=O)OCCCCCCCCCCCCCCCCC,310.52200000000005,14.103962747999999,17,0,26.3,0,2
@@ -157,6 +164,7 @@ ethoxycarbonylphenylmethacrylamide",CCOC(=O)C1=CC=C(NC(=O)C(C)=C)C=C1,ChemAxon,C
 515,WL09_017,2.4814,P,N,2-ethoxyl-carbonyl-phenyl acrylate,CCOC(=O)C1=C(OC(=O)C=C)C=CC=C1,ChemAxon,CCOC(=O)C1=C(OC(=O)C=C)C=CC=C1,2-ethoxyl-carbonyl-phenyl acrylate,C=CC(=O)Oc1ccccc1C(=O)OCC,220.22399999999993,13.754597429,4,1,52.60000000000001,0,4
 517,WL09_019,2.3385,P,N,3-ethoxypropyl acrylate,CCOCCCOC(=O)C=C,ChemAxon,CCOCCCOC(=O)C=C,3-ethoxypropyl acrylate,C=CC(=O)OCCCOCC,158.19699999999997,14.372208573454545,6,0,35.53,0,3
 524,WL09_030,2.3365,P,N,3-methoxybutyl acrylate,CC(CCOC(=O)C=C)OC,PubChemPy,CC(CCOC(=O)C=C)OC,3-methoxybutyl acrylate,C=CC(=O)OCCC(C)OC,158.19699999999997,14.372208573454545,5,0,35.53,0,3
+538,WL09_045,2.3729,P,N,propyl acrylate,CCCOC(=O)C=C,PubChemPy,CCCOC(=O)C=C,propyl acrylate,C=CC(=O)OCCC,114.14399999999999,14.258509945,3,0,26.3,0,2
 539,WL09_046,2.4728,P,N,tetradecyl acrylate,CCCCCCCCCCCCCCOC(=O)C=C,PubChemPy,CCCCCCCCCCCCCCOC(=O)C=C,tetradecyl acrylate,C=CC(=O)OCCCCCCCCCCCCCC,268.4409999999999,14.117906856,14,0,26.3,0,2
 542,WL09_049,2.3075,P,N,5-thiahexyl acrylate,CSCCCCOC(=O)C=C,ChemAxon,CSCCCCOC(=O)C=C,5-thiahexyl acrylate,C=CC(=O)OCCCCSC,174.265,15.824677335272726,6,0,26.3,0,3
 545,WL09_052,2.5119,P,N,o-tolyl acrylate,CC1=C(OC(=O)C=C)C=CC=C1,ChemAxon,CC1=C(OC(=O)C=C)C=CC=C1,o-tolyl acrylate,C=CC(=O)Oc1ccccc1C,162.18799999999996,13.505673296666666,2,1,26.3,0,2

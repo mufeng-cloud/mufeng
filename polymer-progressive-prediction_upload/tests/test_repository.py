@@ -61,14 +61,17 @@ class RepositoryTests(unittest.TestCase):
         for item in MANIFEST['datasets']:
             self.assertEqual(hashlib.sha256((ROOT / item['file']).read_bytes()).hexdigest(), item['sha256'])
 
-    def test_data_counts_and_test_overlap(self):
+    def test_data_counts_and_test_exclusion(self):
         self.assertEqual([len(read_csv(ROOT / 'data/theory' / name))
                           for name in ['train.csv', 'val.csv', 'test.csv']], [1574, 190, 196])
         self.assertEqual(len(read_csv(ROOT / 'data/experimental/experimental_dataset.csv')), 872)
         development = read_csv(ROOT / 'data/public_tg/training_data.csv')
         test = read_csv(ROOT / 'data/public_tg/test_data.csv')
-        self.assertEqual((len(development), len(test)), (683, 201))
-        self.assertTrue({r['SMILES_clean'] for r in development}.isdisjoint(r['SMILES_clean'] for r in test))
+        self.assertEqual((len(development), len(test)), (683, 209))
+        exclusion = json.loads((ROOT / 'provenance/public_tg/test_input_exclusion.json').read_text())
+        self.assertEqual(len(exclusion['excluded_original_test_positions']), 10)
+        self.assertEqual([r['ID'] for r in test], exclusion['retained_test_IDs'])
+        self.assertTrue(set(exclusion['excluded_test_IDs']).isdisjoint(r['ID'] for r in test))
 
     def test_public_source_integrity_manifest(self):
         manifest = json.loads((ROOT / 'provenance/public_tg/package_manifest.json').read_text())

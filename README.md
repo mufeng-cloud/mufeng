@@ -82,7 +82,7 @@ All paths in this section are relative to `polymer-progressive-prediction_upload
 | --- | --- | --- | --- |
 | Theoretical properties | `data/theory/train.csv`, `val.csv`, `test.csv` | 1,574 training; 190 validation; 196 test | Fixed partitions with disjoint RDKit-canonical graph identities |
 | Experimental properties | `data/experimental/experimental_dataset.csv` | 872 total | Polymer-group holdout and five group-disjoint development folds, generated at runtime |
-| Public Tg benchmark | `data/public_tg/training_data.csv`, `test_data.csv` | 683 development; 201 test | Frozen ten-fold development split and a separate input-disjoint test set |
+| Public Tg benchmark | `data/public_tg/training_data.csv`, `test_data.csv` | 683 development; 209 test | Frozen ten-fold development split; test records matching both original input and original label are excluded |
 
 ### Theoretical data
 
@@ -96,9 +96,9 @@ Splitting uses the exact `polymer` input string as the group identity. Twenty pe
 
 ### Public Tg data
 
-The public pipeline reads molecular inputs from `SMILES_clean` and continuous targets from `logTg`, expressed as `log10(Tg/K)`. Eighteen test records whose `SMILES_clean` inputs also occurred in the development data were excluded, leaving 201 test records. The loader checks this exact-string disjointness and the recorded dataset hashes.
+The public pipeline reads molecular inputs from `SMILES_clean` and continuous targets from `logTg`, expressed as `log10(Tg/K)`. Ten original test records whose `SMILES_clean` inputs and numeric `logTg` labels both matched development records were excluded, leaving 209 test records. The exclusion mask is defined from the original labels, before harmonization. Retained fields and evaluation labels are unchanged from the completed processed dataset. The loader checks the frozen test identities, order, exclusion manifest, and dataset hashes.
 
-The packaged dataset is a derived version: before the input-overlap exclusion, same-input groups with a Kelvin label spread above 10 K were assigned their group median and stored again as four-decimal log labels. The procedure used both original partitions. Its processing history is retained in `provenance/public_tg/harmonization_manifest.json` and `test_input_exclusion.json`; the supplied version should be identified when reporting new evaluations.
+The packaged dataset is a derived version: before exclusion of matching original input--target pairs, same-input groups with a Kelvin label spread above 10 K were assigned their group median and stored again as four-decimal log labels. The procedure used both original partitions. Its processing history is retained in `provenance/public_tg/harmonization_manifest.json` and `test_input_exclusion.json`; the supplied version should be identified when reporting new evaluations.
 
 ## Training and evaluation
 
@@ -208,7 +208,7 @@ The frozen development folds use split seed 42. Ten fixed training seeds, listed
 ensemble_log_prediction = mean(decoded_log_prediction from all 100 models)
 ```
 
-MAE, RMSE, and R² are calculated after averaging predictions. Digits are not averaged and rounded again, and predictions are not converted to Kelvin before ensemble averaging. The outputs also report each seed's ten-model ensemble separately. New runs use the supplied 201-row test set; historical results from a different test version must be identified separately.
+MAE, RMSE, and R² are calculated after averaging predictions. Digits are not averaged and rounded again, and predictions are not converted to Kelvin before ensemble averaging. The outputs also report each seed's ten-model ensemble separately. New runs use the supplied 209-row test set. The saved 100-model ensemble predictions, filtered by the same ten-record exclusion mask, give log MAE 0.0386057463, log RMSE 0.0614417755, and R² 0.8005765263. These are a subset re-evaluation of existing predictions, with no additional training or inference. Historical results from a different test version must be identified separately.
 
 ## Outputs and reproducibility
 
@@ -233,7 +233,7 @@ These checks use the Python standard library and do not train or run a model:
 python -m unittest discover -s tests -v
 ```
 
-They check Python syntax, local import paths, dataset counts and hashes, frozen development folds, public test-input disjointness, and preservation of recorded model definitions and command-line defaults. They are packaging and integrity checks, not a substitute for evaluating a trained model.
+They check Python syntax, local import paths, dataset counts and hashes, frozen development folds, the frozen public test-exclusion mask, and preservation of recorded model definitions and command-line defaults. They are packaging and integrity checks, not a substitute for evaluating a trained model.
 
 ## References and contact
 

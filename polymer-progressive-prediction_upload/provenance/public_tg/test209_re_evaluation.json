@@ -1,0 +1,33 @@
+{
+  "source_url": "https://github.com/ViditAg/Polymer-Glass-Transition-Temperature-Predictor/blob/4811d4c9e306b429ca83b024729170f593340d21/data/processed/test_predictions_with_uncertainty.csv",
+  "upstream_commit": "4811d4c9e306b429ca83b024729170f593340d21",
+  "upstream_prediction_blob_sha": "d2c7980b0464764c0c2149f4b2bffabb80a1f28d",
+  "upstream_prediction_sha256": "55b81ac0a6ed9d3d29ddade7fe83cc814e36ec97265fdf93dabf838b1aa0d292",
+  "method": "Re-evaluate released final ensemble mean predictions; no model weights or neural-network execution.",
+  "identity_matching": "Exact unique ID plus exact SMILES_clean; original row positions preserved.",
+  "shared_evaluation_targets": "The same processed logTg labels used by the completed progressive experiment.",
+  "n_original_labels_different_from_shared_processed_labels": 3,
+  "n_excluded_original_input_label_matches": 10,
+  "scores": {
+    "published_reference_original219": {
+      "n": 219,
+      "mae": 0.044397613698630135,
+      "rmse": 0.0673290411605497,
+      "r2": 0.7650105312846057
+    },
+    "reference_same209_processed_targets": {
+      "n": 209,
+      "mae": 0.04387964497607655,
+      "rmse": 0.06417059535463815,
+      "r2": 0.7824691282882139
+    },
+    "progressive_same209_processed_targets": {
+      "n": 209,
+      "mae": 0.038605746291613466,
+      "rmse": 0.06144177545659413,
+      "r2": 0.8005765263461078
+    }
+  },
+  "training_executed": false,
+  "new_inference_executed": false
+}

@@ -40,9 +40,11 @@ def load_test():
     path=BASE/'data/public_tg/test_data.csv'
     assert hashlib.sha256(path.read_bytes()).hexdigest()==manifest['data_sha256']['test_data.csv']
     frame=pd.read_csv(path)
-    assert len(frame)==manifest['n_test']==201
-    development=pd.read_csv(BASE/'data/public_tg/training_data.csv',usecols=['SMILES_clean'])
-    assert set(frame.SMILES_clean).isdisjoint(development.SMILES_clean), 'Test input overlaps development'
+    assert len(frame)==manifest['n_test']==209
+    exclusion=json.loads((ROOT/'provenance/public_tg/test_input_exclusion.json').read_text())
+    assert frame.ID.tolist()==exclusion['retained_test_IDs'], 'Unexpected test identities or order'
+    assert exclusion['removed_rows']==10 and exclusion['retained_test_rows']==209
+    assert manifest['test_exclusion_manifest_sha256']==hashlib.sha256((ROOT/'provenance/public_tg/test_input_exclusion.json').read_bytes()).hexdigest()
     encode_digits(torch.tensor(frame.logTg.to_numpy(),dtype=torch.float64))
     return frame
 

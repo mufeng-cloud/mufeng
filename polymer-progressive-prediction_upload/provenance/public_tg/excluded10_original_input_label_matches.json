@@ -1,0 +1,95 @@
+{
+  "records": [
+    {
+      "test_row_id": 19,
+      "test_ID": "JPS_20",
+      "SMILES_clean": "C=CC(=O)OCCCC",
+      "original_logTg": "2.3404",
+      "matching_development_IDs": [
+        "AF_55",
+        "CAO_026"
+      ]
+    },
+    {
+      "test_row_id": 22,
+      "test_ID": "JPS_40",
+      "SMILES_clean": "C=C(C)C(=O)OC",
+      "original_logTg": "2.5775",
+      "matching_development_IDs": [
+        "AF_57"
+      ]
+    },
+    {
+      "test_row_id": 39,
+      "test_ID": "AF_04",
+      "SMILES_clean": "C=CC(=O)OC",
+      "original_logTg": "2.4487",
+      "matching_development_IDs": [
+        "CAO_007"
+      ]
+    },
+    {
+      "test_row_id": 46,
+      "test_ID": "AF_52",
+      "SMILES_clean": "C=Cc1ccc(C)cc1",
+      "original_logTg": "2.5729",
+      "matching_development_IDs": [
+        "BWN_20"
+      ]
+    },
+    {
+      "test_row_id": 47,
+      "test_ID": "AF_53",
+      "SMILES_clean": "C=CC",
+      "original_logTg": "2.3674",
+      "matching_development_IDs": [
+        "JPS_26"
+      ]
+    },
+    {
+      "test_row_id": 75,
+      "test_ID": "BWN_114",
+      "SMILES_clean": "C=Cc1ccccc1CO",
+      "original_logTg": "2.6365",
+      "matching_development_IDs": [
+        "XLY08_033"
+      ]
+    },
+    {
+      "test_row_id": 88,
+      "test_ID": "BWN_180",
+      "SMILES_clean": "C=Cc1ccc(CO)cc1",
+      "original_logTg": "2.616",
+      "matching_development_IDs": [
+        "XLY08_034"
+      ]
+    },
+    {
+      "test_row_id": 107,
+      "test_ID": "BWN_31",
+      "SMILES_clean": "C=C(C)c1ccccc1",
+      "original_logTg": "2.6117",
+      "matching_development_IDs": [
+        "AF_16"
+      ]
+    },
+    {
+      "test_row_id": 159,
+      "test_ID": "XLY08_090",
+      "SMILES_clean": "C=CC(=O)Oc1cccc(C(=O)OC)c1",
+      "original_logTg": "2.4928",
+      "matching_development_IDs": [
+        "WL09_031"
+      ]
+    },
+    {
+      "test_row_id": 165,
+      "test_ID": "NS_017",
+      "SMILES_clean": "C=C(C)C",
+      "original_logTg": "2.2989",
+      "matching_development_IDs": [
+        "BWN_28"
+      ]
+    }
+  ]
+}
